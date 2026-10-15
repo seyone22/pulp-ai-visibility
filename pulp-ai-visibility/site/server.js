@@ -55,266 +55,129 @@ function parseCookies(req) {
 
 function renderPinGateHtml(target = '/') {
   return `<!DOCTYPE html>
-<html lang="en-AU">
+<html lang="en">
 <head>
 <meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
-<title>Pulp Digital · Intelligence Portal Gateway</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Private page</title>
 <style>
-  :root {
-    --bg: #0C0F14;
-    --card: rgba(17, 21, 30, 0.88);
-    --border: rgba(255, 255, 255, 0.08);
-    --text: #EDF2FA;
-    --text-muted: #8A96AA;
-    --pulp: #FF4D2D;
-    --pulp-hover: #E63D1E;
-    --green: #22C55E;
-    --red: #EF4444;
-  }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
-    background-color: var(--bg);
-    color: var(--text);
-    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #FFFFFF;
+    color: #111827;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     padding: 24px;
-    background-image: 
-      radial-gradient(circle at 50% 15%, rgba(255, 77, 45, 0.12), transparent 50%),
-      radial-gradient(circle at 85% 85%, rgba(34, 197, 94, 0.04), transparent 45%);
-    background-attachment: fixed;
+    -webkit-font-smoothing: antialiased;
   }
-  .gate-card {
-    background: var(--card);
-    backdrop-filter: blur(24px);
-    -webkit-backdrop-filter: blur(24px);
-    border: 1px solid var(--border);
-    border-radius: 20px;
-    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(255, 255, 255, 0.05);
-    padding: 48px 40px;
+  .container {
     max-width: 440px;
     width: 100%;
-    text-align: center;
-    transition: transform 0.25s ease, box-shadow 0.25s ease;
-  }
-  .gate-logo {
-    display: inline-block;
-    margin-bottom: 24px;
-  }
-  .gate-logo svg {
-    height: 38px;
-    width: auto;
-  }
-  .badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    padding: 6px 14px;
-    background: rgba(255, 77, 45, 0.1);
-    border: 1px solid rgba(255, 77, 45, 0.25);
-    border-radius: 999px;
-    font-size: 11px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: var(--pulp);
-    margin-bottom: 20px;
-  }
-  .pulse-dot {
-    width: 7px;
-    height: 7px;
-    background: var(--pulp);
-    border-radius: 50%;
-    box-shadow: 0 0 8px var(--pulp);
-    animation: pulse 2s infinite;
-  }
-  @keyframes pulse {
-    0% { transform: scale(0.95); opacity: 0.8; }
-    50% { transform: scale(1.3); opacity: 1; }
-    100% { transform: scale(0.95); opacity: 0.8; }
+    text-align: left;
   }
   h1 {
-    font-size: 24px;
-    font-weight: 800;
-    letter-spacing: -0.02em;
-    margin-bottom: 10px;
-    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    color: #111827;
+    margin-bottom: 12px;
+    line-height: 1.2;
   }
   p.subtitle {
-    font-size: 14px;
-    color: var(--text-muted);
+    font-size: 16px;
+    color: #4B5563;
     line-height: 1.5;
-    margin-bottom: 30px;
+    margin-bottom: 32px;
+  }
+  label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 8px;
   }
   .input-wrapper {
     position: relative;
-    margin-bottom: 20px;
+    width: 100%;
+    margin-bottom: 16px;
   }
   input[type="password"], input[type="text"] {
     width: 100%;
-    background: rgba(12, 15, 20, 0.7);
-    border: 1.5px solid rgba(255, 255, 255, 0.12);
-    border-radius: 12px;
-    padding: 16px 48px 16px 20px;
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 24px;
-    font-weight: 700;
-    letter-spacing: 6px;
-    text-align: center;
-    color: #FFFFFF;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    border-radius: 8px;
+    padding: 12px 14px;
+    font-size: 16px;
+    color: #111827;
     outline: none;
-    transition: border-color 0.2s, box-shadow 0.2s, background 0.2s;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
   }
   input:focus {
-    border-color: var(--pulp);
-    box-shadow: 0 0 0 3px rgba(255, 77, 45, 0.25);
-    background: rgba(12, 15, 20, 0.95);
+    border-color: #3B82F6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
   }
-  .toggle-peek {
-    position: absolute;
-    right: 14px;
-    top: 50%;
-    transform: translateY(-50%);
-    background: none;
-    border: none;
-    color: var(--text-muted);
-    cursor: pointer;
-    padding: 6px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  input.error {
+    border-color: #EF4444;
+    box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.15);
   }
-  .toggle-peek:hover { color: var(--text); }
-  .btn-submit {
+  .btn-continue {
     width: 100%;
-    background: var(--pulp);
+    background: #222220;
     color: #FFFFFF;
     border: none;
-    border-radius: 12px;
-    padding: 16px;
-    font-size: 16px;
-    font-weight: 700;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    box-shadow: 0 8px 24px rgba(255, 77, 45, 0.35);
-    transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
-  }
-  .btn-submit:hover {
-    background: var(--pulp-hover);
-    transform: translateY(-1px);
-    box-shadow: 0 12px 28px rgba(255, 77, 45, 0.45);
-  }
-  .btn-submit:active { transform: translateY(0); }
-  .error-box {
-    margin-top: 16px;
-    padding: 12px;
-    background: rgba(239, 68, 68, 0.1);
-    border: 1px solid rgba(239, 68, 68, 0.3);
     border-radius: 8px;
-    font-size: 13px;
+    padding: 12px 16px;
+    font-size: 15px;
     font-weight: 600;
-    color: var(--red);
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+  }
+  .btn-continue:hover {
+    background: #111110;
+  }
+  .btn-continue:active {
+    background: #000000;
+  }
+  .error-text {
+    color: #EF4444;
+    font-size: 13px;
+    margin-top: 8px;
     display: none;
   }
-  .shake {
-    animation: shakeAnim 0.35s ease-in-out;
-  }
-  @keyframes shakeAnim {
-    0%, 100% { transform: translateX(0); }
-    20%, 60% { transform: translateX(-8px); }
-    40%, 80% { transform: translateX(8px); }
-  }
-  .footer-hints {
-    margin-top: 32px;
-    padding-top: 20px;
-    border-top: 1px solid rgba(255, 255, 255, 0.06);
-    font-size: 12px;
-    color: var(--text-muted);
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    line-height: 1.4;
-  }
-  .hint-row {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-  }
-  .hint-tag {
-    background: rgba(255, 255, 255, 0.06);
-    padding: 2px 8px;
-    border-radius: 4px;
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 11px;
-    color: var(--text);
+  .footer {
+    margin-top: 40px;
+    font-size: 13px;
+    color: #9CA3AF;
   }
 </style>
 </head>
 <body>
-  <div class="gate-card" id="card">
-    <div class="gate-logo">
-      <svg aria-label="Pulp Digital" role="img" viewBox="0 0 240 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <g fill="currentColor">
-          <path d="M12 28C17.5228 28 22 23.5228 22 18C22 11 12 3 12 3C12 3 2 11 2 18C2 23.5228 6.47715 28 12 28Z" fill="#FF4D2D"/>
-          <circle cx="12" cy="18" r="4" fill="#FFFFFF" fill-opacity="0.3"/>
-          <path d="M38 10H50C54.4 10 57.5 12.8 57.5 17C57.5 21.2 54.4 24 50 24H44.5V32H38V10ZM44.5 19H49.5C51.2 19 52.2 18.2 52.2 17C52.2 15.8 51.2 15 49.5 15H44.5V19Z"/>
-          <path d="M63 10H69.5V23C69.5 25.8 71.2 27.2 74 27.2C76.8 27.2 78.5 25.8 78.5 23V10H85V23C85 29.5 80.5 32.5 74 32.5C67.5 32.5 63 29.5 63 23V10Z"/>
-          <path d="M92 10H98.5V26.8H108.5V32H92V10Z"/>
-          <path d="M114 10H126C130.4 10 133.5 12.8 133.5 17C133.5 21.2 130.4 24 126 24H120.5V32H114V10ZM120.5 19H125.5C127.2 19 128.2 18.2 128.2 17C128.2 15.8 127.2 15 125.5 15H120.5V19Z"/>
-          <text x="144" y="27" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="15" font-weight="700" letter-spacing="4" fill="currentColor">DIGITAL</text>
-        </g>
-      </svg>
-    </div>
-    <div class="badge"><span class="pulse-dot"></span> Authorized Access Only</div>
-    <h1>Intelligence Gateway</h1>
-    <p class="subtitle">This platform hosts confidential AI visibility analytics and commercial rankings. Please enter your authorization PIN to unlock access.</p>
+  <div class="container">
+    <h1>Private page</h1>
+    <p class="subtitle">This page is shared privately by Uprise Digital. Enter the access code you were sent.</p>
     
-    <form id="pinForm" autocomplete="off">
+    <form id="accessForm" autocomplete="off">
+      <label for="accessCode">Access code</label>
       <div class="input-wrapper">
-        <input type="password" id="pinInput" placeholder="••••" maxlength="12" autofocus required autocomplete="off" />
-        <button type="button" class="toggle-peek" id="peekBtn" title="Toggle visibility">
-          <svg id="eyeIcon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-            <circle cx="12" cy="12" r="3"></circle>
-          </svg>
-        </button>
+        <input type="password" id="accessCode" name="accessCode" autofocus required autocomplete="off" />
+        <div id="errorText" class="error-text"></div>
       </div>
-      <button type="submit" class="btn-submit" id="submitBtn">
-        <span>Unlock Report</span>
-        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-      </button>
-      <div id="errorBox" class="error-box"></div>
+      <button type="submit" class="btn-continue" id="submitBtn">Continue</button>
     </form>
 
-    <div class="footer-hints">
-      <div class="hint-row"><span>🏢 <b>Client Presentation:</b> Enter client access PIN</span></div>
-      <div class="hint-row"><span>🔬 <b>Internal R&amp;D Team:</b> Enter data science clearance PIN</span></div>
-    </div>
+    <div class="footer">Uprise Digital · Confidential</div>
   </div>
 
   <script>
-    const form = document.getElementById('pinForm');
-    const input = document.getElementById('pinInput');
-    const peekBtn = document.getElementById('peekBtn');
-    const errorBox = document.getElementById('errorBox');
+    const form = document.getElementById('accessForm');
+    const input = document.getElementById('accessCode');
+    const errorText = document.getElementById('errorText');
     const submitBtn = document.getElementById('submitBtn');
-    const card = document.getElementById('card');
     const targetUrl = ${JSON.stringify(target)};
-
-    peekBtn.addEventListener('click', () => {
-      input.type = input.type === 'password' ? 'text' : 'password';
-    });
 
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
@@ -322,8 +185,9 @@ function renderPinGateHtml(target = '/') {
       if (!pin) return;
 
       submitBtn.disabled = true;
-      submitBtn.innerHTML = '<span>Verifying...</span>';
-      errorBox.style.display = 'none';
+      submitBtn.textContent = 'Verifying...';
+      input.classList.remove('error');
+      errorText.style.display = 'none';
 
       try {
         const res = await fetch('/api/verify-pin', {
@@ -333,27 +197,22 @@ function renderPinGateHtml(target = '/') {
         });
         const data = await res.json();
         if (data.success) {
-          submitBtn.style.background = '#22C55E';
-          submitBtn.innerHTML = '<span>Clearance Granted ✓</span>';
-          setTimeout(() => {
-            window.location.href = data.redirect || '/';
-          }, 400);
+          submitBtn.textContent = 'Redirecting...';
+          window.location.href = data.redirect || '/';
         } else {
-          showError(data.error || 'Incorrect PIN code. Access denied.');
+          showError(data.error || 'Incorrect access code.');
         }
       } catch (err) {
-        showError('Network error connecting to verification gateway.');
+        showError('Unable to connect. Please try again.');
       }
     });
 
     function showError(msg) {
-      errorBox.textContent = msg;
-      errorBox.style.display = 'block';
-      card.classList.remove('shake');
-      void card.offsetWidth;
-      card.classList.add('shake');
+      input.classList.add('error');
+      errorText.textContent = msg;
+      errorText.style.display = 'block';
       submitBtn.disabled = false;
-      submitBtn.innerHTML = '<span>Unlock Report</span> <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>';
+      submitBtn.textContent = 'Continue';
       input.value = '';
       input.focus();
     }
@@ -364,101 +223,89 @@ function renderPinGateHtml(target = '/') {
 
 function renderForbiddenHtml() {
   return `<!DOCTYPE html>
-<html lang="en-AU">
+<html lang="en">
 <head>
 <meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
-<title>403 Forbidden · Internal Clearance Required</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Private page</title>
 <style>
-  :root {
-    --bg: #0C0F14;
-    --card: rgba(17, 21, 30, 0.92);
-    --border: rgba(255, 255, 255, 0.08);
-    --text: #EDF2FA;
-    --text-muted: #8A96AA;
-    --pulp: #FF4D2D;
-  }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
-    background: var(--bg);
-    color: var(--text);
-    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #FFFFFF;
+    color: #111827;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     min-height: 100vh;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding: 24px;
-    background-image: radial-gradient(circle at 50% 20%, rgba(239, 68, 68, 0.12), transparent 50%);
+    -webkit-font-smoothing: antialiased;
   }
-  .card {
-    background: var(--card);
-    backdrop-filter: blur(20px);
-    border: 1px solid var(--border);
-    border-radius: 20px;
-    padding: 48px 40px;
-    max-width: 480px;
+  .container {
+    max-width: 440px;
     width: 100%;
-    text-align: center;
-    box-shadow: 0 30px 80px rgba(0,0,0,0.7);
+    text-align: left;
   }
-  .lock-icon {
-    width: 56px;
-    height: 56px;
-    background: rgba(255, 77, 45, 0.12);
-    border: 1px solid rgba(255, 77, 45, 0.3);
-    border-radius: 50%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--pulp);
-    margin-bottom: 20px;
-  }
-  h1 { font-size: 22px; font-weight: 800; margin-bottom: 12px; color: #FFF; }
-  p { font-size: 14px; color: var(--text-muted); line-height: 1.55; margin-bottom: 24px; }
-  .badge {
-    display: inline-block;
-    padding: 4px 10px;
-    background: rgba(255, 255, 255, 0.08);
-    border-radius: 6px;
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 12px;
-    color: #FFF;
-    margin-bottom: 16px;
-  }
-  .btn-group { display: flex; flex-direction: column; gap: 10px; }
-  .btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 14px 20px;
-    border-radius: 12px;
-    font-size: 15px;
+  h1 {
+    font-size: 36px;
     font-weight: 700;
-    text-decoration: none;
-    cursor: pointer;
-    transition: all 0.2s ease;
+    letter-spacing: -0.025em;
+    color: #111827;
+    margin-bottom: 12px;
+    line-height: 1.2;
   }
-  .btn-primary { background: var(--pulp); color: #FFF; }
-  .btn-primary:hover { background: #E63D1E; }
-  .btn-outline { background: transparent; border: 1px solid rgba(255, 255, 255, 0.15); color: var(--text); }
-  .btn-outline:hover { background: rgba(255, 255, 255, 0.05); }
+  p.subtitle {
+    font-size: 16px;
+    color: #4B5563;
+    line-height: 1.5;
+    margin-bottom: 24px;
+  }
+  .btn-continue {
+    display: inline-block;
+    text-align: center;
+    background: #222220;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 16px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.15s ease;
+    margin-bottom: 12px;
+  }
+  .btn-continue:hover { background: #111110; }
+  .btn-secondary {
+    display: inline-block;
+    text-align: center;
+    background: #F3F4F6;
+    color: #374151;
+    text-decoration: none;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    padding: 12px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    width: 100%;
+  }
+  .btn-secondary:hover { background: #E5E7EB; }
+  .footer {
+    margin-top: 40px;
+    font-size: 13px;
+    color: #9CA3AF;
+  }
 </style>
 </head>
 <body>
-  <div class="card">
-    <div class="lock-icon">
-      <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
-    </div>
-    <div class="badge">ROLE: CLIENT CLEARANCE</div>
-    <h1>Internal Clearance Required</h1>
-    <p>Your current PIN grants access to the <b>Executive Client Presentation</b>. The Technical Data Science Dossier contains proprietary RAG vector formulas and is restricted exclusively to our internal engineering team.</p>
-    <div class="btn-group">
-      <a href="/" class="btn btn-primary">← Return to Client Presentation</a>
-      <a href="/logout" class="btn btn-outline">Log in with Internal PIN</a>
-    </div>
+  <div class="container">
+    <h1>Private page</h1>
+    <p class="subtitle">This section is restricted to internal team members. Your access code does not have permission to view this page.</p>
+    <a href="/" class="btn-continue">← Return to presentation</a>
+    <a href="/logout" class="btn-secondary">Enter different access code</a>
+    <div class="footer">Uprise Digital · Confidential</div>
   </div>
 </body>
 </html>`;
@@ -519,7 +366,7 @@ const server = http.createServer((req, res) => {
 
         // Invalid PIN
         res.writeHead(401, { 'Content-Type': 'application/json' });
-        res.end(JSON.stringify({ success: false, error: 'Incorrect PIN code. Access denied.' }));
+        res.end(JSON.stringify({ success: false, error: 'Incorrect access code.' }));
       } catch (err) {
         res.writeHead(400, { 'Content-Type': 'application/json' });
         res.end(JSON.stringify({ success: false, error: 'Malformed request payload.' }));
@@ -552,7 +399,6 @@ const server = http.createServer((req, res) => {
   const isTechRoute = reqPath === '/technical' || reqPath === '/technical.html' || reqPath === '/internal' || reqPath === '/data-science';
   if (isTechRoute) {
     if (role === 'client') {
-      // Client is forbidden from seeing technical dossier
       res.writeHead(403, {
         'Content-Type': 'text/html; charset=utf-8',
         'X-Robots-Tag': 'noindex, nofollow, noarchive'
@@ -579,14 +425,11 @@ const server = http.createServer((req, res) => {
   if (fs.existsSync(indexPath)) {
     let html = fs.readFileSync(indexPath, 'utf8');
 
-    // If authenticated as INTERNAL, inject the switcher pill so internal team can jump to the technical dossier!
+    // Only internal team members get the switcher button to view technical dossier
     if (role === 'internal') {
-      const internalBadge = `<a href="/technical" class="nav-toggle-btn" style="position:fixed;top:24px;right:28px;z-index:9999;background:#FF4D2D;color:#FFFFFF;text-decoration:none;padding:10px 18px;border-radius:999px;font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;font-size:14px;box-shadow:0 6px 20px rgba(255,77,45,0.4);display:inline-flex;align-items:center;gap:8px;"><span>Internal Dossier →</span></a>`;
+      const internalBadge = `<a href="/technical" class="nav-toggle-btn" style="position:fixed;top:24px;right:28px;z-index:9999;background:#111827;color:#FFFFFF;text-decoration:none;padding:8px 16px;border-radius:6px;font-family:-apple-system,sans-serif;font-weight:600;font-size:13px;box-shadow:0 4px 12px rgba(0,0,0,0.15);display:inline-flex;align-items:center;gap:6px;"><span>Technical Dossier →</span></a>`;
       html = html.replace('<div class="deck"', `${internalBadge}\n<div class="deck"`);
     }
-
-    const sessionPill = `<a href="/logout" title="Click to lock session" style="position:fixed;bottom:20px;left:24px;z-index:9999;background:rgba(12,15,20,0.85);border:1px solid rgba(255,255,255,0.12);color:#8A96AA;text-decoration:none;padding:5px 12px;border-radius:999px;font-family:'Plus Jakarta Sans',sans-serif;font-weight:600;font-size:12px;display:inline-flex;align-items:center;gap:6px;backdrop-filter:blur(8px);transition:all 0.2s ease;"><span>🔒 ${role === 'internal' ? 'Internal Team' : 'Client Mode'}</span> <span style="opacity:0.6;font-size:11px;">(Lock)</span></a>`;
-    html = html.replace('<div class="deck"', `${sessionPill}\n<div class="deck"`);
 
     res.writeHead(200, {
       'Content-Type': 'text/html; charset=utf-8',
@@ -602,7 +445,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(PORT, '0.0.0.0', () => {
-  console.log(`Pulp Digital Platform running on http://0.0.0.0:${PORT}`);
-  console.log(`Client PIN: ${CLIENT_PIN}`);
-  console.log(`Internal PIN: ${INTERNAL_PIN}`);
+  console.log(`Platform running on http://0.0.0.0:${PORT}`);
 });
