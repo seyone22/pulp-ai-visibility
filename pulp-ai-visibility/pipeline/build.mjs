@@ -179,7 +179,7 @@ const SRC_ANS = 'Source: 280 empirical AI answers collected October 2026 from Ch
       </div>
       <ol class="points">
         <li class="rise" style="--d:300ms"><b>AI delivers an exclusive 3-to-4 firm shortlist, not 10 blue links.</b> The answers we collected recommended a median of 4 agencies. If Pulp Digital isn't on that list, you never receive the RFP.</li>
-        <li class="rise" style="--d:450ms"><b>Each engine constructs its recommendations from trusted third-party consensus:</b> Clutch, Shopify Plus Partner Directory, GoodFirms, Google Maps, and press mentions.</li>
+        <li class="rise" style="--d:450ms"><b>Each engine constructs its recommendations from trusted third-party consensus:</b> Verified B2B agency directories, official platform partner ecosystems, Google Maps, and trade press mentions.</li>
         <li class="rise" style="--d:600ms"><b>The winners are winning by default.</b> Megaphone, farsiight, and Sparro dominate unprompted model recall, capturing high-intent DTC brands with monthly ad spends from $30K to $250K+.</li>
       </ol>
     </div>
@@ -343,7 +343,7 @@ slide('method', 'white', `
         <div class="heat-scale" aria-hidden="true"><span>0</span>${[0, 1, 2, 3, 4, 5, 6, 7].map(v => `<i style="background:${shade(v)}"></i>`).join('')}<span>7 of 7</span></div></div>
       <div class="side-stats">
         <div class="stat"><span class="big">6/7</span><span class="stat-cap"><b>Impressive</b> on Google AI Mode and Claude. Grounded heavily in Google Premier Partner badges and local case studies.</span></div>
-        <div class="stat"><span class="big">6/7</span><span class="stat-cap"><b>Megaphone</b> on ChatGPT and Perplexity, backed by 180+ Google reviews and Clutch #1 rankings.</span></div>
+        <div class="stat"><span class="big">6/7</span><span class="stat-cap"><b>Megaphone</b> on ChatGPT and Perplexity, backed by 180+ Google reviews and category-leading B2B directory authority.</span></div>
         <div class="stat"><span class="big pulp">2/7</span><span class="stat-cap"><b>Pulp Digital</b> on Google AI Mode. 0/7 on Claude, ChatGPT, and Perplexity.</span></div>
       </div>
     </div>
@@ -373,13 +373,13 @@ slide('method', 'white', `
 // ─── 10. Why Leaders Win ────────────────────────────────────────────────────
 {
   const T = [
-    ['Megaphone Marketing', 22, 'Clutch #1 / Meta Partner', '4.9 (184)', 5],
-    ['Impressive', 25, 'Google Premier / Clutch Top 5', '4.8 (126)', 6],
+    ['Megaphone Marketing', 22, 'Tier 1 Verified / Meta Partner', '4.9 (184)', 5],
+    ['Impressive', 25, 'Premier Partner / Top Tier Listing', '4.8 (126)', 6],
     ['DataSauce', 15, 'Shopify Partner / Klaviyo Elite', '4.9 (52)', 3],
     ['farsiight', 14, 'Boutique DTC / Meta Partner', '5.0 (48)', 1],
     ['King Kong', 12, 'Direct Response / Fast 50', '4.6 (820)', 4],
     ['Reform Digital', 14, 'Google Partner / Semrush Certified', '4.9 (64)', 4],
-    ['Pulp Digital', 2, 'Unlisted on Clutch / Partner hidden', '4.8 (12)', 2],
+    ['Pulp Digital', 2, 'Unverified / Partner profile unlinked', '4.8 (12)', 2],
   ];
   slide('melbourne-why', 'white', `
     <header class="hd"><p class="eyebrow">01 · Melbourne</p><h2 class="h1">Melbourne's AI favorites dominate third-party directories and review volume</h2></header>
@@ -393,10 +393,10 @@ slide('method', 'white', `
         <td>${dots(mp, 7)} <b class="num">${mp}/7</b></td></tr>`).join('')}</tbody>
     </table>
     <div class="finds two">
-      <p><b>Clutch.co and Shopify Directory are cited in 74% of AI answers.</b> Megaphone and Impressive hold the #1 and #2 featured listings in Australia. Pulp Digital has no verified Clutch profile.</p>
+      <p><b>Verified B2B directories and partner ecosystems are cited in 74% of AI answers.</b> Megaphone and Impressive hold top-tier verified featured placement in Australia. Pulp Digital currently lacks verified standing in these primary knowledge repositories.</p>
       <p><b>Review volume drives model confidence.</b> Megaphone (184 reviews) and Impressive (126) trigger high semantic trust in Gemini and Claude. Pulp Digital has only 12 public Google reviews.</p>
     </div>
-    ${src("Sources: this study; Clutch.co Australian eCommerce Directory 2026; Google Maps Melbourne business profiles, October 2026.")}`);
+    ${src("Sources: this study; Australian eCommerce agency directory benchmarks 2026; Google Maps Melbourne business profiles, October 2026.")}`);
 }
 
 // ─── 11-17. Market Slides ───────────────────────────────────────────────────
@@ -468,8 +468,8 @@ const MARKET_NOTES = {
     title: 'Nationally, AI shortlists are a locked duopoly between Megaphone & farsiight',
     finds: [
       ['Unprompted national recall is 1.4%.', 'When an Australian brand asks AI without specifying a city, Pulp Digital is virtually never named.'],
-      ['The algorithm’s consensus loop:', 'ChatGPT and Claude cite Clutch lists and Shopify Partner directories that feature the same 5 agencies repeatedly.'],
-      ['The path to victory:', 'Infiltrating those exact 4 citation sources breaks the loop and inserts Pulp Digital into the national consideration set.'],
+      ['The algorithm’s consensus loop:', 'ChatGPT and Claude cite verified ranking guides and partner directories that feature the same 5 agencies repeatedly.'],
+      ['The path to victory:', 'Establishing top-tier standing in those primary citation sources breaks the loop and inserts Pulp Digital into the national consideration set.'],
     ],
   },
 };
@@ -608,10 +608,10 @@ slide('plan-intro', 'accent', `
 
 // ─── 22. The 5 Strategic Workstreams ────────────────────────────────────────
 const WS = [
-  ['01', 'Authority Infiltration & Directory Domination', 'Clutch, Shopify Directory, GoodFirms, and Digital Agency Network drive 74% of citations. Pulp is currently unverified or unlisted.', 'Secure verified Clutch Top 3 placement, build out official Shopify Plus Partner profile, and pitch Pulp into top Australian agency listicles.'],
-  ['02', 'Google Business Profile & Melbourne Authority', 'Pulp has only 12 Google reviews, while Megaphone has 184 and Impressive 126. Google AI Mode leans heavily on review sentiment.', 'Implement an automated client review capture program, optimize categories for eCommerce PPC & TikTok, and publish weekly case study posts.'],
-  ['03', 'LLM-Optimized Solution & Case Study Architecture', 'pulpdigital.com.au is crawled, but case studies lack semantic figures (MER, CAC, ad spend) that LLMs require to quote as answers.', 'Re-architect client success pages (Naked Harvest, Allkinds, Typo) with CaseStudy schema, named metrics, and structured Q&A.'],
-  ['04', 'Entity Disambiguation & Knowledge Graph Cementing', 'Founder Sam Despo has massive social authority (TikTok/LinkedIn), but AI fails to bind his personal brand and the Zesty merger into Pulp’s entity.', 'Deploy Organization and Person schema with sameAs links to Wikidata, Crunchbase, press profiles, and official social accounts.'],
+  ['01', 'Authority Ecosystem & Industry Portals', 'Verified B2B portals and partner networks drive 74% of AI citations. Pulp is currently unverified or omitted across core indexes.', 'Establish top-tier verified presence across primary industry directories, solidify official platform partner credentials, and orchestrate trade press inclusion.'],
+  ['02', 'Google Local & Market Authority', 'Pulp has only 12 Google reviews, while Megaphone has 184 and Impressive 126. Google AI Mode leans heavily on review sentiment.', 'Implement an automated client review capture program, optimize categories for eCommerce PPC & TikTok, and publish weekly case study posts.'],
+  ['03', 'Intent Architecture & Solution Authority', 'pulpdigital.com.au is crawled, but case studies lack semantic figures (MER, CAC, ad spend) that LLMs require to quote as answers.', 'Re-architect client success pages with structured metrics, verifiable client outcomes, and direct-answer Q&A sections.'],
+  ['04', 'Entity Authority & Knowledge Graph Alignment', 'Founder Sam Despo has massive social authority (TikTok/LinkedIn), but AI engines fail to link his personal reach and agency track record to Pulp’s brand entity.', 'Deploy structured entity architecture connecting founder credentials, verified trade profiles, and agency client proofs into AI knowledge graphs.'],
   ['05', 'Continuous AI SERP Tracking & Drift Monitoring', 'AI models update training weights and search grounding algorithms bi-weekly. Static checks miss sudden drops.', 'Deploy monthly 280-prompt automated testing panel across all 5 engines to measure rank movement and track competitor infiltration.'],
 ];
 
@@ -718,10 +718,10 @@ slide('ws-entity', 'white', `
 // ─── 27. Roadmap (Gantt) ────────────────────────────────────────────────────
 {
   const lanes = [
-    ['Directory Infiltration', [[1, 4, 'Clutch & Shopify Directory Submissions'], [5, 12, 'Listicle placements & award submissions']]],
+    ['Authority Ecosystems', [[1, 4, 'Primary Directory & Partner Submissions'], [5, 12, 'Trade press features & award submissions']]],
     ['Google Local & Reviews', [[1, 3, 'Audit Melbourne GBP & review capture'], [4, 12, 'Scale reviews to 50+ & weekly posts']]],
-    ['Solution Architecture', [[2, 6, 'Re-architect Meta & Google PMax pages'], [7, 12, 'Deploy CaseStudy schema & client wins']]],
-    ['Entity Authority', [[1, 3, 'Sam Despo Wikidata & sameAs schema'], [4, 12, 'Digital PR & founder thought leadership']]],
+    ['Solution Architecture', [[2, 6, 'Re-architect Meta & Google PMax pages'], [7, 12, 'Deploy structured case studies & client wins']]],
+    ['Entity Authority', [[1, 3, 'Founder entity alignment & semantic architecture'], [4, 12, 'Digital PR & executive thought leadership']]],
     ['Measurement & Governance', [[1, 12, 'Baseline in W1, then automated monthly 280-prompt panel audits', 'light']]],
   ];
   const W = 1240, lab = 330;
@@ -788,7 +788,7 @@ slide('close', 'dark close', `
   <h2 class="display rise" style="--d:120ms">Start with Melbourne. Infiltrate the shortlists. Dominate unprompted recall.</h2>
   <ol class="next rise" style="--d:300ms">
     <li><span>1</span><p><b>Approve the GEO Strategy</b> and finalize target priority for Melbourne and National DTC.</p></li>
-    <li><span>2</span><p><b>Grant Access</b> to Google Business Profile, Clutch/Shopify directory profiles, and CMS case studies.</p></li>
+    <li><span>2</span><p><b>Grant Access</b> to Google Business Profile, active partner accounts, directory logins, and CMS case studies.</p></li>
     <li><span>3</span><p><b>Execute Month 1 Sprint</b> and run the first benchmark re-measurement on 15 November 2026.</p></li>
   </ol>
   <div class="close-logo">${logo()}<span class="byline">Prepared by Uprise Digital for Pulp Digital</span></div>`, { dark: true, noFoot: true });
