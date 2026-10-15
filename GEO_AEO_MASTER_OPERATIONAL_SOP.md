@@ -10,18 +10,18 @@
 
 This document serves as the **definitive operational guide and standard operating procedure** for conducting empirical Generative Engine Optimization (GEO) and Answer Engine Optimization (AEO) visibility audits for any corporate client or prospective agency account.
 
-Every audit delivered by this platform must satisfy **three core non-negotiable invariants**:
+Every audit delivered by this platform must satisfy **four core non-negotiable invariants**:
 
 ```
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                          THE 3 PRODUCTION INVARIANTS                                  │
-├────────────────────────────┬────────────────────────────┬──────────────────────────────┤
-│ 1. ZERO SIMULATION         │ 2. STRATEGIC RESTRAINT     │ 3. DUAL-KEYED ACCESS         │
-│ • No fake/mocked answers   │ • Mirror Ned's style       │ • Clean white gatekeeper     │
-│ • Dynamic sample size      │ • High-level authority     │ • Client PIN: Tier 1 only    │
-│   N = M × Q × E            │ • Zero recipe giveaways    │ • Internal PIN: Tier 1 & 2   │
-│ • Live authenticated APIs  │ • Deep math in Tier 2 only │ • Server-side HttpOnly token │
-└────────────────────────────┴────────────────────────────┴──────────────────────────────┘
+┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                          THE 4 PRODUCTION INVARIANTS                                           │
+├────────────────────────────┬────────────────────────────┬──────────────────────────────┬───────────────────────┤
+│ 1. ZERO SIMULATION         │ 2. STRATEGIC RESTRAINT     │ 3. DUAL-KEYED ACCESS         │ 4. REPO & DEPLOY ISOLATION
+│ • No fake/mocked answers   │ • Mirror Ned's style       │ • Clean white gatekeeper     │ • NEW GitHub repo per client
+│ • Dynamic sample size      │ • High-level authority     │ • Client PIN: Tier 1 only    │ • Never merge client code
+│   N = M × Q × E            │ • Zero recipe giveaways    │ • Internal PIN: Tier 1 & 2   │ • Same Railway project OK
+│ • Live authenticated APIs  │ • Deep math in Tier 2 only │ • Server-side HttpOnly token │ • Distinct service & domain
+└────────────────────────────┴────────────────────────────┴──────────────────────────────┴───────────────────────┘
 ```
 
 ---
@@ -191,26 +191,48 @@ cp pipeline/out/*.html site/
 - Generates `site/index.html` (Tier 1 pitch deck with dynamic scaling and zero leaks).
 - Generates `site/technical.html` (Tier 2 mathematical dossier).
 
-### Step 7: Local Penetration Test & Deployment
-1. **Run Local Verification:**
+### Step 7: Repository Isolation, Verification & Multi-Service Railway Deployment
+
+1. **Dedicated GitHub Repository Creation (MANDATORY):**
+   - Every client engagement MUST have its OWN isolated directory and dedicated GitHub repository:
    ```bash
-   node site/server.js
+   cd <client-slug>-ai-visibility
+   git init
+   git branch -M master
+   git add .
+   git commit -m "feat: initial commit for <Client Name> GEO audit"
+   gh repo create seyone22/<client-slug>-ai-visibility --public --source=. --remote=origin --push
    ```
-2. **Execute Automated Leak Audit:**
+   - **CRITICAL:** NEVER merge client codebases or commit one client's audit into another client's repository!
+
+2. **Automated QA, Leak & DOM Verification:**
+   - Execute verification suite:
+   ```bash
+   node test_verification.js
+   ```
    - Verify unauthenticated visitor receives only the clean white "Private page".
    - Verify Client PIN (`2026`) cannot access `/technical` (returns 403 Forbidden).
    - Verify Internal PIN (`9418`) accesses `/technical` (returns 200 OK).
    - Verify zero occurrences of proprietary directory checklists on `index.html`.
-3. **Deploy to Railway:**
+   - Verify `#stage`, `#bar`, `#count`, and `#controls` DOM elements are present in compiled HTML to prevent black-screen rendering bugs.
+
+3. **Railway Multi-Service Deployment (Same Project, Dedicated Deploy):**
+   - You can reuse the existing Railway organization/project (e.g. `pulp-ai-visibility` or agency project).
+   - **MANDATORY:** Add a **new, dedicated service** for the client—NEVER overwrite an existing client service!
    ```bash
-   railway up --service <service-name> -d -y
+   # Link to project
+   railway link -p <project-id> -e <environment-id>
+
+   # Add dedicated service for this client linked to their own GitHub repo
+   railway add --service <client-slug>-ai-visibility --repo seyone22/<client-slug>-ai-visibility --branch master
+
+   # Generate dedicated service public domain
+   railway domain --service <client-slug>-ai-visibility
+
+   # Deploy code to dedicated service
+   cd site && railway up -s <client-slug>-ai-visibility -d -y
    ```
-4. **Push to Remote Git Repository:**
-   ```bash
-   git add .
-   git commit -m "feat: complete GEO visibility audit for <Client Name>"
-   git push origin master
-   ```
+   - Confirm via `railway service list` that both services remain online on separate URLs.
 
 ---
 
@@ -218,11 +240,14 @@ cp pipeline/out/*.html site/
 
 Before sending any deliverable to an executive or client prospect, verify every item:
 
+- [ ] **Isolated GitHub Repository:** Client audit has its own separate GitHub repo (`seyone22/<client-slug>-ai-visibility`); zero code merged into other client repos.
+- [ ] **Dedicated Railway Service & Domain:** Deployed as a distinct service on Railway with its own URL (`<client-slug>-ai-visibility-production.up.railway.app`); never overwriting another client's service.
+- [ ] **DOM Architecture Integrity:** `#stage`, `#bar`, `#count`, and `#controls` elements are present to ensure `deck.js` mounts without black screen regression.
 - [ ] **Zero API Keys in Git:** All secrets stored in `.env`; `.gitignore` includes `.env`, `test_*.js`, and `*.log`.
 - [ ] **Zero Hallucination:** Dataset contains only live authenticated queries; no fake/simulated proxy rows.
 - [ ] **Dynamic Denominators:** Sample size formula $N = M \times Q \times E$ matches actual ingested records.
 - [ ] **Slide 23 Strategic Restraint:** No specific directory checklists on Slide 23; categorized into authority tiers.
 - [ ] **No Public Dossier Link:** Client HTML has zero anchor tags linking to `technical.html`.
-- [ ] **Clean White Gatekeeper:** Gatekeeper uses pure white minimalist UI matching Uprise Digital confidential standard.
+- [ ] **Clean White Gatekeeper:** Gatekeeper uses pure white minimalist UI matching agency confidential standard.
 - [ ] **Separate PIN Verification:** Client PIN cannot access `/technical`; Internal PIN unlocks both views.
 - [ ] **Cross-Device Fluidity:** 16:9 stage scaling (`--k`) operates smoothly across desktop, laptop, and mobile.
