@@ -1,0 +1,698 @@
+{
+ "pulpdigital.com.au": {
+  "hist": [
+   {
+    "year": 2025,
+    "month": 8,
+    "metrics": {
+     "mentions": 1,
+     "ai_search_volume": 40
+    }
+   },
+   {
+    "year": 2025,
+    "month": 9,
+    "metrics": {
+     "mentions": 2,
+     "ai_search_volume": 50
+    }
+   },
+   {
+    "year": 2025,
+    "month": 10,
+    "metrics": {
+     "mentions": 1,
+     "ai_search_volume": 45
+    }
+   },
+   {
+    "year": 2025,
+    "month": 11,
+    "metrics": {
+     "mentions": 2,
+     "ai_search_volume": 60
+    }
+   },
+   {
+    "year": 2025,
+    "month": 12,
+    "metrics": {
+     "mentions": 2,
+     "ai_search_volume": 55
+    }
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "metrics": {
+     "mentions": 3,
+     "ai_search_volume": 70
+    }
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "metrics": {
+     "mentions": 2,
+     "ai_search_volume": 65
+    }
+   },
+   {
+    "year": 2026,
+    "month": 3,
+    "metrics": {
+     "mentions": 3,
+     "ai_search_volume": 80
+    }
+   },
+   {
+    "year": 2026,
+    "month": 4,
+    "metrics": {
+     "mentions": 4,
+     "ai_search_volume": 75
+    }
+   },
+   {
+    "year": 2026,
+    "month": 5,
+    "metrics": {
+     "mentions": 3,
+     "ai_search_volume": 90
+    }
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "metrics": {
+     "mentions": 4,
+     "ai_search_volume": 85
+    }
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "metrics": {
+     "mentions": 4,
+     "ai_search_volume": 110
+    }
+   },
+   {
+    "year": 2026,
+    "month": 8,
+    "metrics": {
+     "mentions": 5,
+     "ai_search_volume": 105
+    }
+   },
+   {
+    "year": 2026,
+    "month": 9,
+    "metrics": {
+     "mentions": 5,
+     "ai_search_volume": 120
+    }
+   }
+  ]
+ },
+ "megaphonemarketing.com.au": {
+  "hist": [
+   {
+    "year": 2025,
+    "month": 8,
+    "metrics": {
+     "mentions": 120,
+     "ai_search_volume": 180
+    }
+   },
+   {
+    "year": 2025,
+    "month": 9,
+    "metrics": {
+     "mentions": 140,
+     "ai_search_volume": 200
+    }
+   },
+   {
+    "year": 2025,
+    "month": 10,
+    "metrics": {
+     "mentions": 160,
+     "ai_search_volume": 220
+    }
+   },
+   {
+    "year": 2025,
+    "month": 11,
+    "metrics": {
+     "mentions": 190,
+     "ai_search_volume": 250
+    }
+   },
+   {
+    "year": 2025,
+    "month": 12,
+    "metrics": {
+     "mentions": 210,
+     "ai_search_volume": 270
+    }
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "metrics": {
+     "mentions": 240,
+     "ai_search_volume": 310
+    }
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "metrics": {
+     "mentions": 280,
+     "ai_search_volume": 340
+    }
+   },
+   {
+    "year": 2026,
+    "month": 3,
+    "metrics": {
+     "mentions": 310,
+     "ai_search_volume": 380
+    }
+   },
+   {
+    "year": 2026,
+    "month": 4,
+    "metrics": {
+     "mentions": 350,
+     "ai_search_volume": 420
+    }
+   },
+   {
+    "year": 2026,
+    "month": 5,
+    "metrics": {
+     "mentions": 410,
+     "ai_search_volume": 470
+    }
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "metrics": {
+     "mentions": 460,
+     "ai_search_volume": 520
+    }
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "metrics": {
+     "mentions": 520,
+     "ai_search_volume": 580
+    }
+   },
+   {
+    "year": 2026,
+    "month": 8,
+    "metrics": {
+     "mentions": 580,
+     "ai_search_volume": 630
+    }
+   },
+   {
+    "year": 2026,
+    "month": 9,
+    "metrics": {
+     "mentions": 640,
+     "ai_search_volume": 710
+    }
+   }
+  ]
+ },
+ "farsiight.com": {
+  "hist": [
+   {
+    "year": 2025,
+    "month": 8,
+    "metrics": {
+     "mentions": 85,
+     "ai_search_volume": 120
+    }
+   },
+   {
+    "year": 2025,
+    "month": 9,
+    "metrics": {
+     "mentions": 95,
+     "ai_search_volume": 130
+    }
+   },
+   {
+    "year": 2025,
+    "month": 10,
+    "metrics": {
+     "mentions": 110,
+     "ai_search_volume": 150
+    }
+   },
+   {
+    "year": 2025,
+    "month": 11,
+    "metrics": {
+     "mentions": 125,
+     "ai_search_volume": 170
+    }
+   },
+   {
+    "year": 2025,
+    "month": 12,
+    "metrics": {
+     "mentions": 140,
+     "ai_search_volume": 190
+    }
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "metrics": {
+     "mentions": 160,
+     "ai_search_volume": 220
+    }
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "metrics": {
+     "mentions": 185,
+     "ai_search_volume": 250
+    }
+   },
+   {
+    "year": 2026,
+    "month": 3,
+    "metrics": {
+     "mentions": 210,
+     "ai_search_volume": 280
+    }
+   },
+   {
+    "year": 2026,
+    "month": 4,
+    "metrics": {
+     "mentions": 235,
+     "ai_search_volume": 310
+    }
+   },
+   {
+    "year": 2026,
+    "month": 5,
+    "metrics": {
+     "mentions": 270,
+     "ai_search_volume": 340
+    }
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "metrics": {
+     "mentions": 310,
+     "ai_search_volume": 380
+    }
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "metrics": {
+     "mentions": 350,
+     "ai_search_volume": 420
+    }
+   },
+   {
+    "year": 2026,
+    "month": 8,
+    "metrics": {
+     "mentions": 395,
+     "ai_search_volume": 460
+    }
+   },
+   {
+    "year": 2026,
+    "month": 9,
+    "metrics": {
+     "mentions": 440,
+     "ai_search_volume": 510
+    }
+   }
+  ]
+ },
+ "sparro.com.au": {
+  "hist": [
+   {
+    "year": 2025,
+    "month": 8,
+    "metrics": {
+     "mentions": 110,
+     "ai_search_volume": 160
+    }
+   },
+   {
+    "year": 2025,
+    "month": 9,
+    "metrics": {
+     "mentions": 120,
+     "ai_search_volume": 170
+    }
+   },
+   {
+    "year": 2025,
+    "month": 10,
+    "metrics": {
+     "mentions": 135,
+     "ai_search_volume": 190
+    }
+   },
+   {
+    "year": 2025,
+    "month": 11,
+    "metrics": {
+     "mentions": 150,
+     "ai_search_volume": 210
+    }
+   },
+   {
+    "year": 2025,
+    "month": 12,
+    "metrics": {
+     "mentions": 170,
+     "ai_search_volume": 240
+    }
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "metrics": {
+     "mentions": 190,
+     "ai_search_volume": 270
+    }
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "metrics": {
+     "mentions": 220,
+     "ai_search_volume": 300
+    }
+   },
+   {
+    "year": 2026,
+    "month": 3,
+    "metrics": {
+     "mentions": 250,
+     "ai_search_volume": 330
+    }
+   },
+   {
+    "year": 2026,
+    "month": 4,
+    "metrics": {
+     "mentions": 280,
+     "ai_search_volume": 370
+    }
+   },
+   {
+    "year": 2026,
+    "month": 5,
+    "metrics": {
+     "mentions": 320,
+     "ai_search_volume": 410
+    }
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "metrics": {
+     "mentions": 360,
+     "ai_search_volume": 450
+    }
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "metrics": {
+     "mentions": 400,
+     "ai_search_volume": 500
+    }
+   },
+   {
+    "year": 2026,
+    "month": 8,
+    "metrics": {
+     "mentions": 450,
+     "ai_search_volume": 540
+    }
+   },
+   {
+    "year": 2026,
+    "month": 9,
+    "metrics": {
+     "mentions": 490,
+     "ai_search_volume": 600
+    }
+   }
+  ]
+ },
+ "impressive.com.au": {
+  "hist": [
+   {
+    "year": 2025,
+    "month": 8,
+    "metrics": {
+     "mentions": 70,
+     "ai_search_volume": 110
+    }
+   },
+   {
+    "year": 2025,
+    "month": 9,
+    "metrics": {
+     "mentions": 80,
+     "ai_search_volume": 120
+    }
+   },
+   {
+    "year": 2025,
+    "month": 10,
+    "metrics": {
+     "mentions": 95,
+     "ai_search_volume": 135
+    }
+   },
+   {
+    "year": 2025,
+    "month": 11,
+    "metrics": {
+     "mentions": 110,
+     "ai_search_volume": 150
+    }
+   },
+   {
+    "year": 2025,
+    "month": 12,
+    "metrics": {
+     "mentions": 125,
+     "ai_search_volume": 170
+    }
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "metrics": {
+     "mentions": 140,
+     "ai_search_volume": 195
+    }
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "metrics": {
+     "mentions": 160,
+     "ai_search_volume": 220
+    }
+   },
+   {
+    "year": 2026,
+    "month": 3,
+    "metrics": {
+     "mentions": 180,
+     "ai_search_volume": 250
+    }
+   },
+   {
+    "year": 2026,
+    "month": 4,
+    "metrics": {
+     "mentions": 205,
+     "ai_search_volume": 280
+    }
+   },
+   {
+    "year": 2026,
+    "month": 5,
+    "metrics": {
+     "mentions": 235,
+     "ai_search_volume": 315
+    }
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "metrics": {
+     "mentions": 265,
+     "ai_search_volume": 350
+    }
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "metrics": {
+     "mentions": 300,
+     "ai_search_volume": 390
+    }
+   },
+   {
+    "year": 2026,
+    "month": 8,
+    "metrics": {
+     "mentions": 335,
+     "ai_search_volume": 425
+    }
+   },
+   {
+    "year": 2026,
+    "month": 9,
+    "metrics": {
+     "mentions": 375,
+     "ai_search_volume": 470
+    }
+   }
+  ]
+ },
+ "datasauce.com": {
+  "hist": [
+   {
+    "year": 2025,
+    "month": 8,
+    "metrics": {
+     "mentions": 40,
+     "ai_search_volume": 65
+    }
+   },
+   {
+    "year": 2025,
+    "month": 9,
+    "metrics": {
+     "mentions": 48,
+     "ai_search_volume": 75
+    }
+   },
+   {
+    "year": 2025,
+    "month": 10,
+    "metrics": {
+     "mentions": 55,
+     "ai_search_volume": 85
+    }
+   },
+   {
+    "year": 2025,
+    "month": 11,
+    "metrics": {
+     "mentions": 65,
+     "ai_search_volume": 95
+    }
+   },
+   {
+    "year": 2025,
+    "month": 12,
+    "metrics": {
+     "mentions": 75,
+     "ai_search_volume": 110
+    }
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "metrics": {
+     "mentions": 88,
+     "ai_search_volume": 125
+    }
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "metrics": {
+     "mentions": 102,
+     "ai_search_volume": 145
+    }
+   },
+   {
+    "year": 2026,
+    "month": 3,
+    "metrics": {
+     "mentions": 118,
+     "ai_search_volume": 165
+    }
+   },
+   {
+    "year": 2026,
+    "month": 4,
+    "metrics": {
+     "mentions": 135,
+     "ai_search_volume": 190
+    }
+   },
+   {
+    "year": 2026,
+    "month": 5,
+    "metrics": {
+     "mentions": 155,
+     "ai_search_volume": 215
+    }
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "metrics": {
+     "mentions": 178,
+     "ai_search_volume": 245
+    }
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "metrics": {
+     "mentions": 205,
+     "ai_search_volume": 275
+    }
+   },
+   {
+    "year": 2026,
+    "month": 8,
+    "metrics": {
+     "mentions": 230,
+     "ai_search_volume": 305
+    }
+   },
+   {
+    "year": 2026,
+    "month": 9,
+    "metrics": {
+     "mentions": 260,
+     "ai_search_volume": 340
+    }
+   }
+  ]
+ }
+}

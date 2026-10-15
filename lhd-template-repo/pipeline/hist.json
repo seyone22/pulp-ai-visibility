@@ -1,0 +1,2813 @@
+{
+ "atb.com.au": {
+  "hist": [
+   {
+    "year": 2026,
+    "month": 10,
+    "metrics": {
+     "mentions": 0,
+     "ai_search_volume": 0
+    }
+   },
+   {
+    "year": 2026,
+    "month": 9,
+    "metrics": {
+     "mentions": 0,
+     "ai_search_volume": 0
+    }
+   },
+   {
+    "year": 2026,
+    "month": 8,
+    "metrics": {
+     "mentions": 0,
+     "ai_search_volume": 0
+    }
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "metrics": {
+     "mentions": 0,
+     "ai_search_volume": 0
+    }
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "metrics": {
+     "mentions": 0,
+     "ai_search_volume": 0
+    }
+   },
+   {
+    "year": 2026,
+    "month": 5,
+    "metrics": {
+     "mentions": 0,
+     "ai_search_volume": 0
+    }
+   },
+   {
+    "year": 2026,
+    "month": 4,
+    "metrics": {
+     "mentions": 0,
+     "ai_search_volume": 0
+    }
+   },
+   {
+    "year": 2026,
+    "month": 3,
+    "metrics": {
+     "mentions": 0,
+     "ai_search_volume": 0
+    }
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "metrics": {
+     "mentions": 0,
+     "ai_search_volume": 0
+    }
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "metrics": {
+     "mentions": 0,
+     "ai_search_volume": 0
+    }
+   },
+   {
+    "year": 2025,
+    "month": 12,
+    "metrics": {
+     "mentions": 0,
+     "ai_search_volume": 0
+    }
+   },
+   {
+    "year": 2025,
+    "month": 11,
+    "metrics": {
+     "mentions": 0,
+     "ai_search_volume": 0
+    }
+   },
+   {
+    "year": 2025,
+    "month": 10,
+    "metrics": {
+     "mentions": 0,
+     "ai_search_volume": 0
+    }
+   },
+   {
+    "year": 2025,
+    "month": 9,
+    "metrics": {
+     "mentions": 0,
+     "ai_search_volume": 0
+    }
+   },
+   {
+    "year": 2025,
+    "month": 8,
+    "metrics": {
+     "mentions": 0,
+     "ai_search_volume": 0
+    }
+   }
+  ],
+  "metrics": {
+   "location": [],
+   "language": [],
+   "platform": [],
+   "sources_domain": [],
+   "search_results_domain": [],
+   "brand_entities_title": [],
+   "brand_entities_category": []
+  }
+ },
+ "gmp.com.au": {
+  "hist": [
+   {
+    "year": 2026,
+    "month": 10,
+    "metrics": {
+     "mentions": 3,
+     "ai_search_volume": 210
+    }
+   },
+   {
+    "year": 2026,
+    "month": 9,
+    "metrics": {
+     "mentions": 3,
+     "ai_search_volume": 7290
+    }
+   },
+   {
+    "year": 2026,
+    "month": 8,
+    "metrics": {
+     "mentions": 2,
+     "ai_search_volume": 3690
+    }
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "metrics": {
+     "mentions": 3,
+     "ai_search_volume": 670
+    }
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "metrics": {
+     "mentions": 5,
+     "ai_search_volume": 550
+    }
+   },
+   {
+    "year": 2026,
+    "month": 5,
+    "metrics": {
+     "mentions": 1,
+     "ai_search_volume": 2400
+    }
+   },
+   {
+    "year": 2026,
+    "month": 4,
+    "metrics": {
+     "mentions": 1,
+     "ai_search_volume": 3600
+    }
+   },
+   {
+    "year": 2026,
+    "month": 3,
+    "metrics": {
+     "mentions": 1,
+     "ai_search_volume": 110
+    }
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "metrics": {
+     "mentions": 0,
+     "ai_search_volume": 0
+    }
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "metrics": {
+     "mentions": 2,
+     "ai_search_volume": 700
+    }
+   },
+   {
+    "year": 2025,
+    "month": 12,
+    "metrics": {
+     "mentions": 1,
+     "ai_search_volume": 110
+    }
+   },
+   {
+    "year": 2025,
+    "month": 11,
+    "metrics": {
+     "mentions": 2,
+     "ai_search_volume": 2510
+    }
+   },
+   {
+    "year": 2025,
+    "month": 10,
+    "metrics": {
+     "mentions": 0,
+     "ai_search_volume": 0
+    }
+   },
+   {
+    "year": 2025,
+    "month": 9,
+    "metrics": {
+     "mentions": 0,
+     "ai_search_volume": 0
+    }
+   },
+   {
+    "year": 2025,
+    "month": 8,
+    "metrics": {
+     "mentions": 0,
+     "ai_search_volume": 0
+    }
+   }
+  ],
+  "metrics": {
+   "location": [
+    {
+     "key": 2036,
+     "mentions": 9,
+     "ai_search_volume": 11900
+    }
+   ],
+   "language": [
+    {
+     "key": "en",
+     "mentions": 9,
+     "ai_search_volume": 11900
+    }
+   ],
+   "platform": [
+    {
+     "key": "google",
+     "mentions": 9,
+     "ai_search_volume": 11900
+    }
+   ],
+   "sources_domain": [
+    {
+     "key": "www.gmp.com.au",
+     "mentions": 8,
+     "ai_search_volume": 11310
+    },
+    {
+     "key": "au.linkedin.com",
+     "mentions": 5,
+     "ai_search_volume": 7410
+    },
+    {
+     "key": "www.youtube.com",
+     "mentions": 4,
+     "ai_search_volume": 8000
+    },
+    {
+     "key": "nz.linkedin.com",
+     "mentions": 4,
+     "ai_search_volume": 7340
+    },
+    {
+     "key": "naturalhealthproducts.nz",
+     "mentions": 3,
+     "ai_search_volume": 3740
+    },
+    {
+     "key": "www.tga.gov.au",
+     "mentions": 2,
+     "ai_search_volume": 4190
+    },
+    {
+     "key": "www.facebook.com",
+     "mentions": 2,
+     "ai_search_volume": 3670
+    },
+    {
+     "key": "www.lipa.com.au",
+     "mentions": 2,
+     "ai_search_volume": 300
+    },
+    {
+     "key": "www.austpharma.com.au",
+     "mentions": 2,
+     "ai_search_volume": 300
+    },
+    {
+     "key": "cz.linkedin.com",
+     "mentions": 2,
+     "ai_search_volume": 140
+    }
+   ],
+   "search_results_domain": [],
+   "brand_entities_title": [],
+   "brand_entities_category": [],
+   "total": {
+    "mentions": 9,
+    "ai_search_volume": 11900
+   }
+  }
+ },
+ "lhd.com.au": {
+  "hist": [
+   {
+    "year": 2026,
+    "month": 10,
+    "metrics": {
+     "mentions": 31,
+     "ai_search_volume": 2170
+    }
+   },
+   {
+    "year": 2026,
+    "month": 9,
+    "metrics": {
+     "mentions": 175,
+     "ai_search_volume": 42240
+    }
+   },
+   {
+    "year": 2026,
+    "month": 8,
+    "metrics": {
+     "mentions": 123,
+     "ai_search_volume": 16650
+    }
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "metrics": {
+     "mentions": 127,
+     "ai_search_volume": 55980
+    }
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "metrics": {
+     "mentions": 90,
+     "ai_search_volume": 8300
+    }
+   },
+   {
+    "year": 2026,
+    "month": 5,
+    "metrics": {
+     "mentions": 171,
+     "ai_search_volume": 49960
+    }
+   },
+   {
+    "year": 2026,
+    "month": 4,
+    "metrics": {
+     "mentions": 222,
+     "ai_search_volume": 52830
+    }
+   },
+   {
+    "year": 2026,
+    "month": 3,
+    "metrics": {
+     "mentions": 220,
+     "ai_search_volume": 42240
+    }
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "metrics": {
+     "mentions": 103,
+     "ai_search_volume": 52560
+    }
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "metrics": {
+     "mentions": 130,
+     "ai_search_volume": 53060
+    }
+   },
+   {
+    "year": 2025,
+    "month": 12,
+    "metrics": {
+     "mentions": 162,
+     "ai_search_volume": 42630
+    }
+   },
+   {
+    "year": 2025,
+    "month": 11,
+    "metrics": {
+     "mentions": 144,
+     "ai_search_volume": 38900
+    }
+   },
+   {
+    "year": 2025,
+    "month": 10,
+    "metrics": {
+     "mentions": 71,
+     "ai_search_volume": 21310
+    }
+   },
+   {
+    "year": 2025,
+    "month": 9,
+    "metrics": {
+     "mentions": 47,
+     "ai_search_volume": 9590
+    }
+   },
+   {
+    "year": 2025,
+    "month": 8,
+    "metrics": {
+     "mentions": 66,
+     "ai_search_volume": 17750
+    }
+   }
+  ],
+  "metrics": {
+   "location": [
+    {
+     "key": 2036,
+     "mentions": 457,
+     "ai_search_volume": 114860
+    }
+   ],
+   "language": [
+    {
+     "key": "en",
+     "mentions": 457,
+     "ai_search_volume": 114860
+    }
+   ],
+   "platform": [
+    {
+     "key": "google",
+     "mentions": 457,
+     "ai_search_volume": 114860
+    }
+   ],
+   "sources_domain": [
+    {
+     "key": "www.lhd.com.au",
+     "mentions": 457,
+     "ai_search_volume": 114860
+    },
+    {
+     "key": "lawpartners.com.au",
+     "mentions": 132,
+     "ai_search_volume": 30360
+    },
+    {
+     "key": "www.youtube.com",
+     "mentions": 127,
+     "ai_search_volume": 34780
+    },
+    {
+     "key": "www.mauriceblackburn.com.au",
+     "mentions": 115,
+     "ai_search_volume": 33810
+    },
+    {
+     "key": "www.slatergordon.com.au",
+     "mentions": 81,
+     "ai_search_volume": 32220
+    },
+    {
+     "key": "www.withstandlawyers.com.au",
+     "mentions": 81,
+     "ai_search_volume": 8860
+    },
+    {
+     "key": "www.shine.com.au",
+     "mentions": 77,
+     "ai_search_volume": 35440
+    },
+    {
+     "key": "gordonlegal.com.au",
+     "mentions": 73,
+     "ai_search_volume": 16800
+    },
+    {
+     "key": "www.sira.nsw.gov.au",
+     "mentions": 60,
+     "ai_search_volume": 13090
+    },
+    {
+     "key": "www.icare.nsw.gov.au",
+     "mentions": 48,
+     "ai_search_volume": 10880
+    }
+   ],
+   "search_results_domain": [],
+   "brand_entities_title": [],
+   "brand_entities_category": [],
+   "total": {
+    "mentions": 457,
+    "ai_search_volume": 114860
+   }
+  }
+ },
+ "garlingandco.com.au": {
+  "hist": [
+   {
+    "year": 2026,
+    "month": 10,
+    "metrics": {
+     "mentions": 4,
+     "ai_search_volume": 280
+    }
+   },
+   {
+    "year": 2026,
+    "month": 9,
+    "metrics": {
+     "mentions": 18,
+     "ai_search_volume": 2770
+    }
+   },
+   {
+    "year": 2026,
+    "month": 8,
+    "metrics": {
+     "mentions": 28,
+     "ai_search_volume": 2230
+    }
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "metrics": {
+     "mentions": 20,
+     "ai_search_volume": 5060
+    }
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "metrics": {
+     "mentions": 23,
+     "ai_search_volume": 1870
+    }
+   },
+   {
+    "year": 2026,
+    "month": 5,
+    "metrics": {
+     "mentions": 30,
+     "ai_search_volume": 10670
+    }
+   },
+   {
+    "year": 2026,
+    "month": 4,
+    "metrics": {
+     "mentions": 24,
+     "ai_search_volume": 93120
+    }
+   },
+   {
+    "year": 2026,
+    "month": 3,
+    "metrics": {
+     "mentions": 25,
+     "ai_search_volume": 8320
+    }
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "metrics": {
+     "mentions": 11,
+     "ai_search_volume": 2130
+    }
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "metrics": {
+     "mentions": 11,
+     "ai_search_volume": 950
+    }
+   },
+   {
+    "year": 2025,
+    "month": 12,
+    "metrics": {
+     "mentions": 18,
+     "ai_search_volume": 7080
+    }
+   },
+   {
+    "year": 2025,
+    "month": 11,
+    "metrics": {
+     "mentions": 34,
+     "ai_search_volume": 14540
+    }
+   },
+   {
+    "year": 2025,
+    "month": 10,
+    "metrics": {
+     "mentions": 14,
+     "ai_search_volume": 3620
+    }
+   },
+   {
+    "year": 2025,
+    "month": 9,
+    "metrics": {
+     "mentions": 14,
+     "ai_search_volume": 8530
+    }
+   },
+   {
+    "year": 2025,
+    "month": 8,
+    "metrics": {
+     "mentions": 63,
+     "ai_search_volume": 18480
+    }
+   }
+  ],
+  "metrics": {
+   "location": [
+    {
+     "key": 2036,
+     "mentions": 78,
+     "ai_search_volume": 18460
+    }
+   ],
+   "language": [
+    {
+     "key": "en",
+     "mentions": 78,
+     "ai_search_volume": 18460
+    }
+   ],
+   "platform": [
+    {
+     "key": "google",
+     "mentions": 78,
+     "ai_search_volume": 18460
+    }
+   ],
+   "sources_domain": [
+    {
+     "key": "www.garlingandco.com.au",
+     "mentions": 78,
+     "ai_search_volume": 18460
+    },
+    {
+     "key": "lawpartners.com.au",
+     "mentions": 30,
+     "ai_search_volume": 8820
+    },
+    {
+     "key": "www.mauriceblackburn.com.au",
+     "mentions": 21,
+     "ai_search_volume": 7130
+    },
+    {
+     "key": "www.slatergordon.com.au",
+     "mentions": 20,
+     "ai_search_volume": 8160
+    },
+    {
+     "key": "www.turnerfreeman.com.au",
+     "mentions": 17,
+     "ai_search_volume": 5430
+    },
+    {
+     "key": "www.sira.nsw.gov.au",
+     "mentions": 13,
+     "ai_search_volume": 990
+    },
+    {
+     "key": "www.withstandlawyers.com.au",
+     "mentions": 11,
+     "ai_search_volume": 3320
+    },
+    {
+     "key": "www.shine.com.au",
+     "mentions": 10,
+     "ai_search_volume": 8000
+    },
+    {
+     "key": "www.brydens.com.au",
+     "mentions": 10,
+     "ai_search_volume": 1200
+    },
+    {
+     "key": "www.taylorandscott.com.au",
+     "mentions": 9,
+     "ai_search_volume": 3590
+    }
+   ],
+   "search_results_domain": [],
+   "brand_entities_title": [],
+   "brand_entities_category": [],
+   "total": {
+    "mentions": 78,
+    "ai_search_volume": 18460
+   }
+  }
+ },
+ "stacksgoudkamp.com.au": {
+  "hist": [
+   {
+    "year": 2026,
+    "month": 10,
+    "metrics": {
+     "mentions": 14,
+     "ai_search_volume": 980
+    }
+   },
+   {
+    "year": 2026,
+    "month": 9,
+    "metrics": {
+     "mentions": 52,
+     "ai_search_volume": 6890
+    }
+   },
+   {
+    "year": 2026,
+    "month": 8,
+    "metrics": {
+     "mentions": 43,
+     "ai_search_volume": 3040
+    }
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "metrics": {
+     "mentions": 27,
+     "ai_search_volume": 5600
+    }
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "metrics": {
+     "mentions": 28,
+     "ai_search_volume": 2780
+    }
+   },
+   {
+    "year": 2026,
+    "month": 5,
+    "metrics": {
+     "mentions": 43,
+     "ai_search_volume": 7710
+    }
+   },
+   {
+    "year": 2026,
+    "month": 4,
+    "metrics": {
+     "mentions": 60,
+     "ai_search_volume": 6780
+    }
+   },
+   {
+    "year": 2026,
+    "month": 3,
+    "metrics": {
+     "mentions": 60,
+     "ai_search_volume": 8400
+    }
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "metrics": {
+     "mentions": 22,
+     "ai_search_volume": 4360
+    }
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "metrics": {
+     "mentions": 29,
+     "ai_search_volume": 6460
+    }
+   },
+   {
+    "year": 2025,
+    "month": 12,
+    "metrics": {
+     "mentions": 36,
+     "ai_search_volume": 8380
+    }
+   },
+   {
+    "year": 2025,
+    "month": 11,
+    "metrics": {
+     "mentions": 37,
+     "ai_search_volume": 4890
+    }
+   },
+   {
+    "year": 2025,
+    "month": 10,
+    "metrics": {
+     "mentions": 13,
+     "ai_search_volume": 1320
+    }
+   },
+   {
+    "year": 2025,
+    "month": 9,
+    "metrics": {
+     "mentions": 10,
+     "ai_search_volume": 7920
+    }
+   },
+   {
+    "year": 2025,
+    "month": 8,
+    "metrics": {
+     "mentions": 17,
+     "ai_search_volume": 3160
+    }
+   }
+  ],
+  "metrics": {
+   "location": [
+    {
+     "key": 2036,
+     "mentions": 137,
+     "ai_search_volume": 17530
+    }
+   ],
+   "language": [
+    {
+     "key": "en",
+     "mentions": 137,
+     "ai_search_volume": 17530
+    }
+   ],
+   "platform": [
+    {
+     "key": "google",
+     "mentions": 137,
+     "ai_search_volume": 17530
+    }
+   ],
+   "sources_domain": [
+    {
+     "key": "stacksgoudkamp.com.au",
+     "mentions": 136,
+     "ai_search_volume": 17440
+    },
+    {
+     "key": "lawpartners.com.au",
+     "mentions": 59,
+     "ai_search_volume": 7250
+    },
+    {
+     "key": "www.mauriceblackburn.com.au",
+     "mentions": 51,
+     "ai_search_volume": 7920
+    },
+    {
+     "key": "www.slatergordon.com.au",
+     "mentions": 45,
+     "ai_search_volume": 7600
+    },
+    {
+     "key": "www.shine.com.au",
+     "mentions": 31,
+     "ai_search_volume": 4510
+    },
+    {
+     "key": "www.youtube.com",
+     "mentions": 28,
+     "ai_search_volume": 3760
+    },
+    {
+     "key": "www.withstandlawyers.com.au",
+     "mentions": 26,
+     "ai_search_volume": 2240
+    },
+    {
+     "key": "www.lhd.com.au",
+     "mentions": 22,
+     "ai_search_volume": 4510
+    },
+    {
+     "key": "gordonlegal.com.au",
+     "mentions": 22,
+     "ai_search_volume": 3790
+    },
+    {
+     "key": "www.gerardmaloufpartners.com.au",
+     "mentions": 21,
+     "ai_search_volume": 2990
+    }
+   ],
+   "search_results_domain": [],
+   "brand_entities_title": [],
+   "brand_entities_category": [],
+   "total": {
+    "mentions": 137,
+    "ai_search_volume": 17530
+   }
+  }
+ },
+ "turnerfreeman.com.au": {
+  "hist": [
+   {
+    "year": 2026,
+    "month": 10,
+    "metrics": {
+     "mentions": 35,
+     "ai_search_volume": 2470
+    }
+   },
+   {
+    "year": 2026,
+    "month": 9,
+    "metrics": {
+     "mentions": 153,
+     "ai_search_volume": 42400
+    }
+   },
+   {
+    "year": 2026,
+    "month": 8,
+    "metrics": {
+     "mentions": 126,
+     "ai_search_volume": 25180
+    }
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "metrics": {
+     "mentions": 81,
+     "ai_search_volume": 25800
+    }
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "metrics": {
+     "mentions": 77,
+     "ai_search_volume": 10340
+    }
+   },
+   {
+    "year": 2026,
+    "month": 5,
+    "metrics": {
+     "mentions": 149,
+     "ai_search_volume": 36190
+    }
+   },
+   {
+    "year": 2026,
+    "month": 4,
+    "metrics": {
+     "mentions": 201,
+     "ai_search_volume": 52120
+    }
+   },
+   {
+    "year": 2026,
+    "month": 3,
+    "metrics": {
+     "mentions": 157,
+     "ai_search_volume": 122690
+    }
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "metrics": {
+     "mentions": 72,
+     "ai_search_volume": 21040
+    }
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "metrics": {
+     "mentions": 85,
+     "ai_search_volume": 24110
+    }
+   },
+   {
+    "year": 2025,
+    "month": 12,
+    "metrics": {
+     "mentions": 100,
+     "ai_search_volume": 34990
+    }
+   },
+   {
+    "year": 2025,
+    "month": 11,
+    "metrics": {
+     "mentions": 89,
+     "ai_search_volume": 14460
+    }
+   },
+   {
+    "year": 2025,
+    "month": 10,
+    "metrics": {
+     "mentions": 40,
+     "ai_search_volume": 11730
+    }
+   },
+   {
+    "year": 2025,
+    "month": 9,
+    "metrics": {
+     "mentions": 21,
+     "ai_search_volume": 3880
+    }
+   },
+   {
+    "year": 2025,
+    "month": 8,
+    "metrics": {
+     "mentions": 45,
+     "ai_search_volume": 6780
+    }
+   }
+  ],
+  "metrics": {
+   "location": [
+    {
+     "key": 2036,
+     "mentions": 463,
+     "ai_search_volume": 129550
+    }
+   ],
+   "language": [
+    {
+     "key": "en",
+     "mentions": 463,
+     "ai_search_volume": 129550
+    }
+   ],
+   "platform": [
+    {
+     "key": "google",
+     "mentions": 463,
+     "ai_search_volume": 129550
+    }
+   ],
+   "sources_domain": [
+    {
+     "key": "www.turnerfreeman.com.au",
+     "mentions": 463,
+     "ai_search_volume": 129550
+    },
+    {
+     "key": "www.mauriceblackburn.com.au",
+     "mentions": 217,
+     "ai_search_volume": 81130
+    },
+    {
+     "key": "www.slatergordon.com.au",
+     "mentions": 185,
+     "ai_search_volume": 71180
+    },
+    {
+     "key": "www.youtube.com",
+     "mentions": 103,
+     "ai_search_volume": 28860
+    },
+    {
+     "key": "www.shine.com.au",
+     "mentions": 96,
+     "ai_search_volume": 39660
+    },
+    {
+     "key": "lawpartners.com.au",
+     "mentions": 80,
+     "ai_search_volume": 24420
+    },
+    {
+     "key": "gordonlegal.com.au",
+     "mentions": 72,
+     "ai_search_volume": 29520
+    },
+    {
+     "key": "johnstonwithers.com.au",
+     "mentions": 59,
+     "ai_search_volume": 14240
+    },
+    {
+     "key": "www.brydens.com.au",
+     "mentions": 53,
+     "ai_search_volume": 26630
+    },
+    {
+     "key": "www.facebook.com",
+     "mentions": 42,
+     "ai_search_volume": 9980
+    }
+   ],
+   "search_results_domain": [],
+   "brand_entities_title": [],
+   "brand_entities_category": [],
+   "total": {
+    "mentions": 463,
+    "ai_search_volume": 129550
+   }
+  }
+ },
+ "shine.com.au": {
+  "hist": [
+   {
+    "year": 2026,
+    "month": 10,
+    "metrics": {
+     "mentions": 63,
+     "ai_search_volume": 4410
+    }
+   },
+   {
+    "year": 2026,
+    "month": 9,
+    "metrics": {
+     "mentions": 459,
+     "ai_search_volume": 142280
+    }
+   },
+   {
+    "year": 2026,
+    "month": 8,
+    "metrics": {
+     "mentions": 354,
+     "ai_search_volume": 35300
+    }
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "metrics": {
+     "mentions": 382,
+     "ai_search_volume": 139700
+    }
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "metrics": {
+     "mentions": 230,
+     "ai_search_volume": 29660
+    }
+   },
+   {
+    "year": 2026,
+    "month": 5,
+    "metrics": {
+     "mentions": 527,
+     "ai_search_volume": 165580
+    }
+   },
+   {
+    "year": 2026,
+    "month": 4,
+    "metrics": {
+     "mentions": 670,
+     "ai_search_volume": 179550
+    }
+   },
+   {
+    "year": 2026,
+    "month": 3,
+    "metrics": {
+     "mentions": 666,
+     "ai_search_volume": 117120
+    }
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "metrics": {
+     "mentions": 300,
+     "ai_search_volume": 102790
+    }
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "metrics": {
+     "mentions": 337,
+     "ai_search_volume": 105300
+    }
+   },
+   {
+    "year": 2025,
+    "month": 12,
+    "metrics": {
+     "mentions": 466,
+     "ai_search_volume": 148850
+    }
+   },
+   {
+    "year": 2025,
+    "month": 11,
+    "metrics": {
+     "mentions": 377,
+     "ai_search_volume": 91710
+    }
+   },
+   {
+    "year": 2025,
+    "month": 10,
+    "metrics": {
+     "mentions": 234,
+     "ai_search_volume": 82000
+    }
+   },
+   {
+    "year": 2025,
+    "month": 9,
+    "metrics": {
+     "mentions": 163,
+     "ai_search_volume": 43310
+    }
+   },
+   {
+    "year": 2025,
+    "month": 8,
+    "metrics": {
+     "mentions": 267,
+     "ai_search_volume": 79890
+    }
+   }
+  ],
+  "metrics": {
+   "location": [
+    {
+     "key": 2036,
+     "mentions": 1207,
+     "ai_search_volume": 323190
+    }
+   ],
+   "language": [
+    {
+     "key": "en",
+     "mentions": 1207,
+     "ai_search_volume": 323190
+    }
+   ],
+   "platform": [
+    {
+     "key": "google",
+     "mentions": 1207,
+     "ai_search_volume": 323190
+    }
+   ],
+   "sources_domain": [
+    {
+     "key": "www.shine.com.au",
+     "mentions": 1207,
+     "ai_search_volume": 323190
+    },
+    {
+     "key": "www.mauriceblackburn.com.au",
+     "mentions": 335,
+     "ai_search_volume": 107400
+    },
+    {
+     "key": "www.youtube.com",
+     "mentions": 320,
+     "ai_search_volume": 112460
+    },
+    {
+     "key": "www.slatergordon.com.au",
+     "mentions": 282,
+     "ai_search_volume": 100730
+    },
+    {
+     "key": "www.facebook.com",
+     "mentions": 207,
+     "ai_search_volume": 43220
+    },
+    {
+     "key": "en.wikipedia.org",
+     "mentions": 141,
+     "ai_search_volume": 62790
+    },
+    {
+     "key": "lawpartners.com.au",
+     "mentions": 127,
+     "ai_search_volume": 33410
+    },
+    {
+     "key": "gordonlegal.com.au",
+     "mentions": 112,
+     "ai_search_volume": 34760
+    },
+    {
+     "key": "www.turnerfreeman.com.au",
+     "mentions": 96,
+     "ai_search_volume": 39660
+    },
+    {
+     "key": "www.abc.net.au",
+     "mentions": 89,
+     "ai_search_volume": 17920
+    }
+   ],
+   "search_results_domain": [],
+   "brand_entities_title": [],
+   "brand_entities_category": [],
+   "total": {
+    "mentions": 1207,
+    "ai_search_volume": 323190
+   }
+  }
+ },
+ "bpclaw.com.au": {
+  "hist": [
+   {
+    "year": 2026,
+    "month": 10,
+    "metrics": {
+     "mentions": 4,
+     "ai_search_volume": 280
+    }
+   },
+   {
+    "year": 2026,
+    "month": 9,
+    "metrics": {
+     "mentions": 17,
+     "ai_search_volume": 2390
+    }
+   },
+   {
+    "year": 2026,
+    "month": 8,
+    "metrics": {
+     "mentions": 18,
+     "ai_search_volume": 3050
+    }
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "metrics": {
+     "mentions": 13,
+     "ai_search_volume": 2180
+    }
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "metrics": {
+     "mentions": 12,
+     "ai_search_volume": 840
+    }
+   },
+   {
+    "year": 2026,
+    "month": 5,
+    "metrics": {
+     "mentions": 24,
+     "ai_search_volume": 4470
+    }
+   },
+   {
+    "year": 2026,
+    "month": 4,
+    "metrics": {
+     "mentions": 32,
+     "ai_search_volume": 3700
+    }
+   },
+   {
+    "year": 2026,
+    "month": 3,
+    "metrics": {
+     "mentions": 36,
+     "ai_search_volume": 13800
+    }
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "metrics": {
+     "mentions": 11,
+     "ai_search_volume": 9130
+    }
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "metrics": {
+     "mentions": 13,
+     "ai_search_volume": 1800
+    }
+   },
+   {
+    "year": 2025,
+    "month": 12,
+    "metrics": {
+     "mentions": 19,
+     "ai_search_volume": 3280
+    }
+   },
+   {
+    "year": 2025,
+    "month": 11,
+    "metrics": {
+     "mentions": 18,
+     "ai_search_volume": 6170
+    }
+   },
+   {
+    "year": 2025,
+    "month": 10,
+    "metrics": {
+     "mentions": 14,
+     "ai_search_volume": 9600
+    }
+   },
+   {
+    "year": 2025,
+    "month": 9,
+    "metrics": {
+     "mentions": 5,
+     "ai_search_volume": 590
+    }
+   },
+   {
+    "year": 2025,
+    "month": 8,
+    "metrics": {
+     "mentions": 17,
+     "ai_search_volume": 4190
+    }
+   }
+  ],
+  "metrics": {
+   "location": [
+    {
+     "key": 2036,
+     "mentions": 45,
+     "ai_search_volume": 8140
+    }
+   ],
+   "language": [
+    {
+     "key": "en",
+     "mentions": 45,
+     "ai_search_volume": 8140
+    }
+   ],
+   "platform": [
+    {
+     "key": "google",
+     "mentions": 45,
+     "ai_search_volume": 8140
+    }
+   ],
+   "sources_domain": [
+    {
+     "key": "www.bpclaw.com.au",
+     "mentions": 45,
+     "ai_search_volume": 8140
+    },
+    {
+     "key": "lawpartners.com.au",
+     "mentions": 13,
+     "ai_search_volume": 2310
+    },
+    {
+     "key": "www.garlingandco.com.au",
+     "mentions": 9,
+     "ai_search_volume": 2000
+    },
+    {
+     "key": "www.slatergordon.com.au",
+     "mentions": 8,
+     "ai_search_volume": 2110
+    },
+    {
+     "key": "stacksgoudkamp.com.au",
+     "mentions": 8,
+     "ai_search_volume": 1880
+    },
+    {
+     "key": "www.youtube.com",
+     "mentions": 8,
+     "ai_search_volume": 850
+    },
+    {
+     "key": "www.turnerfreeman.com.au",
+     "mentions": 7,
+     "ai_search_volume": 1700
+    },
+    {
+     "key": "www.gerardmaloufpartners.com.au",
+     "mentions": 7,
+     "ai_search_volume": 1620
+    },
+    {
+     "key": "www.sira.nsw.gov.au",
+     "mentions": 6,
+     "ai_search_volume": 2330
+    },
+    {
+     "key": "www.lhd.com.au",
+     "mentions": 6,
+     "ai_search_volume": 1370
+    }
+   ],
+   "search_results_domain": [],
+   "brand_entities_title": [],
+   "brand_entities_category": [],
+   "total": {
+    "mentions": 45,
+    "ai_search_volume": 8140
+   }
+  }
+ },
+ "gordonlegal.com.au": {
+  "hist": [
+   {
+    "year": 2026,
+    "month": 10,
+    "metrics": {
+     "mentions": 73,
+     "ai_search_volume": 5110
+    }
+   },
+   {
+    "year": 2026,
+    "month": 9,
+    "metrics": {
+     "mentions": 360,
+     "ai_search_volume": 136110
+    }
+   },
+   {
+    "year": 2026,
+    "month": 8,
+    "metrics": {
+     "mentions": 254,
+     "ai_search_volume": 34760
+    }
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "metrics": {
+     "mentions": 214,
+     "ai_search_volume": 84390
+    }
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "metrics": {
+     "mentions": 188,
+     "ai_search_volume": 112300
+    }
+   },
+   {
+    "year": 2026,
+    "month": 5,
+    "metrics": {
+     "mentions": 273,
+     "ai_search_volume": 94080
+    }
+   },
+   {
+    "year": 2026,
+    "month": 4,
+    "metrics": {
+     "mentions": 385,
+     "ai_search_volume": 235130
+    }
+   },
+   {
+    "year": 2026,
+    "month": 3,
+    "metrics": {
+     "mentions": 328,
+     "ai_search_volume": 78760
+    }
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "metrics": {
+     "mentions": 142,
+     "ai_search_volume": 66360
+    }
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "metrics": {
+     "mentions": 180,
+     "ai_search_volume": 86990
+    }
+   },
+   {
+    "year": 2025,
+    "month": 12,
+    "metrics": {
+     "mentions": 220,
+     "ai_search_volume": 93110
+    }
+   },
+   {
+    "year": 2025,
+    "month": 11,
+    "metrics": {
+     "mentions": 168,
+     "ai_search_volume": 71390
+    }
+   },
+   {
+    "year": 2025,
+    "month": 10,
+    "metrics": {
+     "mentions": 97,
+     "ai_search_volume": 38070
+    }
+   },
+   {
+    "year": 2025,
+    "month": 9,
+    "metrics": {
+     "mentions": 74,
+     "ai_search_volume": 39540
+    }
+   },
+   {
+    "year": 2025,
+    "month": 8,
+    "metrics": {
+     "mentions": 86,
+     "ai_search_volume": 28420
+    }
+   }
+  ],
+  "metrics": {
+   "location": [
+    {
+     "key": 2036,
+     "mentions": 918,
+     "ai_search_volume": 301720
+    }
+   ],
+   "language": [
+    {
+     "key": "en",
+     "mentions": 918,
+     "ai_search_volume": 301720
+    }
+   ],
+   "platform": [
+    {
+     "key": "google",
+     "mentions": 918,
+     "ai_search_volume": 301720
+    }
+   ],
+   "sources_domain": [
+    {
+     "key": "gordonlegal.com.au",
+     "mentions": 915,
+     "ai_search_volume": 301430
+    },
+    {
+     "key": "www.mauriceblackburn.com.au",
+     "mentions": 294,
+     "ai_search_volume": 109630
+    },
+    {
+     "key": "www.youtube.com",
+     "mentions": 283,
+     "ai_search_volume": 98540
+    },
+    {
+     "key": "www.slatergordon.com.au",
+     "mentions": 191,
+     "ai_search_volume": 98460
+    },
+    {
+     "key": "lawpartners.com.au",
+     "mentions": 189,
+     "ai_search_volume": 60680
+    },
+    {
+     "key": "www.shine.com.au",
+     "mentions": 112,
+     "ai_search_volume": 34760
+    },
+    {
+     "key": "www.legalaid.vic.gov.au",
+     "mentions": 95,
+     "ai_search_volume": 38030
+    },
+    {
+     "key": "www.facebook.com",
+     "mentions": 95,
+     "ai_search_volume": 23940
+    },
+    {
+     "key": "www.sira.nsw.gov.au",
+     "mentions": 85,
+     "ai_search_volume": 22490
+    },
+    {
+     "key": "www.armstronglegal.com.au",
+     "mentions": 76,
+     "ai_search_volume": 25390
+    }
+   ],
+   "search_results_domain": [],
+   "brand_entities_title": [],
+   "brand_entities_category": [],
+   "total": {
+    "mentions": 918,
+    "ai_search_volume": 301720
+   }
+  }
+ },
+ "codea.com.au": {
+  "hist": [
+   {
+    "year": 2026,
+    "month": 10,
+    "metrics": {
+     "mentions": 52,
+     "ai_search_volume": 3640
+    }
+   },
+   {
+    "year": 2026,
+    "month": 9,
+    "metrics": {
+     "mentions": 241,
+     "ai_search_volume": 56880
+    }
+   },
+   {
+    "year": 2026,
+    "month": 8,
+    "metrics": {
+     "mentions": 155,
+     "ai_search_volume": 104830
+    }
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "metrics": {
+     "mentions": 177,
+     "ai_search_volume": 62000
+    }
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "metrics": {
+     "mentions": 111,
+     "ai_search_volume": 11460
+    }
+   },
+   {
+    "year": 2026,
+    "month": 5,
+    "metrics": {
+     "mentions": 232,
+     "ai_search_volume": 61220
+    }
+   },
+   {
+    "year": 2026,
+    "month": 4,
+    "metrics": {
+     "mentions": 245,
+     "ai_search_volume": 144060
+    }
+   },
+   {
+    "year": 2026,
+    "month": 3,
+    "metrics": {
+     "mentions": 227,
+     "ai_search_volume": 44080
+    }
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "metrics": {
+     "mentions": 105,
+     "ai_search_volume": 17770
+    }
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "metrics": {
+     "mentions": 110,
+     "ai_search_volume": 18740
+    }
+   },
+   {
+    "year": 2025,
+    "month": 12,
+    "metrics": {
+     "mentions": 121,
+     "ai_search_volume": 37470
+    }
+   },
+   {
+    "year": 2025,
+    "month": 11,
+    "metrics": {
+     "mentions": 146,
+     "ai_search_volume": 35380
+    }
+   },
+   {
+    "year": 2025,
+    "month": 10,
+    "metrics": {
+     "mentions": 98,
+     "ai_search_volume": 26920
+    }
+   },
+   {
+    "year": 2025,
+    "month": 9,
+    "metrics": {
+     "mentions": 73,
+     "ai_search_volume": 23120
+    }
+   },
+   {
+    "year": 2025,
+    "month": 8,
+    "metrics": {
+     "mentions": 114,
+     "ai_search_volume": 29260
+    }
+   }
+  ],
+  "metrics": {
+   "location": [
+    {
+     "key": 2036,
+     "mentions": 544,
+     "ai_search_volume": 187390
+    }
+   ],
+   "language": [
+    {
+     "key": "en",
+     "mentions": 544,
+     "ai_search_volume": 187390
+    }
+   ],
+   "platform": [
+    {
+     "key": "google",
+     "mentions": 544,
+     "ai_search_volume": 187390
+    }
+   ],
+   "sources_domain": [
+    {
+     "key": "www.codea.com.au",
+     "mentions": 542,
+     "ai_search_volume": 187230
+    },
+    {
+     "key": "www.youtube.com",
+     "mentions": 168,
+     "ai_search_volume": 132220
+    },
+    {
+     "key": "www.armstronglegal.com.au",
+     "mentions": 62,
+     "ai_search_volume": 15520
+    },
+    {
+     "key": "en.wikipedia.org",
+     "mentions": 60,
+     "ai_search_volume": 11990
+    },
+    {
+     "key": "www.facebook.com",
+     "mentions": 51,
+     "ai_search_volume": 9390
+    },
+    {
+     "key": "www.nsw.gov.au",
+     "mentions": 41,
+     "ai_search_volume": 8870
+    },
+    {
+     "key": "www.mauriceblackburn.com.au",
+     "mentions": 36,
+     "ai_search_volume": 5400
+    },
+    {
+     "key": "www.fairwork.gov.au",
+     "mentions": 36,
+     "ai_search_volume": 4720
+    },
+    {
+     "key": "www.sira.nsw.gov.au",
+     "mentions": 34,
+     "ai_search_volume": 93770
+    },
+    {
+     "key": "www.legalaid.nsw.gov.au",
+     "mentions": 33,
+     "ai_search_volume": 4740
+    }
+   ],
+   "search_results_domain": [],
+   "brand_entities_title": [],
+   "brand_entities_category": [],
+   "total": {
+    "mentions": 544,
+    "ai_search_volume": 187390
+   }
+  }
+ },
+ "slatergordon.com.au": {
+  "hist": [
+   {
+    "year": 2026,
+    "month": 10,
+    "metrics": {
+     "mentions": 53,
+     "ai_search_volume": 3730
+    }
+   },
+   {
+    "year": 2026,
+    "month": 9,
+    "metrics": {
+     "mentions": 443,
+     "ai_search_volume": 153140
+    }
+   },
+   {
+    "year": 2026,
+    "month": 8,
+    "metrics": {
+     "mentions": 295,
+     "ai_search_volume": 63950
+    }
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "metrics": {
+     "mentions": 271,
+     "ai_search_volume": 93760
+    }
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "metrics": {
+     "mentions": 191,
+     "ai_search_volume": 26200
+    }
+   },
+   {
+    "year": 2026,
+    "month": 5,
+    "metrics": {
+     "mentions": 474,
+     "ai_search_volume": 195830
+    }
+   },
+   {
+    "year": 2026,
+    "month": 4,
+    "metrics": {
+     "mentions": 633,
+     "ai_search_volume": 339920
+    }
+   },
+   {
+    "year": 2026,
+    "month": 3,
+    "metrics": {
+     "mentions": 519,
+     "ai_search_volume": 211350
+    }
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "metrics": {
+     "mentions": 229,
+     "ai_search_volume": 97750
+    }
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "metrics": {
+     "mentions": 300,
+     "ai_search_volume": 242170
+    }
+   },
+   {
+    "year": 2025,
+    "month": 12,
+    "metrics": {
+     "mentions": 328,
+     "ai_search_volume": 120710
+    }
+   },
+   {
+    "year": 2025,
+    "month": 11,
+    "metrics": {
+     "mentions": 241,
+     "ai_search_volume": 77470
+    }
+   },
+   {
+    "year": 2025,
+    "month": 10,
+    "metrics": {
+     "mentions": 139,
+     "ai_search_volume": 71660
+    }
+   },
+   {
+    "year": 2025,
+    "month": 9,
+    "metrics": {
+     "mentions": 84,
+     "ai_search_volume": 22870
+    }
+   },
+   {
+    "year": 2025,
+    "month": 8,
+    "metrics": {
+     "mentions": 151,
+     "ai_search_volume": 47930
+    }
+   }
+  ],
+  "metrics": {
+   "location": [
+    {
+     "key": 2036,
+     "mentions": 1223,
+     "ai_search_volume": 460490
+    }
+   ],
+   "language": [
+    {
+     "key": "en",
+     "mentions": 1223,
+     "ai_search_volume": 460490
+    }
+   ],
+   "platform": [
+    {
+     "key": "google",
+     "mentions": 1223,
+     "ai_search_volume": 460490
+    }
+   ],
+   "sources_domain": [
+    {
+     "key": "www.slatergordon.com.au",
+     "mentions": 1222,
+     "ai_search_volume": 460420
+    },
+    {
+     "key": "www.mauriceblackburn.com.au",
+     "mentions": 619,
+     "ai_search_volume": 229100
+    },
+    {
+     "key": "www.youtube.com",
+     "mentions": 298,
+     "ai_search_volume": 139280
+    },
+    {
+     "key": "www.shine.com.au",
+     "mentions": 282,
+     "ai_search_volume": 100730
+    },
+    {
+     "key": "gordonlegal.com.au",
+     "mentions": 190,
+     "ai_search_volume": 98370
+    },
+    {
+     "key": "lawpartners.com.au",
+     "mentions": 187,
+     "ai_search_volume": 80410
+    },
+    {
+     "key": "www.turnerfreeman.com.au",
+     "mentions": 185,
+     "ai_search_volume": 71180
+    },
+    {
+     "key": "www.brydens.com.au",
+     "mentions": 134,
+     "ai_search_volume": 61580
+    },
+    {
+     "key": "www.legalaid.nsw.gov.au",
+     "mentions": 107,
+     "ai_search_volume": 28670
+    },
+    {
+     "key": "www.fairwork.gov.au",
+     "mentions": 106,
+     "ai_search_volume": 35120
+    }
+   ],
+   "search_results_domain": [],
+   "brand_entities_title": [],
+   "brand_entities_category": [],
+   "total": {
+    "mentions": 1223,
+    "ai_search_volume": 460490
+   }
+  }
+ },
+ "lawpartners.com.au": {
+  "hist": [
+   {
+    "year": 2026,
+    "month": 10,
+    "metrics": {
+     "mentions": 73,
+     "ai_search_volume": 5130
+    }
+   },
+   {
+    "year": 2026,
+    "month": 9,
+    "metrics": {
+     "mentions": 300,
+     "ai_search_volume": 73060
+    }
+   },
+   {
+    "year": 2026,
+    "month": 8,
+    "metrics": {
+     "mentions": 238,
+     "ai_search_volume": 24610
+    }
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "metrics": {
+     "mentions": 167,
+     "ai_search_volume": 61050
+    }
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "metrics": {
+     "mentions": 183,
+     "ai_search_volume": 20890
+    }
+   },
+   {
+    "year": 2026,
+    "month": 5,
+    "metrics": {
+     "mentions": 282,
+     "ai_search_volume": 62980
+    }
+   },
+   {
+    "year": 2026,
+    "month": 4,
+    "metrics": {
+     "mentions": 397,
+     "ai_search_volume": 80750
+    }
+   },
+   {
+    "year": 2026,
+    "month": 3,
+    "metrics": {
+     "mentions": 361,
+     "ai_search_volume": 60020
+    }
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "metrics": {
+     "mentions": 172,
+     "ai_search_volume": 48780
+    }
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "metrics": {
+     "mentions": 211,
+     "ai_search_volume": 46790
+    }
+   },
+   {
+    "year": 2025,
+    "month": 12,
+    "metrics": {
+     "mentions": 242,
+     "ai_search_volume": 54000
+    }
+   },
+   {
+    "year": 2025,
+    "month": 11,
+    "metrics": {
+     "mentions": 217,
+     "ai_search_volume": 45200
+    }
+   },
+   {
+    "year": 2025,
+    "month": 10,
+    "metrics": {
+     "mentions": 118,
+     "ai_search_volume": 23530
+    }
+   },
+   {
+    "year": 2025,
+    "month": 9,
+    "metrics": {
+     "mentions": 84,
+     "ai_search_volume": 15250
+    }
+   },
+   {
+    "year": 2025,
+    "month": 8,
+    "metrics": {
+     "mentions": 149,
+     "ai_search_volume": 26510
+    }
+   }
+  ],
+  "metrics": {
+   "location": [
+    {
+     "key": 2036,
+     "mentions": 843,
+     "ai_search_volume": 168220
+    }
+   ],
+   "language": [
+    {
+     "key": "en",
+     "mentions": 843,
+     "ai_search_volume": 168220
+    }
+   ],
+   "platform": [
+    {
+     "key": "google",
+     "mentions": 843,
+     "ai_search_volume": 168220
+    }
+   ],
+   "sources_domain": [
+    {
+     "key": "lawpartners.com.au",
+     "mentions": 842,
+     "ai_search_volume": 168150
+    },
+    {
+     "key": "www.mauriceblackburn.com.au",
+     "mentions": 255,
+     "ai_search_volume": 88760
+    },
+    {
+     "key": "www.youtube.com",
+     "mentions": 228,
+     "ai_search_volume": 46220
+    },
+    {
+     "key": "www.withstandlawyers.com.au",
+     "mentions": 205,
+     "ai_search_volume": 21470
+    },
+    {
+     "key": "gordonlegal.com.au",
+     "mentions": 188,
+     "ai_search_volume": 60590
+    },
+    {
+     "key": "www.slatergordon.com.au",
+     "mentions": 187,
+     "ai_search_volume": 80410
+    },
+    {
+     "key": "www.sira.nsw.gov.au",
+     "mentions": 161,
+     "ai_search_volume": 31560
+    },
+    {
+     "key": "www.lhd.com.au",
+     "mentions": 132,
+     "ai_search_volume": 30360
+    },
+    {
+     "key": "www.shine.com.au",
+     "mentions": 127,
+     "ai_search_volume": 33410
+    },
+    {
+     "key": "www.gerardmaloufpartners.com.au",
+     "mentions": 116,
+     "ai_search_volume": 17660
+    }
+   ],
+   "search_results_domain": [],
+   "brand_entities_title": [],
+   "brand_entities_category": [],
+   "total": {
+    "mentions": 843,
+    "ai_search_volume": 168220
+   }
+  }
+ },
+ "mauriceblackburn.com.au": {
+  "hist": [
+   {
+    "year": 2026,
+    "month": 10,
+    "metrics": {
+     "mentions": 134,
+     "ai_search_volume": 9380
+    }
+   },
+   {
+    "year": 2026,
+    "month": 9,
+    "metrics": {
+     "mentions": 868,
+     "ai_search_volume": 253750
+    }
+   },
+   {
+    "year": 2026,
+    "month": 8,
+    "metrics": {
+     "mentions": 536,
+     "ai_search_volume": 95140
+    }
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "metrics": {
+     "mentions": 574,
+     "ai_search_volume": 268090
+    }
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "metrics": {
+     "mentions": 468,
+     "ai_search_volume": 103820
+    }
+   },
+   {
+    "year": 2026,
+    "month": 5,
+    "metrics": {
+     "mentions": 918,
+     "ai_search_volume": 317950
+    }
+   },
+   {
+    "year": 2026,
+    "month": 4,
+    "metrics": {
+     "mentions": 1132,
+     "ai_search_volume": 427750
+    }
+   },
+   {
+    "year": 2026,
+    "month": 3,
+    "metrics": {
+     "mentions": 990,
+     "ai_search_volume": 230390
+    }
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "metrics": {
+     "mentions": 470,
+     "ai_search_volume": 184810
+    }
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "metrics": {
+     "mentions": 578,
+     "ai_search_volume": 195360
+    }
+   },
+   {
+    "year": 2025,
+    "month": 12,
+    "metrics": {
+     "mentions": 568,
+     "ai_search_volume": 213510
+    }
+   },
+   {
+    "year": 2025,
+    "month": 11,
+    "metrics": {
+     "mentions": 446,
+     "ai_search_volume": 137310
+    }
+   },
+   {
+    "year": 2025,
+    "month": 10,
+    "metrics": {
+     "mentions": 319,
+     "ai_search_volume": 96950
+    }
+   },
+   {
+    "year": 2025,
+    "month": 9,
+    "metrics": {
+     "mentions": 163,
+     "ai_search_volume": 43330
+    }
+   },
+   {
+    "year": 2025,
+    "month": 8,
+    "metrics": {
+     "mentions": 304,
+     "ai_search_volume": 113080
+    }
+   }
+  ],
+  "metrics": {
+   "location": [
+    {
+     "key": 2036,
+     "mentions": 2309,
+     "ai_search_volume": 739810
+    }
+   ],
+   "language": [
+    {
+     "key": "en",
+     "mentions": 2309,
+     "ai_search_volume": 739810
+    }
+   ],
+   "platform": [
+    {
+     "key": "google",
+     "mentions": 2309,
+     "ai_search_volume": 739810
+    }
+   ],
+   "sources_domain": [
+    {
+     "key": "www.mauriceblackburn.com.au",
+     "mentions": 2309,
+     "ai_search_volume": 739810
+    },
+    {
+     "key": "www.youtube.com",
+     "mentions": 698,
+     "ai_search_volume": 288890
+    },
+    {
+     "key": "www.slatergordon.com.au",
+     "mentions": 619,
+     "ai_search_volume": 229100
+    },
+    {
+     "key": "www.shine.com.au",
+     "mentions": 335,
+     "ai_search_volume": 107400
+    },
+    {
+     "key": "gordonlegal.com.au",
+     "mentions": 293,
+     "ai_search_volume": 109520
+    },
+    {
+     "key": "www.facebook.com",
+     "mentions": 280,
+     "ai_search_volume": 105920
+    },
+    {
+     "key": "lawpartners.com.au",
+     "mentions": 255,
+     "ai_search_volume": 88760
+    },
+    {
+     "key": "www.turnerfreeman.com.au",
+     "mentions": 217,
+     "ai_search_volume": 81130
+    },
+    {
+     "key": "www.legalaid.nsw.gov.au",
+     "mentions": 210,
+     "ai_search_volume": 45360
+    },
+    {
+     "key": "www.armstronglegal.com.au",
+     "mentions": 207,
+     "ai_search_volume": 100050
+    }
+   ],
+   "search_results_domain": [],
+   "brand_entities_title": [],
+   "brand_entities_category": [],
+   "total": {
+    "mentions": 2309,
+    "ai_search_volume": 739810
+   }
+  }
+ },
+ "hallpayne.com.au": {
+  "hist": [
+   {
+    "year": 2026,
+    "month": 10,
+    "metrics": {
+     "mentions": 51,
+     "ai_search_volume": 3630
+    }
+   },
+   {
+    "year": 2026,
+    "month": 9,
+    "metrics": {
+     "mentions": 225,
+     "ai_search_volume": 64170
+    }
+   },
+   {
+    "year": 2026,
+    "month": 8,
+    "metrics": {
+     "mentions": 180,
+     "ai_search_volume": 109840
+    }
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "metrics": {
+     "mentions": 197,
+     "ai_search_volume": 53120
+    }
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "metrics": {
+     "mentions": 175,
+     "ai_search_volume": 22740
+    }
+   },
+   {
+    "year": 2026,
+    "month": 5,
+    "metrics": {
+     "mentions": 226,
+     "ai_search_volume": 67070
+    }
+   },
+   {
+    "year": 2026,
+    "month": 4,
+    "metrics": {
+     "mentions": 372,
+     "ai_search_volume": 108440
+    }
+   },
+   {
+    "year": 2026,
+    "month": 3,
+    "metrics": {
+     "mentions": 432,
+     "ai_search_volume": 76010
+    }
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "metrics": {
+     "mentions": 205,
+     "ai_search_volume": 53930
+    }
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "metrics": {
+     "mentions": 171,
+     "ai_search_volume": 45170
+    }
+   },
+   {
+    "year": 2025,
+    "month": 12,
+    "metrics": {
+     "mentions": 223,
+     "ai_search_volume": 75800
+    }
+   },
+   {
+    "year": 2025,
+    "month": 11,
+    "metrics": {
+     "mentions": 240,
+     "ai_search_volume": 62410
+    }
+   },
+   {
+    "year": 2025,
+    "month": 10,
+    "metrics": {
+     "mentions": 168,
+     "ai_search_volume": 55380
+    }
+   },
+   {
+    "year": 2025,
+    "month": 9,
+    "metrics": {
+     "mentions": 116,
+     "ai_search_volume": 47790
+    }
+   },
+   {
+    "year": 2025,
+    "month": 8,
+    "metrics": {
+     "mentions": 181,
+     "ai_search_volume": 57590
+    }
+   }
+  ],
+  "metrics": {
+   "location": [
+    {
+     "key": 2036,
+     "mentions": 674,
+     "ai_search_volume": 245610
+    }
+   ],
+   "language": [
+    {
+     "key": "en",
+     "mentions": 674,
+     "ai_search_volume": 245610
+    }
+   ],
+   "platform": [
+    {
+     "key": "google",
+     "mentions": 674,
+     "ai_search_volume": 245610
+    }
+   ],
+   "sources_domain": [
+    {
+     "key": "hallpayne.com.au",
+     "mentions": 497,
+     "ai_search_volume": 191760
+    },
+    {
+     "key": "www.fairwork.gov.au",
+     "mentions": 244,
+     "ai_search_volume": 58330
+    },
+    {
+     "key": "www.hallpayne.com.au",
+     "mentions": 177,
+     "ai_search_volume": 54570
+    },
+    {
+     "key": "www.youtube.com",
+     "mentions": 148,
+     "ai_search_volume": 124160
+    },
+    {
+     "key": "www.mauriceblackburn.com.au",
+     "mentions": 124,
+     "ai_search_volume": 37200
+    },
+    {
+     "key": "www.slatergordon.com.au",
+     "mentions": 91,
+     "ai_search_volume": 26020
+    },
+    {
+     "key": "peninsulagrouplimited.com.au",
+     "mentions": 82,
+     "ai_search_volume": 13550
+    },
+    {
+     "key": "www.reddit.com",
+     "mentions": 69,
+     "ai_search_volume": 10020
+    },
+    {
+     "key": "www.fwc.gov.au",
+     "mentions": 63,
+     "ai_search_volume": 14630
+    },
+    {
+     "key": "www.facebook.com",
+     "mentions": 56,
+     "ai_search_volume": 5970
+    }
+   ],
+   "search_results_domain": [],
+   "brand_entities_title": [],
+   "brand_entities_category": [],
+   "total": {
+    "mentions": 674,
+    "ai_search_volume": 245610
+   }
+  }
+ }
+}

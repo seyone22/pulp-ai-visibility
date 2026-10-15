@@ -1,0 +1,17 @@
+{
+  "name": "lhd-ai-visibility",
+  "private": true,
+  "type": "module",
+  "description": "LHD Lawyers AI visibility report (Oct 2026): data pipeline and animated HTML deck",
+  "scripts": {
+    "build": "cd pipeline && node build.mjs && node make_site.mjs ../site",
+    "deploy": "wrangler pages deploy site --project-name lhd-ai-visibility --branch main"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.124.0",
+    "d3-geo": "^3.1.1",
+    "puppeteer-core": "^24.0.0",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2"
+  }
+}

@@ -1,0 +1,225 @@
+[
+  {
+    "queryId": "Q1",
+    "queryText": "Who are the best paid ads ecommerce agencies in Australia?",
+    "engine": "Gemini 3.8 (Search Grounded)",
+    "rawAnswer": "The best paid ads e-commerce agency in Australia depends on your brand's size, budget, and channel focus. The Australian market has a mix of aggressive direct-to-consumer (DTC) performance shops, enterprise-grade search/shopping media agencies, and boutique profit-focused teams.\n\n---\n\n### 1. The Top Paid Ads E-Commerce Agencies\n\n#### **Megaphone** *(Melbourne & Sydney)*\n* **Best for:** Fast-growing DTC brands, social-first scaling (Meta, TikTok), and creative-heavy campaigns.\n* **Why they stand out:** Megaphone is one of Australia’s most awarded performance agencies. They specialize heavily in e-commerce, offering full-funnel media buying paired with dedicated in-house creative strategists and UGC production. They are ideal for brands wanting rapid scale on Meta, TikTok, and Google Ads.\n\n#### **Sparro (Sparro by Brainlabs)** *(Sydney)*\n* **Best for:** Mid-market to enterprise online retailers with complex product catalogs.\n* **Why they stand out:** Sparro is one of the largest and most respected independent performance agencies in Australia. They manage massive digital spends for retailers like Bing Lee, Catch, and Temple & Webster. If your e-commerce relies heavily on Google Shopping, Performance Max, programmatic media, and advanced data warehousing, Sparro is a heavyweight.\n\n#### **farsiight** *(Brisbane & Sydney)*\n* **Best for:** E-commerce brands focused on sustainable, margin-first growth.\n* **Why they stand out:** Unlike agencies that chase vanity in-platform ROAS, farsiight structures media buying around contribution margin, blended CAC, and customer lifetime value (LTV). They are boutique, highly communicative, and specialize almost exclusively in scaling e-commerce brands on Meta and Google Ads.\n\n#### **Impressive** *(Melbourne)*\n* **Best for:** Multi-channel full-funnel performance.\n* **Why they stand out:** Impressive is a Google Premier Partner with a heavy focus on end-to-end performance marketing. They combine paid search, Google Shopping, programmatic ads, and paid social with conversion rate optimization (CRO). They are a great fit for brands spending upwards of $15k–$100k+/month looking to diversify beyond Meta alone.\n\n#### **Rocket Agency** *(Sydney)*\n* **Best for:** Established mid-tier Australian retailers wanting full strategic transparency.\n* **Why they stand out:** Rocket focuses on transparent media planning, audience segmenting, and performance creative. They have a strong track record of transitioning traditional Australian retail names into high-performing digital channels via Google Ads and paid social.\n\n#### **King Kong** *(Melbourne)*\n* **Best for:** High-intensity direct-response advertising and rapid customer acquisition.\n* **Why they stand out:** Founded by Sabri Suby, King Kong is widely known for aggressive, performance-guaranteed direct response marketing. If you have high-ticket products or hero SKUs that thrive on aggressive sales funnels, long-form landing pages, and direct-response paid traffic, King Kong excels in that style.\n\n---\n\n### 2. How to Choose the Right Agency for Your Store\n\nBefore signing a retainer, evaluate agencies against these four factors:\n\n1. **In-House Creative Capability:** Platform algorithms (Meta Advantage+, TikTok, Google PMax) now rely on creative variations rather than hyper-granular audience targeting. Ensure the agency produces or actively directs UGC, high-converting hooks, and video assets.\n2. **Attribution & Margin Focus:** Ask how they report. If they only report in-platform ROAS (which double-counts across Meta and Google), be cautious. Top agencies measure **MER (Marketing Efficiency Ratio)**, blended CAC, and new-customer acquisition vs. repeat revenue.\n3. **Account Ownership:** Ensure your brand retains 100% ownership of your ad accounts, pixel data, and creative assets—even if you part ways.\n4. **Fee Alignment:** \n   * *Percentage of Ad Spend:* Common, but incentivizes the agency to push you to spend more.\n   * *Base Retainer + Performance Bonus (or Profit Share):* Often the best alignment for brands spending over $30,000/month.",
+    "searchQueries": [
+      "best paid ads ecommerce agencies Australia",
+      "top ecommerce performance marketing agency Australia Megaphone Sparro"
+    ],
+    "evaluation": {
+      "target_mentioned": false,
+      "target_rank_position": null,
+      "stance": "Not Mentioned",
+      "stance_score": 0,
+      "all_named_entities_in_order": [
+        "Megaphone",
+        "Sparro",
+        "Brainlabs",
+        "Bing Lee",
+        "Catch",
+        "Temple & Webster",
+        "farsiight",
+        "Impressive",
+        "Rocket Agency",
+        "King Kong",
+        "Sabri Suby"
+      ],
+      "hallucinated_facts": [],
+      "cited_sources": []
+    }
+  },
+  {
+    "queryId": "Q2",
+    "queryText": "What are the top ecommerce performance marketing agencies in Melbourne?",
+    "engine": "Gemini 3.8 (Search Grounded)",
+    "rawAnswer": "Melbourne has one of the most competitive digital commerce landscapes in Australia, home to several world-class performance marketing agencies that specialize specifically in scaling Direct-to-Consumer (D2C) and retail e-commerce brands.\n\nThe top e-commerce performance marketing agencies operating in Melbourne include the following leading firms, categorized by their strengths and focus:\n\n---\n\n### 1. The Heavyweights (Scale & Full-Funnel Growth)\n\n* **Megaphone Marketing (Cremorne)**\n  * **Best For:** Mid-market to high-growth e-commerce and D2C brands looking for aggressive paid social and omni-channel scale.\n  * **Core Strengths:** Consistently recognized as one of Australia’s top growth agencies, Megaphone specializes heavily in Meta (Facebook/Instagram), TikTok Ads, Google Ads, and Klaviyo/email marketing. They emphasize data-driven creative testing and AI-driven media optimization to scale client revenue.\n* **Impressive (South Yarra)**\n  * **Best For:** Established e-commerce brands needing integrated performance SEO, Google Premier Partner PPC, and paid media.\n  * **Core Strengths:** Impressive operates without platform silos, combining technical search engine optimization with high-intent paid search, YouTube advertising, and programmatic media. They have a proven track record of handling high-SKU product catalogs and large e-commerce inventories.\n* **King Kong (South Yarra)**\n  * **Best For:** Aggressive, direct-response customer acquisition and high-converting funnel builds.\n  * **Core Strengths:** Founded by Sabri Suby, King Kong is renowned for its conversion-obsessed, direct-response approach. They focus heavily on immediate cash flow, high-velocity creative funnels, and performance media buying where every dollar spent is tied directly to ROAS.\n\n---\n\n### 2. D2C Growth & Creative-First Specialists\n\n* **farsiight (Melbourne & Brisbane)**\n  * **Best For:** Fast-growing e-commerce and scale-up lifestyle brands.\n  * **Core Strengths:** Because modern performance media buying is driven heavily by ad creative, farsiight couples rigorous media buying (Meta, Google, TikTok) with dedicated creative strategy (UGC, short-form video, landing page angles). They take a partnership-led, boutique approach with transparent communication.\n* **NOIR & BLANCO**\n  * **Best For:** Fashion, beauty, lifestyle, and luxury D2C brands.\n  * **Core Strengths:** They bridge the gap between media buying and on-site experience. Rather than treating ads in a vacuum, they focus on full customer acquisition: paid social, Shopify optimization, and Conversion Rate Optimization (CRO) to maximize lifetime value and on-site checkout rates.\n* **Reform Digital**\n  * **Best For:** Mid-market e-commerce looking for transparent, channel-specific PPC and SEO.\n  * **Core Strengths:** Transparent reporting and high technical competency across Google Shopping/Performance Max campaigns and SEO migration/scaling.\n\n---\n\n### 3. Integrated Tech + Performance Agencies\n\n* **Emote Digital (Hawthorn)**\n  * **Best For:** Brands needing their e-commerce storefront (Shopify Plus / WooCommerce) built or maintained hand-in-hand with paid media campaigns.\n  * **Core Strengths:** Unlike pure media-buying shops, Emote brings an engineering and UX edge. They ensure site speed, technical architecture, and checkout flows are optimized to handle and convert high-volume paid traffic from Meta and Google.\n* **Overdose. Digital (Melbourne Office)**\n  * **Best For:** Enterprise e-commerce, global expansion, and multi-channel retailers.\n  * **Core Strengths:** A global powerhouse in digital commerce, Overdose covers end-to-end commerce strategy, ERP/tech integrations, UX design, and enterprise-grade performance media buying.\n\n---\n\n### Key Questions to Ask When Choosing an Agency:\n\n1. **How do you handle Creative Strategy?** Modern algorithms (Meta Advantage+, Google PMax) rely heavily on creative diversification. Top agencies will have an in-house pipeline for scriptwriting, UGC, and static iteration, rather than expecting you to supply finished ads.\n2. **What attribution model do you use?** Be wary of agencies relying solely on platform-reported ROAS. Ask how they evaluate blended performance, MER (Marketing Efficiency Ratio), and third-party attribution (e.g., Triple Whale or Northbeam).\n3. **Who manages the account?** Determine whether your account will be overseen by senior media buyers or handed off to junior coordinators after onboarding.",
+    "searchQueries": [
+      "best ecommerce digital marketing agency Melbourne performance marketing",
+      "top ecommerce performance marketing agencies Melbourne",
+      "Megaphone Marketing Melbourne ecommerce performance",
+      "top performance marketing agencies ecommerce Australia Melbourne"
+    ],
+    "evaluation": {
+      "target_mentioned": false,
+      "target_rank_position": null,
+      "stance": "Not Mentioned",
+      "stance_score": 0,
+      "all_named_entities_in_order": [
+        "Megaphone Marketing",
+        "Impressive",
+        "King Kong",
+        "farsiight",
+        "NOIR & BLANCO",
+        "Reform Digital",
+        "Emote Digital",
+        "Overdose. Digital"
+      ],
+      "hallucinated_facts": [],
+      "cited_sources": []
+    }
+  },
+  {
+    "queryId": "Q3",
+    "queryText": "Which are the best Meta ads and paid social agencies for Shopify brands in Australia?",
+    "engine": "Gemini 3.8 (Search Grounded)",
+    "rawAnswer": "Selecting the best Meta ads (Facebook/Instagram) and paid social agency in Australia for a Shopify brand depends on stage, monthly ad spend, and whether high-volume creative production is required alongside media buying. \n\nBecause modern Meta algorithms (such as Advantage+ Shopping Campaigns) reward **creative volume and first-party data** rather than manual micro-targeting, the top Australian agencies in this space focus heavily on creative testing, server-side tracking (Shopify Conversions API), and blended metrics (MER/eCAC).\n\n---\n\n### 1. The Leading Shopify & Paid Social Specialists\n\n#### **Megaphone Marketing** *(Melbourne, Sydney, Brisbane)*\n* **Best for:** Fast-growing DTC consumer brands (fashion, beauty, lifestyle, FMCG).\n* **Why them:** Megaphone is one of Australia’s most awarded and recognized performance agencies. They have a massive footprint in the Shopify DTC space and specialize heavily in paid social (Meta and TikTok) paired with UGC production. \n* **Strengths:** Rapid creative testing cycles, established creator/influencer pipelines, and deep experience scaling mid-tier Shopify stores to eight-figure GMVs.\n\n#### **farsiight** *(Brisbane & Melbourne)*\n* **Best for:** Ambitious, margin-conscious DTC brands looking for senior-led, transparent growth.\n* **Why them:** Unlike larger \"churn-and-burn\" agencies, farsiight operates with a boutique, high-touch model. They hold an exceptional reputation in the Australian eCommerce community for clean media buying structures, clear communication, and transparent attribution.\n* **Strengths:** Strong focus on contribution margin and new-customer acquisition (nCAC) rather than inflated in-platform ROAS. Highly capable at synchronizing Meta ads with Google Ads.\n\n#### **Impressive Digital** *(Melbourne)*\n* **Best for:** Established eCommerce brands wanting multi-channel performance backing their Meta spend.\n* **Why them:** Impressive is a powerhouse performance agency with dedicated squads for paid social, search, and CRO. They specialize in turning Shopify stores into full-funnel engines.\n* **Strengths:** Enterprise-level reporting, dedicated creative directors for paid social assets, and advanced full-funnel retargeting/retention frameworks.\n\n---\n\n### 2. Boutique & Mid-Market DTC Growth Partners\n\n#### **Gorilla 360** *(Newcastle / National)*\n* **Best for:** Small to mid-market Shopify brands needing an official Shopify Partner.\n* **Why them:** An accredited Shopify Partner agency that blends store optimization directly with paid acquisition. They understand the technical nuances of Shopify themes, checkout friction, and how they interact with Meta traffic.\n* **Strengths:** Practical, no-nonsense approach to scaling catalogues using Dynamic Product Ads (DPA) and Advantage+ campaigns.\n\n#### **Rocket Agency** *(Sydney)*\n* **Best for:** Brands needing rigorous, analytical performance frameworks.\n* **Why them:** Rocket is consistently awarded for performance marketing in Australia. While they work across multiple verticals, their eCommerce division excels at data tracking, dashboard customisation, and cross-channel media planning.\n* **Strengths:** Attribution modeling, disciplined creative iteration, and deep integration with GA4 and Shopify reporting.\n\n#### **Emote Digital** *(Melbourne)*\n* **Best for:** Brands needing seamless integration between paid social ads and web/Shopify UI.\n* **Why them:** Emote is both an eCommerce development agency and a certified paid media partner. This means their paid social team works directly with their in-house web developers to ensure landing pages convert Meta traffic effectively.\n* **Strengths:** Custom landing page builds for ad campaigns, strong visual storytelling, and platform-specific Reels/TikTok concepts.\n\n---\n\n### 3. Enterprise & High-Volume Retail\n\n#### **Sparro** *(Sydney)*\n* **Best for:** High-growth scale-ups, established retail brands, and enterprise Shopify Plus merchants.\n* **Why them:** Australia’s largest independent digital agency. If you are spending $50k–$200k+ per month on Meta, Sparro offers deep enterprise capabilities, custom data science resources, and media modeling.\n* **Strengths:** Custom predictive modeling, media-mix modeling (MMM), and tier-one client support.\n\n#### **King Kong** *(Melbourne)*\n* **Best for:** Brands with aggressive growth targets that rely on direct-response marketing and aggressive offer structures.\n* **Why them:** Founded by Sabri Suby, King Kong is built entirely around direct response and customer acquisition. \n* **Strengths:** Aggressive copy angles, high-converting offer construction, and conversion-focused landing page funnels.\n\n---\n\n### Checklist: How to Vet a Meta Agency for Shopify in Australia\n\nBefore signing an agency contract, ensure they meet these modern paid social criteria:\n\n1. **Creative Strategy & Production Capability:** Modern Meta advertising is won by creative, not by micro-targeting hacks. Does the agency produce and edit UGC, hooks, and static variations, or do they expect you to supply finished creative?\n2. **Shopify Tracking & Attribution Stack:** Ensure they know how to properly audit your **Shopify Conversions API (CAPI)** setup, GA4 events, and first-party tracking tools (e.g., Triple Whale, Northbeam, or Elevar).\n3. **KPI Alignment (MER vs. ROAS):** Ask how they define success. If an agency only reports on in-platform ROAS (which Meta tends to over-report due to view-through conversions and attribution overlap), they may not be scaling your brand profitably. Look for an agency that measures **Marketing Efficiency Ratio (MER / blended ROAS)** and **contribution margin**.\n4. **Ad Account Ownership:** Always confirm that campaigns run inside **your** Meta Business Manager and that you own all ad creative and data assets if the contract terminates.",
+    "searchQueries": [
+      "\"farsiight\" ecommerce meta ads",
+      "\"megaphone marketing\" shopify meta ads",
+      "best meta ads paid social agencies shopify ecommerce australia",
+      "\"paid social agency\" ecommerce melbourne OR sydney",
+      "top meta ads agencies for ecommerce brands australia",
+      "boutique d2c meta ads agency australia",
+      "best performance marketing agencies ecommerce brands australia",
+      "\"meta ads\" \"agency\" shopify d2c australia"
+    ],
+    "evaluation": {
+      "target_mentioned": false,
+      "target_rank_position": null,
+      "stance": "Not Mentioned",
+      "stance_score": 0,
+      "all_named_entities_in_order": [
+        "Megaphone Marketing",
+        "farsiight",
+        "Impressive Digital",
+        "Gorilla 360",
+        "Rocket Agency",
+        "Emote Digital",
+        "Sparro",
+        "King Kong",
+        "Shopify",
+        "Meta",
+        "Facebook",
+        "Instagram",
+        "TikTok",
+        "Google Ads",
+        "Triple Whale",
+        "Northbeam",
+        "Elevar",
+        "Sabri Suby"
+      ],
+      "hallucinated_facts": [],
+      "cited_sources": []
+    }
+  },
+  {
+    "queryId": "Q4",
+    "queryText": "Which agency should a 7-figure ecommerce brand hire for paid ads in Australia?",
+    "engine": "Gemini 3.8 (Search Grounded)",
+    "rawAnswer": "For a 7-figure ecommerce brand ($1M to $10M ARR) in Australia, standard \"button-pushing\" media buying inside Meta or Google Ads is no longer enough to scale. At this stage, your ads agency must excel at **creative strategy and production, attribution beyond platform ROAS (MER/Contribution Margin), and omnichannel synergy (Meta + Google Shopping/PMax + TikTok)**.\n\nThe following agencies in Australia are widely regarded as the strongest fits for 7-figure DTC brands, categorized by their distinct strengths:\n\n---\n\n### 1. The Top Agency Recommendations\n\n#### **DataSauce** *(Best for pure DTC & Shopify scale)*\n* **Location:** Melbourne\n* **Best suited for:** Fast-growing direct-to-consumer (DTC) brands that want paid media tightly integrated with retention (Shopify + Klaviyo + Meta/Google).\n* **Why hire them:** DataSauce focuses exclusively on the ecommerce ecosystem. They understand inventory planning, seasonality, lifetime value (LTV), and bottom-line margin. They are built specifically for brands trying to scale from 7 figures into 8 figures without sacrificing profitability.\n\n#### **Defiant Digital** *(Best for creative-led scaling & UGC)*\n* **Location:** Sydney\n* **Best suited for:** Fashion, beauty, lifestyle, and consumer brands whose biggest bottleneck is ad creative fatigue.\n* **Why hire them:** With Meta’s modern algorithm (Advantage+), creative *is* your targeting. Defiant pairs high-volume creative production (briefing creators, UGC, static ads, motion design) directly with media buying. If you know your product works but your internal team cannot produce 15–30 fresh ad angles a month, they are a standout choice.\n\n#### **farsiight** *(Best boutique, high-touch growth partner)*\n* **Location:** Brisbane / Sydney\n* **Best suited for:** Founders who want senior-level attention rather than being handed off to a junior account coordinator.\n* **Why hire them:** farsiight is a high-performance boutique agency specializing in ecommerce and SaaS. They limit client rosters to maintain high-touch communication and focus on blended Marketing Efficiency Ratio (MER) and unit economics rather than vanity in-platform ROAS.\n\n#### **Sparro** *(Best for heavy Google/PMax, Catalog & high-scale retail)*\n* **Location:** Sydney\n* **Best suited for:** Large catalog brands, high 7-figure brands crossing into 8 figures, or brands where Google Shopping/Search is just as critical as Meta.\n* **Why hire them:** Sparro is Australia’s largest independent digital agency. They manage substantial budgets, have direct access to beta features and Google engineers, and have deep technical data and analytics capabilities. They are ideal if you have a wide SKU count and require complex feed management.\n\n#### **Megaphone Marketing** *(Best for established playbooks & rapid split-testing)*\n* **Location:** Melbourne\n* **Best suited for:** Mid-to-high 7-figure brands seeking a heavily structured, process-driven agency with massive case-study experience.\n* **Why hire them:** One of the most awarded ecommerce growth agencies in Australia. They run a well-oiled machine for scaling accounts across Meta, Google, and TikTok. Be sure during the sales process to negotiate who your dedicated account lead will be.\n\n---\n\n### 2. How to Choose Between Them\n\n| If your primary problem is… | Look at: |\n| :--- | :--- |\n| **\"Our ads are fatigued; we need high-volume UGC and creative hooks.\"** | **Defiant Digital** |\n| **\"We need an integrated partner who looks at email, paid ads, and unit economics.\"** | **DataSauce** |\n| **\"We hate typical big-agency red tape and want a transparent, agile partner.\"** | **farsiight** |\n| **\"We have 500+ SKUs and need sophisticated Google Shopping / PMax / Feed management.\"** | **Sparro** |\n\n---\n\n### 3. Vetting Checklist for a 7-Figure Brand\n\nBefore signing an agreement, put these questions directly to the agencies:\n\n1. **\"Who is actually inside the ad account day-to-day?\"**\n   * *Watch out for:* Senior directors pitching you, only to hand your $30k+/mo ad spend to an intern or coordinator with 6 months of experience.\n2. **\"How do you handle Creative Strategy?\"**\n   * At 7 figures, if an agency says, *\"You supply the videos/images, we just run the campaigns,\"* walk away immediately. They must either supply creatives or provide rigorous, storyboarded briefs based on competitor and ad-hook analysis.\n3. **\"What primary metric do you report against?\"**\n   * If they only report in-platform ROAS (which double-counts across Meta and Google), that is a red flag. They should report against **MER (Marketing Efficiency Ratio)**, **Blended CAC**, and **Net Contribution Margin**.\n4. **\"What does your contract structure look like?\"**\n   * Avoid agencies demanding mandatory 12-month lock-in contracts upfront. High-tier performance agencies typically operate on an initial 3-month proof period, rolling month-to-month or quarterly thereafter.",
+    "searchQueries": [
+      "best ecommerce paid ads agencies Australia",
+      "top DTC performance marketing agency Australia"
+    ],
+    "evaluation": {
+      "target_mentioned": false,
+      "target_rank_position": null,
+      "stance": "Not Mentioned",
+      "stance_score": 0,
+      "all_named_entities_in_order": [
+        "DataSauce",
+        "Defiant Digital",
+        "farsiight",
+        "Sparro",
+        "Megaphone Marketing"
+      ],
+      "hallucinated_facts": [],
+      "cited_sources": []
+    }
+  },
+  {
+    "queryId": "Q1",
+    "queryText": "Who are the best paid ads ecommerce agencies in Australia?",
+    "engine": "Claude Sonnet 4.5",
+    "rawAnswer": "# Top Paid Ads Ecommerce Agencies in Australia\n\nHere are some of the leading paid advertising agencies specializing in ecommerce in Australia:\n\n## **Tier 1 - Premium Agencies**\n\n1. **Mutinex** - Data-driven performance agency with strong ecommerce focus\n2. **Rocket Agency** - Google Premier Partner, specializes in ecommerce PPC\n3. **Exposure Ninja (AU branch)** - Full-service digital with strong paid ads division\n4. **Pilothouse** - Ecommerce-focused, strong in Meta and Google ads\n5. **Zib Digital** - Performance marketing with ecommerce specialization\n\n## **Tier 2 - Strong Specialists**\n\n- ** Fennec** - Focused on scaling ecommerce brands\n- **Dilate Digital** - Google Premier Partner, ecommerce expertise\n- **Ammo Marketing** - Performance-driven ecommerce agency\n- **The Goat Agency** - Influencer + paid social for ecommerce\n- **Ampd** - Ecommerce growth specialists\n\n## **Key Considerations When Choosing:**\n\n- **Minimum ad spend requirements** (often $10K-50K+ monthly)\n- **Industry experience** in your specific niche\n- **Platform expertise** (Meta, Google, TikTok, etc.)\n- **Case studies** and verifiable results\n- **Agency fees** (typically 10-20% of ad spend or fixed retainer)\n\nWould you like more specific information about any of these agencies, or recommendations based on your budget/industry?",
+    "evaluation": {
+      "target_mentioned": false,
+      "target_rank_position": null,
+      "stance": "Not Mentioned",
+      "stance_score": 0,
+      "all_named_entities_in_order": [
+        "Mutinex",
+        "Rocket Agency",
+        "Exposure Ninja",
+        "Pilothouse",
+        "Zib Digital",
+        "Fennec",
+        "Dilate Digital",
+        "Ammo Marketing",
+        "The Goat Agency",
+        "Ampd"
+      ],
+      "hallucinated_facts": [],
+      "cited_sources": []
+    }
+  },
+  {
+    "queryId": "Q2",
+    "queryText": "What are the top ecommerce performance marketing agencies in Melbourne?",
+    "engine": "Claude Sonnet 4.5",
+    "rawAnswer": "# Top Ecommerce Performance Marketing Agencies in Melbourne\n\nHere are some of the leading performance marketing agencies in Melbourne with strong ecommerce expertise:\n\n## **Specialist Ecommerce Agencies**\n\n1. **Merkle/Dentsu** - Full-service digital with strong ecommerce and performance capabilities\n2. **Performics** - Performance marketing focused with ecommerce specialization\n3. **Amplified Intelligence** - Data-driven performance marketing\n4. **Hatched** - Ecommerce-focused digital agency\n\n## **Performance Marketing Leaders**\n\n5. **Hood Digital** - Performance-focused with ecommerce clients\n6. **Orchard** - Digital marketing with strong ecommerce track record\n7. **Thrive** - Growth marketing agency with ecommerce expertise\n8. **Tmrw Digital** - Performance marketing and paid media specialists\n\n## **Full-Service with Strong Ecommerce**\n\n9. **Prosperity Media** - Performance-driven digital agency\n10. **Rocket Agency** - Digital marketing with ecommerce focus\n11. **Impressive** - Digital performance agency\n\n## **What to Look For:**\n- Proven ecommerce case studies and results\n- Platform expertise (Shopify, WooCommerce, Magento, etc.)\n- Paid media capabilities (Google Ads, Meta, etc.)\n- Analytics and conversion optimization experience\n- Client reviews and testimonials\n\nI'd recommend researching 3-5 agencies that match your specific needs, budget, and industry vertical, then requesting case studies and proposals from your shortlist.\n\nWould you like more specific information about any of these agencies?",
+    "evaluation": {
+      "target_mentioned": false,
+      "target_rank_position": null,
+      "stance": "Not Mentioned",
+      "stance_score": 0,
+      "all_named_entities_in_order": [
+        "Merkle/Dentsu",
+        "Performics",
+        "Amplified Intelligence",
+        "Hatched",
+        "Hood Digital",
+        "Orchard",
+        "Thrive",
+        "Tmrw Digital",
+        "Prosperity Media",
+        "Rocket Agency",
+        "Impressive",
+        "Shopify",
+        "WooCommerce",
+        "Magento",
+        "Google Ads",
+        "Meta"
+      ],
+      "hallucinated_facts": [],
+      "cited_sources": []
+    }
+  },
+  {
+    "queryId": "SERP_AI_MODE",
+    "queryText": "best ecommerce paid ads agency Melbourne",
+    "engine": "Google AI Mode (Melbourne)",
+    "rawAnswer": "[{\"type\":\"ai_overview\",\"rank_group\":1,\"rank_absolute\":1,\"page\":1,\"position\":\"left\",\"xpath\":\"/html[1]/body[1]/div[2]/div[1]/div[9]/div[1]/section[1]/div[1]/div[1]/div[3]/div[4]/div[1]/div[1]/div[1]/div[3]\",\"markdown\":\"When looking for the best eCommerce paid ads agency in Melbourne, the \\\"best\\\" choice depends heavily on your monthly ad spend, platform (`Shopify, Magento, WooCommerce` ), and whether you need pure performance media buying or full-funnel creative strategy (Meta, Google, TikTok).\\n\\nA curated list of standout Melbourne-based agencies known for scaling online retailers includes:\\n\\n- **Impressive** – A heavy-hitting, award-winning performance marketing agency known for massive scale. They are a Google Premier Partner and platform-agnostic, boasting massive case studies (like driving multimillion-dollar revenue scaling for major D2C brands via cross-channel paid search and social). Ideal for mid-to-large enterprise eCommerce brands.[[1]](https://impressive.com.au/ecommerce-performance-marketing-agency/)\\n- **Pulp Digital** – Highly regarded in the Melbourne D2C/eCommerce scene for hyper-focused paid social and Google Ads strategy. They are praised by retail clients for close collaboration, heavy involvement in content/media planning, and driving sustainable year-on-year revenue growth.[[1]](https://www.pulpdigital.com.au/)\\n- **Digital Surfer** – A multi-award-winning Melbourne agency focusing heavily on integrated growth (combining Shopify/WooCommerce builds, SEO, and aggressive paid media across Meta, Google, Bing, and TikTok). Great for emerging to mid-market stores looking for a holistic growth partner.[[1]](https://digitalsurfer.com.au/ecommerce-marketing-melbourne)\\n- **Zeemo** – A long-standing, results-driven Melbourne digital agency (established in 2002) specializing in performance PPC, Google Ads, and conversion-focused paid campaigns alongside organic search. Solid fit for small-to-medium eCommerce setups needing reliable, data-backed execution.[[1]](https://agencies.semrush.com/list/ecommerce/melbourne/)\\n- **Chromatix** – While widely recognized as a premier Melbourne web design and conversion rate optimization (CRO) agency, they excel at the crucial frontend and UX foundations that make paid ad traffic actually convert once it lands on your store.[[1]](https://digitalagencynetwork.com/agencies/melbourne/ecommerce/)\\n\\nTo help narrow down which of these is the best fit for you, tell me:\\n\\n- What is your estimated **monthly ad spend** or current revenue tier?\\n- Which **eCommerce platform** are you on (Shopify, Adobe Commerce/Magento, etc.)?\\n- What are your primary **ad channels** (Meta, Google Ads, TikTok)?\",\"items\":[{\"type\":\"ai_overview_element\",\"position\":\"left\",\"title\":null,\"text\":\"When looking for the best eCommerce paid ads agency in Melbourne, the \\\"best\\\" choice depends heavily on your monthly ad spend, platform ( Shopify, Magento, WooCommerce ), and whether you need pure performance media buying or full-funnel creative strategy (Meta, Google, TikTok).\",\"markdown\":\"When looking for the best eCommerce paid ads agency in Melbourne, the \\\"best\\\" choice depends heavily on your monthly ad spend, platform (`Shopify, Magento, WooCommerce` ), and whether you need pure performance media buying or full-funnel creative strategy (Meta, Google, TikTok).\",\"links\":null,\"images\":null,\"references\":null},{\"type\":\"ai_overview_element\",\"position\":\"left\",\"title\":null,\"text\":\"A curated list of standout Melbourne-based agencies known for scaling online retailers includes:\",\"markdown\":\"A curated list of standout Melbourne-based agencies known for scaling online retailers includes:\",\"links\":null,\"images\":null,\"references\":null},{\"type\":\"ai_overview_element\",\"position\":\"left\",\"title\":null,\"text\":\"Impressive – A heavy-hitting, award-winning performance marketing agency known for massive scale. They are a Google Premier Partner and platform-agnostic, boasting massive case studies (like driving multimillion-dollar revenue scaling for major D2C brands via cross-channel paid search and social). Ideal for mid-to-large enterprise eCommerce brands. Pulp Digital – Highly regarded in the Melbourne D2C/eCommerce scene for hyper-focused paid social and Google Ads strategy. They are praised by retail clients for close collaboration, heavy involvement in content/media planning, and driving sustainable year-on-year revenue growth. Digital Surfer – A multi-award-winning Melbourne agency focusing heavily on integrated growth (combining Shopify/WooCommerce builds, SEO, and aggressive paid media across Meta, Google, Bing, and TikTok). Great for emerging to mid-market stores looking for a holistic growth partner. Zeemo – A long-standing, results-driven Melbourne digital agency (established in 2002) specializing in performance PPC, Google Ads, and conversion-focused paid campaigns alongside organic search. Solid fit for small-to-medium eCommerce setups needing reliable, data-backed execution. Chromatix – While widely recognized as a premier Melbourne web design and conversion rate optimization (CRO) agency, they excel at the crucial frontend and UX foundations that make paid ad traffic actually convert once it lands on your store.\",\"markdown\":\"- **Impressive** – A heavy-hitting, award-winning performance marketing agency known for massive scale. They are a Google Premier Partner and platform-agnostic, boasting massive case studies (like driving multimillion-dollar revenue scaling for major D2C brands via cross-channel paid search and social). Ideal for mid-to-large enterprise eCommerce brands.[[1]](https://impressive.com.au/ecommerce-performance-marketing-agency/)\\n- **Pulp Digital** – Highly regarded in the Melbourne D2C/eCommerce scene for hyper-focused paid social and Google Ads strategy. They are praised by retail clients for close collaboration, heavy involvement in content/media planning, and driving sustainable year-on-year revenue growth.[[1]](https://www.pulpdigital.com.au/)\\n- **Digital Surfer** – A multi-award-winning Melbourne agency focusing heavily on integrated growth (combining Shopify/WooCommerce builds, SEO, and aggressive paid media across Meta, Google, Bing, and TikTok). Great for emerging to mid-market stores looking for a holistic growth partner.[[1]](https://digitalsurfer.com.au/ecommerce-marketing-melbourne)\\n- **Zeemo** – A long-standing, results-driven Melbourne digital agency (established in 2002) specializing in performance PPC, Google Ads, and conversion-focused paid campaigns alongside organic search. Solid fit for small-to-medium eCommerce setups needing reliable, data-backed execution.[[1]](https://agencies.semrush.com/list/ecommerce/melbourne/)\\n- **Chromatix** – While widely recognized as a premier Melbourne web design and conversion rate optimization (CRO) agency, they excel at the crucial frontend and UX foundations that make paid ad traffic actually convert once it lands on your store.[[1]](https://digitalagencynetwork.com/agencies/melbourne/ecommerce/)\",\"links\":null,\"images\":null,\"references\":[{\"type\":\"ai_overview_reference\",\"position\":\"left\",\"source\":\"Impressive Digital\",\"domain\":\"impressive.com.au\",\"url\":\"https://impressive.com.au/ecommerce-performance-marketing-agency/\",\"title\":\"Ecommerce Performance Marketing Agency | Award-Winning\",\"text\":\"Services: eCommerce performance marketing, full-funnel strategies, SEO, PPC, paid social, display/programmatic advertising, YouTub...\"},{\"type\":\"ai_overview_reference\",\"position\":\"left\",\"source\":\"Pulp Digital\",\"domain\":\"www.pulpdigital.com.au\",\"url\":\"https://www.pulpdigital.com.au/\",\"title\":\"Pulp Digital\",\"text\":\"Our weekly catch-up meetings are invaluable and their leadership in providing creative direction and managing our paid ad strategy...\"},{\"type\":\"ai_overview_reference\",\"position\":\"left\",\"source\":\"Digital Surfer\",\"domain\":\"digitalsurfer.com.au\",\"url\":\"https://digitalsurfer.com.au/ecommerce-marketing-melbourne\",\"title\":\"eCommerce Marketing Agency Melbourne | Web, SEO, Paid Ads\",\"text\":\"Multi-award-winning Melbourne eCommerce marketing agency with over a decade of experience. combining websites, SEO, and paid ads …...\"},{\"type\":\"ai_overview_reference\",\"position\":\"left\",\"source\":\"Semrush Agency Partners\",\"domain\":\"agencies.semrush.com\",\"url\":\"https://agencies.semrush.com/list/ecommerce/melbourne/\",\"title\":\"Best Ecommerce Digital Marketing Agencies in Melbourne 2026\",\"text\":\"Zeemo is a results-driven, full-service digital marketing agency in Melbourne (est. 2002), specialising in paid advertising, SEO, ...\"},{\"type\":\"ai_overview_reference\",\"position\":\"left\",\"source\":\"Digital Agency Network\",\"domain\":\"digitalagencynetwork.com\",\"url\":\"https://digitalagencynetwork.com/agencies/melbourne/ecommerce/\",\"title\":\"Best eCommerce Agencies in Melbourne\",\"text\":\"Chromatix is an award-winning Melbourne web design & conversion agency with 17+ years of experience helping businesses create webs...\"}]},{\"type\":\"ai_overview_element\",\"position\":\"left\",\"title\":null,\"text\":\"To help narrow down which of these is the best fit for you, tell me:\",\"markdown\":\"To help narrow down which of these is the best fit for you, tell me:\",\"links\":null,\"images\":null,\"references\":null},{\"type\":\"ai_overview_element\",\"position\":\"left\",\"title\":null,\"text\":\"What is your estimated monthly ad spend or current revenue tier? Which eCommerce platform are you on (Shopify, Adobe Commerce/Magento, etc.)? What are your primary ad channels (Meta, Google Ads, TikTok)?\",\"markdown\":\"- What is your estimated **monthly ad spend** or current revenue tier?\\n- Which **eCommerce platform** are you on (Shopify, Adobe Commerce/Magento, etc.)?\\n- What are your primary **ad channels** (Meta, Google Ads, TikTok)?\",\"links\":null,\"images\":null,\"references\":null}],\"references\":null,\"rectangle\":null}]",
+    "evaluation": {
+      "target_mentioned": true,
+      "target_rank_position": 2,
+      "stance": "Strongly Recommended",
+      "stance_score": 1,
+      "all_named_entities_in_order": [
+        "Shopify",
+        "Magento",
+        "WooCommerce",
+        "Meta",
+        "Google",
+        "TikTok",
+        "Impressive",
+        "Pulp Digital",
+        "Digital Surfer",
+        "Zeemo",
+        "Chromatix",
+        "Adobe Commerce",
+        "Google Ads"
+      ],
+      "hallucinated_facts": [],
+      "cited_sources": [
+        "impressive.com.au",
+        "www.pulpdigital.com.au",
+        "digitalsurfer.com.au",
+        "agencies.semrush.com",
+        "digitalagencynetwork.com"
+      ]
+    }
+  }
+]

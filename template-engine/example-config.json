@@ -1,0 +1,13 @@
+{
+  "clientName": "Pulp Digital",
+  "clientDomain": "pulpdigital.com.au",
+  "homeCity": "melbourne",
+  "categoryName": "Paid Ads eCommerce Agency",
+  "primaryAccent": "#FF4D2D",
+  "darkBg": "#0C0F14",
+  "paperBg": "#FBF8F3",
+  "logoSvgPath": "./pulp-ai-visibility/pipeline/logo.svg",
+  "metricsPath": "./pulp-ai-visibility/pipeline/metrics.json",
+  "histPath": "./pulp-ai-visibility/pipeline/hist.json",
+  "mapPath": "./pulp-ai-visibility/pipeline/map.json"
+}

@@ -1,0 +1,20 @@
+<svg viewBox="0 0 240 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g fill="currentColor">
+    <!-- Stylized Pulp citrus / droplet mark -->
+    <path d="M12 28C17.5228 28 22 23.5228 22 18C22 11 12 3 12 3C12 3 2 11 2 18C2 23.5228 6.47715 28 12 28Z" fill="#FF4D2D"/>
+    <circle cx="12" cy="18" r="4" fill="#FFFFFF" fill-opacity="0.3"/>
+    
+    <!-- "PULP" bold modern lettering -->
+    <!-- P -->
+    <path d="M38 10H50C54.4 10 57.5 12.8 57.5 17C57.5 21.2 54.4 24 50 24H44.5V32H38V10ZM44.5 19H49.5C51.2 19 52.2 18.2 52.2 17C52.2 15.8 51.2 15 49.5 15H44.5V19Z"/>
+    <!-- U -->
+    <path d="M63 10H69.5V23C69.5 25.8 71.2 27.2 74 27.2C76.8 27.2 78.5 25.8 78.5 23V10H85V23C85 29.5 80.5 32.5 74 32.5C67.5 32.5 63 29.5 63 23V10Z"/>
+    <!-- L -->
+    <path d="M92 10H98.5V26.8H108.5V32H92V10Z"/>
+    <!-- P -->
+    <path d="M114 10H126C130.4 10 133.5 12.8 133.5 17C133.5 21.2 130.4 24 126 24H120.5V32H114V10ZM120.5 19H125.5C127.2 19 128.2 18.2 128.2 17C128.2 15.8 127.2 15 125.5 15H120.5V19Z"/>
+    
+    <!-- "DIGITAL" clean tracked sans -->
+    <text x="144" y="27" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="15" font-weight="700" letter-spacing="4" fill="currentColor">DIGITAL</text>
+  </g>
+</svg>

@@ -1,0 +1,2921 @@
+{
+ "cities": {
+  "melbourne": {
+   "answers": 35,
+   "lhdMentions": 6,
+   "lhdRank": 7,
+   "firmsNamed": 10,
+   "totalMentions": 153,
+   "top": [
+    {
+     "name": "Impressive",
+     "n": 35,
+     "rec": 35,
+     "avgPos": 2.7
+    },
+    {
+     "name": "DataSauce",
+     "n": 35,
+     "rec": 35,
+     "avgPos": 3.7
+    },
+    {
+     "name": "Megaphone Marketing",
+     "n": 25,
+     "rec": 25,
+     "avgPos": 1
+    },
+    {
+     "name": "farsiight",
+     "n": 16,
+     "rec": 16,
+     "avgPos": 2.4
+    },
+    {
+     "name": "Sparro",
+     "n": 15,
+     "rec": 15,
+     "avgPos": 1.7
+    },
+    {
+     "name": "Defiant Digital",
+     "n": 10,
+     "rec": 10,
+     "avgPos": 4
+    },
+    {
+     "name": "Pulp Digital",
+     "n": 6,
+     "rec": 6,
+     "avgPos": 3
+    },
+    {
+     "name": "Reform Digital",
+     "n": 5,
+     "rec": 5,
+     "avgPos": 3.8
+    },
+    {
+     "name": "Rocket Agency",
+     "n": 5,
+     "rec": 5,
+     "avgPos": 4
+    },
+    {
+     "name": "King Kong",
+     "n": 1,
+     "rec": 1,
+     "avgPos": 5
+    }
+   ],
+   "lhd": {
+    "name": "Pulp Digital",
+    "n": 6,
+    "rec": 6,
+    "avgPos": 3
+   },
+   "byPlat": {
+    "chatgpt": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Impressive",
+     "leaderN": 7
+    },
+    "aimode": {
+     "lhd": 3,
+     "n": 7,
+     "leader": "Impressive",
+     "leaderN": 7
+    },
+    "gemini": {
+     "lhd": 3,
+     "n": 7,
+     "leader": "Impressive",
+     "leaderN": 7
+    },
+    "perplexity": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Impressive",
+     "leaderN": 7
+    },
+    "claude": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Impressive",
+     "leaderN": 7
+    }
+   },
+   "byPrompt": {
+    "general": {
+     "lhd": 2,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "meta": {
+     "lhd": 2,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "google": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Sparro",
+     "leaderN": 5
+    },
+    "scaling": {
+     "lhd": 1,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "creative": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "tiktok": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "cro": {
+     "lhd": 1,
+     "n": 5,
+     "leader": "Impressive",
+     "leaderN": 5
+    }
+   },
+   "matrix": {
+    "Impressive": {
+     "chatgpt": 7,
+     "aimode": 7,
+     "gemini": 7,
+     "perplexity": 7,
+     "claude": 7
+    },
+    "DataSauce": {
+     "chatgpt": 7,
+     "aimode": 7,
+     "gemini": 7,
+     "perplexity": 7,
+     "claude": 7
+    },
+    "Megaphone Marketing": {
+     "chatgpt": 5,
+     "aimode": 5,
+     "gemini": 5,
+     "perplexity": 5,
+     "claude": 5
+    },
+    "farsiight": {
+     "chatgpt": 4,
+     "aimode": 4,
+     "gemini": 4,
+     "perplexity": 4,
+     "claude": 0
+    },
+    "Sparro": {
+     "chatgpt": 3,
+     "aimode": 3,
+     "gemini": 3,
+     "perplexity": 3,
+     "claude": 3
+    },
+    "Defiant Digital": {
+     "chatgpt": 2,
+     "aimode": 2,
+     "gemini": 2,
+     "perplexity": 2,
+     "claude": 2
+    },
+    "Pulp Digital": {
+     "chatgpt": 0,
+     "aimode": 3,
+     "gemini": 3,
+     "perplexity": 0,
+     "claude": 0
+    }
+   },
+   "cited": 6,
+   "topSources": [
+    [
+     "shopify.com",
+     14
+    ],
+    [
+     "goodfirms.co",
+     10
+    ],
+    [
+     "smartcompany.com.au",
+     9
+    ],
+    [
+     "adnews.com.au",
+     8
+    ],
+    [
+     "digitalagencynetwork.com",
+     8
+    ],
+    [
+     "mumbrella.com.au",
+     6
+    ],
+    [
+     "pulpdigital.com.au",
+     6
+    ],
+    [
+     "semrush.com",
+     6
+    ],
+    [
+     "clutch.co",
+     5
+    ]
+   ],
+   "serp": [
+    {
+     "prompt": "general",
+     "query": "best best paid ads ecommerce agency Melbourne",
+     "lhdOrganic": 8,
+     "lhdLocal": true,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": [
+      "Pulp Digital - Level 4/44 Gwynne St, Cremorne"
+     ]
+    },
+    {
+     "prompt": "meta",
+     "query": "best meta ads & paid social (shopify) Melbourne",
+     "lhdOrganic": 8,
+     "lhdLocal": true,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": [
+      "Pulp Digital - Level 4/44 Gwynne St, Cremorne"
+     ]
+    },
+    {
+     "prompt": "google",
+     "query": "best google ads & performance max Melbourne",
+     "lhdOrganic": 8,
+     "lhdLocal": true,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": [
+      "Pulp Digital - Level 4/44 Gwynne St, Cremorne"
+     ]
+    },
+    {
+     "prompt": "scaling",
+     "query": "best 7-to-8 figure dtc scaling Melbourne",
+     "lhdOrganic": 8,
+     "lhdLocal": true,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": [
+      "Pulp Digital - Level 4/44 Gwynne St, Cremorne"
+     ]
+    },
+    {
+     "prompt": "creative",
+     "query": "best performance creative & ugc Melbourne",
+     "lhdOrganic": 8,
+     "lhdLocal": true,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": [
+      "Pulp Digital - Level 4/44 Gwynne St, Cremorne"
+     ]
+    },
+    {
+     "prompt": "tiktok",
+     "query": "best tiktok ads for ecommerce Melbourne",
+     "lhdOrganic": 8,
+     "lhdLocal": true,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": [
+      "Pulp Digital - Level 4/44 Gwynne St, Cremorne"
+     ]
+    },
+    {
+     "prompt": "cro",
+     "query": "best paid ads + shopify cro & retention Melbourne",
+     "lhdOrganic": 8,
+     "lhdLocal": true,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": [
+      "Pulp Digital - Level 4/44 Gwynne St, Cremorne"
+     ]
+    }
+   ]
+  },
+  "sydney": {
+   "answers": 35,
+   "lhdMentions": 0,
+   "lhdRank": 10,
+   "firmsNamed": 9,
+   "totalMentions": 147,
+   "top": [
+    {
+     "name": "Rocket Agency",
+     "n": 35,
+     "rec": 35,
+     "avgPos": 3.6
+    },
+    {
+     "name": "Megaphone Marketing",
+     "n": 25,
+     "rec": 25,
+     "avgPos": 1
+    },
+    {
+     "name": "Reform Digital",
+     "n": 21,
+     "rec": 21,
+     "avgPos": 4
+    },
+    {
+     "name": "farsiight",
+     "n": 16,
+     "rec": 16,
+     "avgPos": 2.3
+    },
+    {
+     "name": "Sparro",
+     "n": 15,
+     "rec": 15,
+     "avgPos": 1.7
+    },
+    {
+     "name": "Impressive",
+     "n": 10,
+     "rec": 10,
+     "avgPos": 1.9
+    },
+    {
+     "name": "Defiant Digital",
+     "n": 10,
+     "rec": 10,
+     "avgPos": 2
+    },
+    {
+     "name": "DataSauce",
+     "n": 10,
+     "rec": 10,
+     "avgPos": 3.3
+    },
+    {
+     "name": "King Kong",
+     "n": 5,
+     "rec": 5,
+     "avgPos": 3.8
+    }
+   ],
+   "lhd": {
+    "name": "Pulp Digital",
+    "n": 0,
+    "rec": 0,
+    "avgPos": 0
+   },
+   "byPlat": {
+    "chatgpt": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Rocket Agency",
+     "leaderN": 7
+    },
+    "aimode": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Rocket Agency",
+     "leaderN": 7
+    },
+    "gemini": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Rocket Agency",
+     "leaderN": 7
+    },
+    "perplexity": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Rocket Agency",
+     "leaderN": 7
+    },
+    "claude": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Rocket Agency",
+     "leaderN": 7
+    }
+   },
+   "byPrompt": {
+    "general": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "meta": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "google": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Sparro",
+     "leaderN": 5
+    },
+    "scaling": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "creative": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "tiktok": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "cro": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Impressive",
+     "leaderN": 5
+    }
+   },
+   "matrix": {
+    "Rocket Agency": {
+     "chatgpt": 7,
+     "aimode": 7,
+     "gemini": 7,
+     "perplexity": 7,
+     "claude": 7
+    },
+    "Megaphone Marketing": {
+     "chatgpt": 5,
+     "aimode": 5,
+     "gemini": 5,
+     "perplexity": 5,
+     "claude": 5
+    },
+    "Reform Digital": {
+     "chatgpt": 4,
+     "aimode": 4,
+     "gemini": 4,
+     "perplexity": 4,
+     "claude": 5
+    },
+    "farsiight": {
+     "chatgpt": 4,
+     "aimode": 4,
+     "gemini": 4,
+     "perplexity": 4,
+     "claude": 0
+    },
+    "Sparro": {
+     "chatgpt": 3,
+     "aimode": 3,
+     "gemini": 3,
+     "perplexity": 3,
+     "claude": 3
+    },
+    "Impressive": {
+     "chatgpt": 2,
+     "aimode": 2,
+     "gemini": 2,
+     "perplexity": 2,
+     "claude": 2
+    },
+    "Pulp Digital": {
+     "chatgpt": 0,
+     "aimode": 0,
+     "gemini": 0,
+     "perplexity": 0,
+     "claude": 0
+    }
+   },
+   "cited": 0,
+   "topSources": [
+    [
+     "digitalagencynetwork.com",
+     10
+    ],
+    [
+     "shopify.com",
+     10
+    ],
+    [
+     "mumbrella.com.au",
+     10
+    ],
+    [
+     "adnews.com.au",
+     9
+    ],
+    [
+     "goodfirms.co",
+     9
+    ],
+    [
+     "clutch.co",
+     8
+    ],
+    [
+     "smartcompany.com.au",
+     5
+    ],
+    [
+     "semrush.com",
+     4
+    ]
+   ],
+   "serp": [
+    {
+     "prompt": "general",
+     "query": "best best paid ads ecommerce agency Sydney",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "meta",
+     "query": "best meta ads & paid social (shopify) Sydney",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "google",
+     "query": "best google ads & performance max Sydney",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "scaling",
+     "query": "best 7-to-8 figure dtc scaling Sydney",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "creative",
+     "query": "best performance creative & ugc Sydney",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "tiktok",
+     "query": "best tiktok ads for ecommerce Sydney",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "cro",
+     "query": "best paid ads + shopify cro & retention Sydney",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    }
+   ]
+  },
+  "brisbane": {
+   "answers": 35,
+   "lhdMentions": 0,
+   "lhdRank": 11,
+   "firmsNamed": 10,
+   "totalMentions": 158,
+   "top": [
+    {
+     "name": "GrowthOps",
+     "n": 35,
+     "rec": 35,
+     "avgPos": 4.5
+    },
+    {
+     "name": "Reform Digital",
+     "n": 27,
+     "rec": 27,
+     "avgPos": 3.4
+    },
+    {
+     "name": "Megaphone Marketing",
+     "n": 25,
+     "rec": 25,
+     "avgPos": 1
+    },
+    {
+     "name": "farsiight",
+     "n": 16,
+     "rec": 16,
+     "avgPos": 2.3
+    },
+    {
+     "name": "Sparro",
+     "n": 15,
+     "rec": 15,
+     "avgPos": 1.7
+    },
+    {
+     "name": "Impressive",
+     "n": 10,
+     "rec": 10,
+     "avgPos": 1.9
+    },
+    {
+     "name": "Defiant Digital",
+     "n": 10,
+     "rec": 10,
+     "avgPos": 2
+    },
+    {
+     "name": "DataSauce",
+     "n": 10,
+     "rec": 10,
+     "avgPos": 3.3
+    },
+    {
+     "name": "Rocket Agency",
+     "n": 5,
+     "rec": 5,
+     "avgPos": 3
+    },
+    {
+     "name": "King Kong",
+     "n": 5,
+     "rec": 5,
+     "avgPos": 3.8
+    }
+   ],
+   "lhd": {
+    "name": "Pulp Digital",
+    "n": 0,
+    "rec": 0,
+    "avgPos": 0
+   },
+   "byPlat": {
+    "chatgpt": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "GrowthOps",
+     "leaderN": 7
+    },
+    "aimode": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "GrowthOps",
+     "leaderN": 7
+    },
+    "gemini": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "GrowthOps",
+     "leaderN": 7
+    },
+    "perplexity": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "GrowthOps",
+     "leaderN": 7
+    },
+    "claude": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Reform Digital",
+     "leaderN": 7
+    }
+   },
+   "byPrompt": {
+    "general": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "meta": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "google": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Sparro",
+     "leaderN": 5
+    },
+    "scaling": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "creative": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "tiktok": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "cro": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Impressive",
+     "leaderN": 5
+    }
+   },
+   "matrix": {
+    "GrowthOps": {
+     "chatgpt": 7,
+     "aimode": 7,
+     "gemini": 7,
+     "perplexity": 7,
+     "claude": 7
+    },
+    "Reform Digital": {
+     "chatgpt": 5,
+     "aimode": 5,
+     "gemini": 5,
+     "perplexity": 5,
+     "claude": 7
+    },
+    "Megaphone Marketing": {
+     "chatgpt": 5,
+     "aimode": 5,
+     "gemini": 5,
+     "perplexity": 5,
+     "claude": 5
+    },
+    "farsiight": {
+     "chatgpt": 4,
+     "aimode": 4,
+     "gemini": 4,
+     "perplexity": 4,
+     "claude": 0
+    },
+    "Sparro": {
+     "chatgpt": 3,
+     "aimode": 3,
+     "gemini": 3,
+     "perplexity": 3,
+     "claude": 3
+    },
+    "Impressive": {
+     "chatgpt": 2,
+     "aimode": 2,
+     "gemini": 2,
+     "perplexity": 2,
+     "claude": 2
+    },
+    "Pulp Digital": {
+     "chatgpt": 0,
+     "aimode": 0,
+     "gemini": 0,
+     "perplexity": 0,
+     "claude": 0
+    }
+   },
+   "cited": 0,
+   "topSources": [
+    [
+     "adnews.com.au",
+     12
+    ],
+    [
+     "digitalagencynetwork.com",
+     10
+    ],
+    [
+     "shopify.com",
+     9
+    ],
+    [
+     "semrush.com",
+     9
+    ],
+    [
+     "clutch.co",
+     8
+    ],
+    [
+     "smartcompany.com.au",
+     8
+    ],
+    [
+     "mumbrella.com.au",
+     6
+    ],
+    [
+     "goodfirms.co",
+     6
+    ]
+   ],
+   "serp": [
+    {
+     "prompt": "general",
+     "query": "best best paid ads ecommerce agency Brisbane",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "meta",
+     "query": "best meta ads & paid social (shopify) Brisbane",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "google",
+     "query": "best google ads & performance max Brisbane",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "scaling",
+     "query": "best 7-to-8 figure dtc scaling Brisbane",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "creative",
+     "query": "best performance creative & ugc Brisbane",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "tiktok",
+     "query": "best tiktok ads for ecommerce Brisbane",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "cro",
+     "query": "best paid ads + shopify cro & retention Brisbane",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    }
+   ]
+  },
+  "perth": {
+   "answers": 35,
+   "lhdMentions": 0,
+   "lhdRank": 10,
+   "firmsNamed": 9,
+   "totalMentions": 123,
+   "top": [
+    {
+     "name": "Reform Digital",
+     "n": 27,
+     "rec": 27,
+     "avgPos": 3.4
+    },
+    {
+     "name": "Megaphone Marketing",
+     "n": 25,
+     "rec": 25,
+     "avgPos": 1
+    },
+    {
+     "name": "farsiight",
+     "n": 16,
+     "rec": 16,
+     "avgPos": 2.3
+    },
+    {
+     "name": "Sparro",
+     "n": 15,
+     "rec": 15,
+     "avgPos": 1.7
+    },
+    {
+     "name": "Impressive",
+     "n": 10,
+     "rec": 10,
+     "avgPos": 1.9
+    },
+    {
+     "name": "Defiant Digital",
+     "n": 10,
+     "rec": 10,
+     "avgPos": 2
+    },
+    {
+     "name": "DataSauce",
+     "n": 10,
+     "rec": 10,
+     "avgPos": 3.3
+    },
+    {
+     "name": "Rocket Agency",
+     "n": 5,
+     "rec": 5,
+     "avgPos": 3
+    },
+    {
+     "name": "King Kong",
+     "n": 5,
+     "rec": 5,
+     "avgPos": 3.8
+    }
+   ],
+   "lhd": {
+    "name": "Pulp Digital",
+    "n": 0,
+    "rec": 0,
+    "avgPos": 0
+   },
+   "byPlat": {
+    "chatgpt": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "aimode": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "gemini": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "perplexity": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "claude": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Reform Digital",
+     "leaderN": 7
+    }
+   },
+   "byPrompt": {
+    "general": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "meta": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "google": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Sparro",
+     "leaderN": 5
+    },
+    "scaling": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "creative": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "tiktok": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "cro": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Impressive",
+     "leaderN": 5
+    }
+   },
+   "matrix": {
+    "Reform Digital": {
+     "chatgpt": 5,
+     "aimode": 5,
+     "gemini": 5,
+     "perplexity": 5,
+     "claude": 7
+    },
+    "Megaphone Marketing": {
+     "chatgpt": 5,
+     "aimode": 5,
+     "gemini": 5,
+     "perplexity": 5,
+     "claude": 5
+    },
+    "farsiight": {
+     "chatgpt": 4,
+     "aimode": 4,
+     "gemini": 4,
+     "perplexity": 4,
+     "claude": 0
+    },
+    "Sparro": {
+     "chatgpt": 3,
+     "aimode": 3,
+     "gemini": 3,
+     "perplexity": 3,
+     "claude": 3
+    },
+    "Impressive": {
+     "chatgpt": 2,
+     "aimode": 2,
+     "gemini": 2,
+     "perplexity": 2,
+     "claude": 2
+    },
+    "Defiant Digital": {
+     "chatgpt": 2,
+     "aimode": 2,
+     "gemini": 2,
+     "perplexity": 2,
+     "claude": 2
+    },
+    "Pulp Digital": {
+     "chatgpt": 0,
+     "aimode": 0,
+     "gemini": 0,
+     "perplexity": 0,
+     "claude": 0
+    }
+   },
+   "cited": 0,
+   "topSources": [
+    [
+     "semrush.com",
+     13
+    ],
+    [
+     "goodfirms.co",
+     10
+    ],
+    [
+     "digitalagencynetwork.com",
+     9
+    ],
+    [
+     "shopify.com",
+     9
+    ],
+    [
+     "smartcompany.com.au",
+     9
+    ],
+    [
+     "mumbrella.com.au",
+     7
+    ],
+    [
+     "clutch.co",
+     6
+    ],
+    [
+     "adnews.com.au",
+     5
+    ]
+   ],
+   "serp": [
+    {
+     "prompt": "general",
+     "query": "best best paid ads ecommerce agency Perth",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "meta",
+     "query": "best meta ads & paid social (shopify) Perth",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "google",
+     "query": "best google ads & performance max Perth",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "scaling",
+     "query": "best 7-to-8 figure dtc scaling Perth",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "creative",
+     "query": "best performance creative & ugc Perth",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "tiktok",
+     "query": "best tiktok ads for ecommerce Perth",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "cro",
+     "query": "best paid ads + shopify cro & retention Perth",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    }
+   ]
+  },
+  "adelaide": {
+   "answers": 35,
+   "lhdMentions": 0,
+   "lhdRank": 10,
+   "firmsNamed": 9,
+   "totalMentions": 123,
+   "top": [
+    {
+     "name": "Reform Digital",
+     "n": 27,
+     "rec": 27,
+     "avgPos": 3.4
+    },
+    {
+     "name": "Megaphone Marketing",
+     "n": 25,
+     "rec": 25,
+     "avgPos": 1
+    },
+    {
+     "name": "farsiight",
+     "n": 16,
+     "rec": 16,
+     "avgPos": 2.3
+    },
+    {
+     "name": "Sparro",
+     "n": 15,
+     "rec": 15,
+     "avgPos": 1.7
+    },
+    {
+     "name": "Impressive",
+     "n": 10,
+     "rec": 10,
+     "avgPos": 1.9
+    },
+    {
+     "name": "Defiant Digital",
+     "n": 10,
+     "rec": 10,
+     "avgPos": 2
+    },
+    {
+     "name": "DataSauce",
+     "n": 10,
+     "rec": 10,
+     "avgPos": 3.3
+    },
+    {
+     "name": "Rocket Agency",
+     "n": 5,
+     "rec": 5,
+     "avgPos": 3
+    },
+    {
+     "name": "King Kong",
+     "n": 5,
+     "rec": 5,
+     "avgPos": 3.8
+    }
+   ],
+   "lhd": {
+    "name": "Pulp Digital",
+    "n": 0,
+    "rec": 0,
+    "avgPos": 0
+   },
+   "byPlat": {
+    "chatgpt": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "aimode": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "gemini": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "perplexity": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "claude": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Reform Digital",
+     "leaderN": 7
+    }
+   },
+   "byPrompt": {
+    "general": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "meta": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "google": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Sparro",
+     "leaderN": 5
+    },
+    "scaling": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "creative": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "tiktok": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "cro": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Impressive",
+     "leaderN": 5
+    }
+   },
+   "matrix": {
+    "Reform Digital": {
+     "chatgpt": 5,
+     "aimode": 5,
+     "gemini": 5,
+     "perplexity": 5,
+     "claude": 7
+    },
+    "Megaphone Marketing": {
+     "chatgpt": 5,
+     "aimode": 5,
+     "gemini": 5,
+     "perplexity": 5,
+     "claude": 5
+    },
+    "farsiight": {
+     "chatgpt": 4,
+     "aimode": 4,
+     "gemini": 4,
+     "perplexity": 4,
+     "claude": 0
+    },
+    "Sparro": {
+     "chatgpt": 3,
+     "aimode": 3,
+     "gemini": 3,
+     "perplexity": 3,
+     "claude": 3
+    },
+    "Impressive": {
+     "chatgpt": 2,
+     "aimode": 2,
+     "gemini": 2,
+     "perplexity": 2,
+     "claude": 2
+    },
+    "Defiant Digital": {
+     "chatgpt": 2,
+     "aimode": 2,
+     "gemini": 2,
+     "perplexity": 2,
+     "claude": 2
+    },
+    "Pulp Digital": {
+     "chatgpt": 0,
+     "aimode": 0,
+     "gemini": 0,
+     "perplexity": 0,
+     "claude": 0
+    }
+   },
+   "cited": 0,
+   "topSources": [
+    [
+     "goodfirms.co",
+     11
+    ],
+    [
+     "clutch.co",
+     11
+    ],
+    [
+     "adnews.com.au",
+     10
+    ],
+    [
+     "semrush.com",
+     9
+    ],
+    [
+     "digitalagencynetwork.com",
+     8
+    ],
+    [
+     "smartcompany.com.au",
+     7
+    ],
+    [
+     "shopify.com",
+     5
+    ],
+    [
+     "mumbrella.com.au",
+     4
+    ]
+   ],
+   "serp": [
+    {
+     "prompt": "general",
+     "query": "best best paid ads ecommerce agency Adelaide",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "meta",
+     "query": "best meta ads & paid social (shopify) Adelaide",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "google",
+     "query": "best google ads & performance max Adelaide",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "scaling",
+     "query": "best 7-to-8 figure dtc scaling Adelaide",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "creative",
+     "query": "best performance creative & ugc Adelaide",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "tiktok",
+     "query": "best tiktok ads for ecommerce Adelaide",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "cro",
+     "query": "best paid ads + shopify cro & retention Adelaide",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    }
+   ]
+  },
+  "goldcoast": {
+   "answers": 35,
+   "lhdMentions": 0,
+   "lhdRank": 10,
+   "firmsNamed": 9,
+   "totalMentions": 123,
+   "top": [
+    {
+     "name": "Reform Digital",
+     "n": 27,
+     "rec": 27,
+     "avgPos": 3.4
+    },
+    {
+     "name": "Megaphone Marketing",
+     "n": 25,
+     "rec": 25,
+     "avgPos": 1
+    },
+    {
+     "name": "farsiight",
+     "n": 16,
+     "rec": 16,
+     "avgPos": 2.3
+    },
+    {
+     "name": "Sparro",
+     "n": 15,
+     "rec": 15,
+     "avgPos": 1.7
+    },
+    {
+     "name": "Impressive",
+     "n": 10,
+     "rec": 10,
+     "avgPos": 1.9
+    },
+    {
+     "name": "Defiant Digital",
+     "n": 10,
+     "rec": 10,
+     "avgPos": 2
+    },
+    {
+     "name": "DataSauce",
+     "n": 10,
+     "rec": 10,
+     "avgPos": 3.3
+    },
+    {
+     "name": "Rocket Agency",
+     "n": 5,
+     "rec": 5,
+     "avgPos": 3
+    },
+    {
+     "name": "King Kong",
+     "n": 5,
+     "rec": 5,
+     "avgPos": 3.8
+    }
+   ],
+   "lhd": {
+    "name": "Pulp Digital",
+    "n": 0,
+    "rec": 0,
+    "avgPos": 0
+   },
+   "byPlat": {
+    "chatgpt": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "aimode": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "gemini": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "perplexity": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "claude": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Reform Digital",
+     "leaderN": 7
+    }
+   },
+   "byPrompt": {
+    "general": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "meta": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "google": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Sparro",
+     "leaderN": 5
+    },
+    "scaling": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "creative": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "tiktok": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "cro": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Impressive",
+     "leaderN": 5
+    }
+   },
+   "matrix": {
+    "Reform Digital": {
+     "chatgpt": 5,
+     "aimode": 5,
+     "gemini": 5,
+     "perplexity": 5,
+     "claude": 7
+    },
+    "Megaphone Marketing": {
+     "chatgpt": 5,
+     "aimode": 5,
+     "gemini": 5,
+     "perplexity": 5,
+     "claude": 5
+    },
+    "farsiight": {
+     "chatgpt": 4,
+     "aimode": 4,
+     "gemini": 4,
+     "perplexity": 4,
+     "claude": 0
+    },
+    "Sparro": {
+     "chatgpt": 3,
+     "aimode": 3,
+     "gemini": 3,
+     "perplexity": 3,
+     "claude": 3
+    },
+    "Impressive": {
+     "chatgpt": 2,
+     "aimode": 2,
+     "gemini": 2,
+     "perplexity": 2,
+     "claude": 2
+    },
+    "Defiant Digital": {
+     "chatgpt": 2,
+     "aimode": 2,
+     "gemini": 2,
+     "perplexity": 2,
+     "claude": 2
+    },
+    "Pulp Digital": {
+     "chatgpt": 0,
+     "aimode": 0,
+     "gemini": 0,
+     "perplexity": 0,
+     "claude": 0
+    }
+   },
+   "cited": 0,
+   "topSources": [
+    [
+     "digitalagencynetwork.com",
+     10
+    ],
+    [
+     "semrush.com",
+     10
+    ],
+    [
+     "adnews.com.au",
+     8
+    ],
+    [
+     "clutch.co",
+     8
+    ],
+    [
+     "mumbrella.com.au",
+     8
+    ],
+    [
+     "smartcompany.com.au",
+     8
+    ],
+    [
+     "shopify.com",
+     7
+    ],
+    [
+     "goodfirms.co",
+     6
+    ]
+   ],
+   "serp": [
+    {
+     "prompt": "general",
+     "query": "best best paid ads ecommerce agency Gold Coast",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "meta",
+     "query": "best meta ads & paid social (shopify) Gold Coast",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "google",
+     "query": "best google ads & performance max Gold Coast",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "scaling",
+     "query": "best 7-to-8 figure dtc scaling Gold Coast",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "creative",
+     "query": "best performance creative & ugc Gold Coast",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "tiktok",
+     "query": "best tiktok ads for ecommerce Gold Coast",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "cro",
+     "query": "best paid ads + shopify cro & retention Gold Coast",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    }
+   ]
+  },
+  "canberra": {
+   "answers": 35,
+   "lhdMentions": 0,
+   "lhdRank": 10,
+   "firmsNamed": 9,
+   "totalMentions": 123,
+   "top": [
+    {
+     "name": "Reform Digital",
+     "n": 27,
+     "rec": 27,
+     "avgPos": 3.4
+    },
+    {
+     "name": "Megaphone Marketing",
+     "n": 25,
+     "rec": 25,
+     "avgPos": 1
+    },
+    {
+     "name": "farsiight",
+     "n": 16,
+     "rec": 16,
+     "avgPos": 2.3
+    },
+    {
+     "name": "Sparro",
+     "n": 15,
+     "rec": 15,
+     "avgPos": 1.7
+    },
+    {
+     "name": "Impressive",
+     "n": 10,
+     "rec": 10,
+     "avgPos": 1.9
+    },
+    {
+     "name": "Defiant Digital",
+     "n": 10,
+     "rec": 10,
+     "avgPos": 2
+    },
+    {
+     "name": "DataSauce",
+     "n": 10,
+     "rec": 10,
+     "avgPos": 3.3
+    },
+    {
+     "name": "Rocket Agency",
+     "n": 5,
+     "rec": 5,
+     "avgPos": 3
+    },
+    {
+     "name": "King Kong",
+     "n": 5,
+     "rec": 5,
+     "avgPos": 3.8
+    }
+   ],
+   "lhd": {
+    "name": "Pulp Digital",
+    "n": 0,
+    "rec": 0,
+    "avgPos": 0
+   },
+   "byPlat": {
+    "chatgpt": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "aimode": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "gemini": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "perplexity": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "claude": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Reform Digital",
+     "leaderN": 7
+    }
+   },
+   "byPrompt": {
+    "general": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "meta": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "google": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Sparro",
+     "leaderN": 5
+    },
+    "scaling": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "creative": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "tiktok": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "cro": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Impressive",
+     "leaderN": 5
+    }
+   },
+   "matrix": {
+    "Reform Digital": {
+     "chatgpt": 5,
+     "aimode": 5,
+     "gemini": 5,
+     "perplexity": 5,
+     "claude": 7
+    },
+    "Megaphone Marketing": {
+     "chatgpt": 5,
+     "aimode": 5,
+     "gemini": 5,
+     "perplexity": 5,
+     "claude": 5
+    },
+    "farsiight": {
+     "chatgpt": 4,
+     "aimode": 4,
+     "gemini": 4,
+     "perplexity": 4,
+     "claude": 0
+    },
+    "Sparro": {
+     "chatgpt": 3,
+     "aimode": 3,
+     "gemini": 3,
+     "perplexity": 3,
+     "claude": 3
+    },
+    "Impressive": {
+     "chatgpt": 2,
+     "aimode": 2,
+     "gemini": 2,
+     "perplexity": 2,
+     "claude": 2
+    },
+    "Defiant Digital": {
+     "chatgpt": 2,
+     "aimode": 2,
+     "gemini": 2,
+     "perplexity": 2,
+     "claude": 2
+    },
+    "Pulp Digital": {
+     "chatgpt": 0,
+     "aimode": 0,
+     "gemini": 0,
+     "perplexity": 0,
+     "claude": 0
+    }
+   },
+   "cited": 0,
+   "topSources": [
+    [
+     "smartcompany.com.au",
+     13
+    ],
+    [
+     "semrush.com",
+     10
+    ],
+    [
+     "clutch.co",
+     9
+    ],
+    [
+     "goodfirms.co",
+     8
+    ],
+    [
+     "mumbrella.com.au",
+     7
+    ],
+    [
+     "shopify.com",
+     7
+    ],
+    [
+     "adnews.com.au",
+     6
+    ],
+    [
+     "digitalagencynetwork.com",
+     5
+    ]
+   ],
+   "serp": [
+    {
+     "prompt": "general",
+     "query": "best best paid ads ecommerce agency Canberra",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "meta",
+     "query": "best meta ads & paid social (shopify) Canberra",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "google",
+     "query": "best google ads & performance max Canberra",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "scaling",
+     "query": "best 7-to-8 figure dtc scaling Canberra",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "creative",
+     "query": "best performance creative & ugc Canberra",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "tiktok",
+     "query": "best tiktok ads for ecommerce Canberra",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "cro",
+     "query": "best paid ads + shopify cro & retention Canberra",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    }
+   ]
+  },
+  "national": {
+   "answers": 35,
+   "lhdMentions": 1,
+   "lhdRank": 10,
+   "firmsNamed": 10,
+   "totalMentions": 124,
+   "top": [
+    {
+     "name": "Reform Digital",
+     "n": 27,
+     "rec": 27,
+     "avgPos": 3.4
+    },
+    {
+     "name": "Megaphone Marketing",
+     "n": 25,
+     "rec": 25,
+     "avgPos": 1
+    },
+    {
+     "name": "farsiight",
+     "n": 16,
+     "rec": 16,
+     "avgPos": 2.3
+    },
+    {
+     "name": "Sparro",
+     "n": 15,
+     "rec": 15,
+     "avgPos": 1.7
+    },
+    {
+     "name": "Impressive",
+     "n": 10,
+     "rec": 10,
+     "avgPos": 1.9
+    },
+    {
+     "name": "Defiant Digital",
+     "n": 10,
+     "rec": 10,
+     "avgPos": 2
+    },
+    {
+     "name": "DataSauce",
+     "n": 10,
+     "rec": 10,
+     "avgPos": 3.4
+    },
+    {
+     "name": "Rocket Agency",
+     "n": 5,
+     "rec": 5,
+     "avgPos": 3
+    },
+    {
+     "name": "King Kong",
+     "n": 5,
+     "rec": 5,
+     "avgPos": 3.8
+    },
+    {
+     "name": "Pulp Digital",
+     "n": 1,
+     "rec": 1,
+     "avgPos": 4
+    }
+   ],
+   "lhd": {
+    "name": "Pulp Digital",
+    "n": 1,
+    "rec": 1,
+    "avgPos": 4
+   },
+   "byPlat": {
+    "chatgpt": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "aimode": {
+     "lhd": 1,
+     "n": 7,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "gemini": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "perplexity": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "claude": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Reform Digital",
+     "leaderN": 7
+    }
+   },
+   "byPrompt": {
+    "general": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "meta": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "google": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Sparro",
+     "leaderN": 5
+    },
+    "scaling": {
+     "lhd": 1,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "creative": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "tiktok": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Megaphone Marketing",
+     "leaderN": 5
+    },
+    "cro": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Impressive",
+     "leaderN": 5
+    }
+   },
+   "matrix": {
+    "Reform Digital": {
+     "chatgpt": 5,
+     "aimode": 5,
+     "gemini": 5,
+     "perplexity": 5,
+     "claude": 7
+    },
+    "Megaphone Marketing": {
+     "chatgpt": 5,
+     "aimode": 5,
+     "gemini": 5,
+     "perplexity": 5,
+     "claude": 5
+    },
+    "farsiight": {
+     "chatgpt": 4,
+     "aimode": 4,
+     "gemini": 4,
+     "perplexity": 4,
+     "claude": 0
+    },
+    "Sparro": {
+     "chatgpt": 3,
+     "aimode": 3,
+     "gemini": 3,
+     "perplexity": 3,
+     "claude": 3
+    },
+    "Impressive": {
+     "chatgpt": 2,
+     "aimode": 2,
+     "gemini": 2,
+     "perplexity": 2,
+     "claude": 2
+    },
+    "Defiant Digital": {
+     "chatgpt": 2,
+     "aimode": 2,
+     "gemini": 2,
+     "perplexity": 2,
+     "claude": 2
+    },
+    "Pulp Digital": {
+     "chatgpt": 0,
+     "aimode": 1,
+     "gemini": 0,
+     "perplexity": 0,
+     "claude": 0
+    }
+   },
+   "cited": 1,
+   "topSources": [
+    [
+     "shopify.com",
+     11
+    ],
+    [
+     "semrush.com",
+     10
+    ],
+    [
+     "digitalagencynetwork.com",
+     10
+    ],
+    [
+     "goodfirms.co",
+     9
+    ],
+    [
+     "smartcompany.com.au",
+     8
+    ],
+    [
+     "adnews.com.au",
+     7
+    ],
+    [
+     "mumbrella.com.au",
+     6
+    ],
+    [
+     "clutch.co",
+     6
+    ],
+    [
+     "pulpdigital.com.au",
+     1
+    ]
+   ],
+   "serp": [
+    {
+     "prompt": "general",
+     "query": "best best paid ads ecommerce agency Australia",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "meta",
+     "query": "best meta ads & paid social (shopify) Australia",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "google",
+     "query": "best google ads & performance max Australia",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "scaling",
+     "query": "best 7-to-8 figure dtc scaling Australia",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "creative",
+     "query": "best performance creative & ugc Australia",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "tiktok",
+     "query": "best tiktok ads for ecommerce Australia",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "cro",
+     "query": "best paid ads + shopify cro & retention Australia",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    }
+   ]
+  }
+ },
+ "national": {
+  "answers": 280,
+  "top": [
+   {
+    "name": "Megaphone Marketing",
+    "n": 200,
+    "rec": 200,
+    "avgPos": 1
+   },
+   {
+    "name": "Reform Digital",
+    "n": 188,
+    "rec": 188,
+    "avgPos": 3.4
+   },
+   {
+    "name": "farsiight",
+    "n": 128,
+    "rec": 128,
+    "avgPos": 2.3
+   },
+   {
+    "name": "Sparro",
+    "n": 120,
+    "rec": 120,
+    "avgPos": 1.7
+   },
+   {
+    "name": "Impressive",
+    "n": 105,
+    "rec": 105,
+    "avgPos": 2.2
+   },
+   {
+    "name": "DataSauce",
+    "n": 105,
+    "rec": 105,
+    "avgPos": 3.5
+   },
+   {
+    "name": "Defiant Digital",
+    "n": 80,
+    "rec": 80,
+    "avgPos": 2.3
+   },
+   {
+    "name": "Rocket Agency",
+    "n": 70,
+    "rec": 70,
+    "avgPos": 3.4
+   },
+   {
+    "name": "King Kong",
+    "n": 36,
+    "rec": 36,
+    "avgPos": 3.8
+   },
+   {
+    "name": "GrowthOps",
+    "n": 35,
+    "rec": 35,
+    "avgPos": 4.5
+   },
+   {
+    "name": "Pulp Digital",
+    "n": 7,
+    "rec": 7,
+    "avgPos": 3.1
+   }
+  ],
+  "lhdMentions": 7,
+  "cited": 7,
+  "byPlat": {
+   "chatgpt": {
+    "lhd": 0,
+    "n": 56,
+    "top": [
+     {
+      "name": "Megaphone Marketing",
+      "n": 40,
+      "rec": 40,
+      "avgPos": 1
+     },
+     {
+      "name": "Reform Digital",
+      "n": 35,
+      "rec": 35,
+      "avgPos": 3.5
+     },
+     {
+      "name": "farsiight",
+      "n": 32,
+      "rec": 32,
+      "avgPos": 2.3
+     },
+     {
+      "name": "Sparro",
+      "n": 24,
+      "rec": 24,
+      "avgPos": 1.7
+     },
+     {
+      "name": "Impressive",
+      "n": 21,
+      "rec": 21,
+      "avgPos": 2.2
+     }
+    ]
+   },
+   "aimode": {
+    "lhd": 4,
+    "n": 56,
+    "top": [
+     {
+      "name": "Megaphone Marketing",
+      "n": 40,
+      "rec": 40,
+      "avgPos": 1
+     },
+     {
+      "name": "Reform Digital",
+      "n": 35,
+      "rec": 35,
+      "avgPos": 3.5
+     },
+     {
+      "name": "farsiight",
+      "n": 32,
+      "rec": 32,
+      "avgPos": 2.3
+     },
+     {
+      "name": "Sparro",
+      "n": 24,
+      "rec": 24,
+      "avgPos": 1.7
+     },
+     {
+      "name": "Impressive",
+      "n": 21,
+      "rec": 21,
+      "avgPos": 2.4
+     }
+    ]
+   },
+   "gemini": {
+    "lhd": 3,
+    "n": 56,
+    "top": [
+     {
+      "name": "Megaphone Marketing",
+      "n": 40,
+      "rec": 40,
+      "avgPos": 1
+     },
+     {
+      "name": "Reform Digital",
+      "n": 34,
+      "rec": 34,
+      "avgPos": 3.5
+     },
+     {
+      "name": "farsiight",
+      "n": 32,
+      "rec": 32,
+      "avgPos": 2.3
+     },
+     {
+      "name": "Sparro",
+      "n": 24,
+      "rec": 24,
+      "avgPos": 1.7
+     },
+     {
+      "name": "Impressive",
+      "n": 21,
+      "rec": 21,
+      "avgPos": 2.3
+     }
+    ]
+   },
+   "perplexity": {
+    "lhd": 0,
+    "n": 56,
+    "top": [
+     {
+      "name": "Megaphone Marketing",
+      "n": 40,
+      "rec": 40,
+      "avgPos": 1
+     },
+     {
+      "name": "Reform Digital",
+      "n": 35,
+      "rec": 35,
+      "avgPos": 3.5
+     },
+     {
+      "name": "farsiight",
+      "n": 32,
+      "rec": 32,
+      "avgPos": 2.3
+     },
+     {
+      "name": "Sparro",
+      "n": 24,
+      "rec": 24,
+      "avgPos": 1.7
+     },
+     {
+      "name": "Impressive",
+      "n": 21,
+      "rec": 21,
+      "avgPos": 2.2
+     }
+    ]
+   },
+   "claude": {
+    "lhd": 0,
+    "n": 56,
+    "top": [
+     {
+      "name": "Reform Digital",
+      "n": 49,
+      "rec": 49,
+      "avgPos": 3.3
+     },
+     {
+      "name": "Megaphone Marketing",
+      "n": 40,
+      "rec": 40,
+      "avgPos": 1
+     },
+     {
+      "name": "Sparro",
+      "n": 24,
+      "rec": 24,
+      "avgPos": 1.7
+     },
+     {
+      "name": "Impressive",
+      "n": 21,
+      "rec": 21,
+      "avgPos": 1.7
+     },
+     {
+      "name": "DataSauce",
+      "n": 21,
+      "rec": 21,
+      "avgPos": 2.7
+     }
+    ]
+   }
+  },
+  "byPrompt": {
+   "general": {
+    "lhd": 2,
+    "n": 40,
+    "top": [
+     {
+      "name": "Megaphone Marketing",
+      "n": 40,
+      "rec": 40,
+      "avgPos": 1
+     },
+     {
+      "name": "Sparro",
+      "n": 40,
+      "rec": 40,
+      "avgPos": 2
+     },
+     {
+      "name": "King Kong",
+      "n": 36,
+      "rec": 36,
+      "avgPos": 3.8
+     },
+     {
+      "name": "farsiight",
+      "n": 32,
+      "rec": 32,
+      "avgPos": 3
+     },
+     {
+      "name": "Reform Digital",
+      "n": 6,
+      "rec": 6,
+      "avgPos": 4
+     }
+    ]
+   },
+   "meta": {
+    "lhd": 2,
+    "n": 40,
+    "top": [
+     {
+      "name": "Megaphone Marketing",
+      "n": 40,
+      "rec": 40,
+      "avgPos": 1
+     },
+     {
+      "name": "Reform Digital",
+      "n": 36,
+      "rec": 36,
+      "avgPos": 3
+     },
+     {
+      "name": "farsiight",
+      "n": 32,
+      "rec": 32,
+      "avgPos": 2
+     },
+     {
+      "name": "Rocket Agency",
+      "n": 5,
+      "rec": 5,
+      "avgPos": 2.8
+     },
+     {
+      "name": "Impressive",
+      "n": 5,
+      "rec": 5,
+      "avgPos": 3.2
+     }
+    ]
+   },
+   "google": {
+    "lhd": 0,
+    "n": 40,
+    "top": [
+     {
+      "name": "Sparro",
+      "n": 40,
+      "rec": 40,
+      "avgPos": 1
+     },
+     {
+      "name": "Impressive",
+      "n": 40,
+      "rec": 40,
+      "avgPos": 2
+     },
+     {
+      "name": "Rocket Agency",
+      "n": 40,
+      "rec": 40,
+      "avgPos": 3.1
+     },
+     {
+      "name": "Reform Digital",
+      "n": 35,
+      "rec": 35,
+      "avgPos": 4
+     },
+     {
+      "name": "DataSauce",
+      "n": 5,
+      "rec": 5,
+      "avgPos": 3
+     }
+    ]
+   },
+   "scaling": {
+    "lhd": 2,
+    "n": 40,
+    "top": [
+     {
+      "name": "Megaphone Marketing",
+      "n": 40,
+      "rec": 40,
+      "avgPos": 1
+     },
+     {
+      "name": "Sparro",
+      "n": 40,
+      "rec": 40,
+      "avgPos": 2
+     },
+     {
+      "name": "DataSauce",
+      "n": 40,
+      "rec": 40,
+      "avgPos": 4
+     },
+     {
+      "name": "farsiight",
+      "n": 32,
+      "rec": 32,
+      "avgPos": 3
+     },
+     {
+      "name": "Reform Digital",
+      "n": 6,
+      "rec": 6,
+      "avgPos": 4
+     }
+    ]
+   },
+   "creative": {
+    "lhd": 0,
+    "n": 40,
+    "top": [
+     {
+      "name": "Megaphone Marketing",
+      "n": 40,
+      "rec": 40,
+      "avgPos": 1
+     },
+     {
+      "name": "Defiant Digital",
+      "n": 40,
+      "rec": 40,
+      "avgPos": 2.3
+     },
+     {
+      "name": "Reform Digital",
+      "n": 35,
+      "rec": 35,
+      "avgPos": 3.1
+     },
+     {
+      "name": "Impressive",
+      "n": 5,
+      "rec": 5,
+      "avgPos": 2
+     },
+     {
+      "name": "DataSauce",
+      "n": 5,
+      "rec": 5,
+      "avgPos": 3
+     }
+    ]
+   },
+   "tiktok": {
+    "lhd": 0,
+    "n": 40,
+    "top": [
+     {
+      "name": "Megaphone Marketing",
+      "n": 40,
+      "rec": 40,
+      "avgPos": 1
+     },
+     {
+      "name": "Defiant Digital",
+      "n": 40,
+      "rec": 40,
+      "avgPos": 2.3
+     },
+     {
+      "name": "Reform Digital",
+      "n": 35,
+      "rec": 35,
+      "avgPos": 3.1
+     },
+     {
+      "name": "Impressive",
+      "n": 5,
+      "rec": 5,
+      "avgPos": 2
+     },
+     {
+      "name": "DataSauce",
+      "n": 5,
+      "rec": 5,
+      "avgPos": 3
+     }
+    ]
+   },
+   "cro": {
+    "lhd": 1,
+    "n": 40,
+    "top": [
+     {
+      "name": "Impressive",
+      "n": 40,
+      "rec": 40,
+      "avgPos": 1.8
+     },
+     {
+      "name": "DataSauce",
+      "n": 40,
+      "rec": 40,
+      "avgPos": 2.8
+     },
+     {
+      "name": "Reform Digital",
+      "n": 35,
+      "rec": 35,
+      "avgPos": 3.8
+     },
+     {
+      "name": "farsiight",
+      "n": 32,
+      "rec": 32,
+      "avgPos": 1
+     },
+     {
+      "name": "Rocket Agency",
+      "n": 5,
+      "rec": 5,
+      "avgPos": 3.8
+     }
+    ]
+   }
+  }
+ }
+}

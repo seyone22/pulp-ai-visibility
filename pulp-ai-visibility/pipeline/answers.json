@@ -1,0 +1,569 @@
+[
+ {
+  "city": "melbourne",
+  "prompt": "general",
+  "platform": "serp",
+  "query": "best best paid ads ecommerce agency Melbourne",
+  "organic": [
+   {
+    "rank": 8,
+    "domain": "pulpdigital.com.au"
+   }
+  ],
+  "localPack": [
+   {
+    "title": "Pulp Digital - Level 4/44 Gwynne St, Cremorne"
+   }
+  ],
+  "aio": true
+ },
+ {
+  "city": "melbourne",
+  "prompt": "meta",
+  "platform": "serp",
+  "query": "best meta ads & paid social (shopify) Melbourne",
+  "organic": [
+   {
+    "rank": 8,
+    "domain": "pulpdigital.com.au"
+   }
+  ],
+  "localPack": [
+   {
+    "title": "Pulp Digital - Level 4/44 Gwynne St, Cremorne"
+   }
+  ],
+  "aio": true
+ },
+ {
+  "city": "melbourne",
+  "prompt": "google",
+  "platform": "serp",
+  "query": "best google ads & performance max Melbourne",
+  "organic": [
+   {
+    "rank": 8,
+    "domain": "pulpdigital.com.au"
+   }
+  ],
+  "localPack": [
+   {
+    "title": "Pulp Digital - Level 4/44 Gwynne St, Cremorne"
+   }
+  ],
+  "aio": true
+ },
+ {
+  "city": "melbourne",
+  "prompt": "scaling",
+  "platform": "serp",
+  "query": "best 7-to-8 figure dtc scaling Melbourne",
+  "organic": [
+   {
+    "rank": 8,
+    "domain": "pulpdigital.com.au"
+   }
+  ],
+  "localPack": [
+   {
+    "title": "Pulp Digital - Level 4/44 Gwynne St, Cremorne"
+   }
+  ],
+  "aio": true
+ },
+ {
+  "city": "melbourne",
+  "prompt": "creative",
+  "platform": "serp",
+  "query": "best performance creative & ugc Melbourne",
+  "organic": [
+   {
+    "rank": 8,
+    "domain": "pulpdigital.com.au"
+   }
+  ],
+  "localPack": [
+   {
+    "title": "Pulp Digital - Level 4/44 Gwynne St, Cremorne"
+   }
+  ],
+  "aio": true
+ },
+ {
+  "city": "melbourne",
+  "prompt": "tiktok",
+  "platform": "serp",
+  "query": "best tiktok ads for ecommerce Melbourne",
+  "organic": [
+   {
+    "rank": 8,
+    "domain": "pulpdigital.com.au"
+   }
+  ],
+  "localPack": [
+   {
+    "title": "Pulp Digital - Level 4/44 Gwynne St, Cremorne"
+   }
+  ],
+  "aio": true
+ },
+ {
+  "city": "melbourne",
+  "prompt": "cro",
+  "platform": "serp",
+  "query": "best paid ads + shopify cro & retention Melbourne",
+  "organic": [
+   {
+    "rank": 8,
+    "domain": "pulpdigital.com.au"
+   }
+  ],
+  "localPack": [
+   {
+    "title": "Pulp Digital - Level 4/44 Gwynne St, Cremorne"
+   }
+  ],
+  "aio": true
+ },
+ {
+  "city": "sydney",
+  "prompt": "general",
+  "platform": "serp",
+  "query": "best best paid ads ecommerce agency Sydney",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "sydney",
+  "prompt": "meta",
+  "platform": "serp",
+  "query": "best meta ads & paid social (shopify) Sydney",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "sydney",
+  "prompt": "google",
+  "platform": "serp",
+  "query": "best google ads & performance max Sydney",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "sydney",
+  "prompt": "scaling",
+  "platform": "serp",
+  "query": "best 7-to-8 figure dtc scaling Sydney",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "sydney",
+  "prompt": "creative",
+  "platform": "serp",
+  "query": "best performance creative & ugc Sydney",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "sydney",
+  "prompt": "tiktok",
+  "platform": "serp",
+  "query": "best tiktok ads for ecommerce Sydney",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "sydney",
+  "prompt": "cro",
+  "platform": "serp",
+  "query": "best paid ads + shopify cro & retention Sydney",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "brisbane",
+  "prompt": "general",
+  "platform": "serp",
+  "query": "best best paid ads ecommerce agency Brisbane",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "brisbane",
+  "prompt": "meta",
+  "platform": "serp",
+  "query": "best meta ads & paid social (shopify) Brisbane",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "brisbane",
+  "prompt": "google",
+  "platform": "serp",
+  "query": "best google ads & performance max Brisbane",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "brisbane",
+  "prompt": "scaling",
+  "platform": "serp",
+  "query": "best 7-to-8 figure dtc scaling Brisbane",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "brisbane",
+  "prompt": "creative",
+  "platform": "serp",
+  "query": "best performance creative & ugc Brisbane",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "brisbane",
+  "prompt": "tiktok",
+  "platform": "serp",
+  "query": "best tiktok ads for ecommerce Brisbane",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "brisbane",
+  "prompt": "cro",
+  "platform": "serp",
+  "query": "best paid ads + shopify cro & retention Brisbane",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "perth",
+  "prompt": "general",
+  "platform": "serp",
+  "query": "best best paid ads ecommerce agency Perth",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "perth",
+  "prompt": "meta",
+  "platform": "serp",
+  "query": "best meta ads & paid social (shopify) Perth",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "perth",
+  "prompt": "google",
+  "platform": "serp",
+  "query": "best google ads & performance max Perth",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "perth",
+  "prompt": "scaling",
+  "platform": "serp",
+  "query": "best 7-to-8 figure dtc scaling Perth",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "perth",
+  "prompt": "creative",
+  "platform": "serp",
+  "query": "best performance creative & ugc Perth",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "perth",
+  "prompt": "tiktok",
+  "platform": "serp",
+  "query": "best tiktok ads for ecommerce Perth",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "perth",
+  "prompt": "cro",
+  "platform": "serp",
+  "query": "best paid ads + shopify cro & retention Perth",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "adelaide",
+  "prompt": "general",
+  "platform": "serp",
+  "query": "best best paid ads ecommerce agency Adelaide",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "adelaide",
+  "prompt": "meta",
+  "platform": "serp",
+  "query": "best meta ads & paid social (shopify) Adelaide",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "adelaide",
+  "prompt": "google",
+  "platform": "serp",
+  "query": "best google ads & performance max Adelaide",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "adelaide",
+  "prompt": "scaling",
+  "platform": "serp",
+  "query": "best 7-to-8 figure dtc scaling Adelaide",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "adelaide",
+  "prompt": "creative",
+  "platform": "serp",
+  "query": "best performance creative & ugc Adelaide",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "adelaide",
+  "prompt": "tiktok",
+  "platform": "serp",
+  "query": "best tiktok ads for ecommerce Adelaide",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "adelaide",
+  "prompt": "cro",
+  "platform": "serp",
+  "query": "best paid ads + shopify cro & retention Adelaide",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "goldcoast",
+  "prompt": "general",
+  "platform": "serp",
+  "query": "best best paid ads ecommerce agency Gold Coast",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "goldcoast",
+  "prompt": "meta",
+  "platform": "serp",
+  "query": "best meta ads & paid social (shopify) Gold Coast",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "goldcoast",
+  "prompt": "google",
+  "platform": "serp",
+  "query": "best google ads & performance max Gold Coast",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "goldcoast",
+  "prompt": "scaling",
+  "platform": "serp",
+  "query": "best 7-to-8 figure dtc scaling Gold Coast",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "goldcoast",
+  "prompt": "creative",
+  "platform": "serp",
+  "query": "best performance creative & ugc Gold Coast",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "goldcoast",
+  "prompt": "tiktok",
+  "platform": "serp",
+  "query": "best tiktok ads for ecommerce Gold Coast",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "goldcoast",
+  "prompt": "cro",
+  "platform": "serp",
+  "query": "best paid ads + shopify cro & retention Gold Coast",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "canberra",
+  "prompt": "general",
+  "platform": "serp",
+  "query": "best best paid ads ecommerce agency Canberra",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "canberra",
+  "prompt": "meta",
+  "platform": "serp",
+  "query": "best meta ads & paid social (shopify) Canberra",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "canberra",
+  "prompt": "google",
+  "platform": "serp",
+  "query": "best google ads & performance max Canberra",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "canberra",
+  "prompt": "scaling",
+  "platform": "serp",
+  "query": "best 7-to-8 figure dtc scaling Canberra",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "canberra",
+  "prompt": "creative",
+  "platform": "serp",
+  "query": "best performance creative & ugc Canberra",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "canberra",
+  "prompt": "tiktok",
+  "platform": "serp",
+  "query": "best tiktok ads for ecommerce Canberra",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "canberra",
+  "prompt": "cro",
+  "platform": "serp",
+  "query": "best paid ads + shopify cro & retention Canberra",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "national",
+  "prompt": "general",
+  "platform": "serp",
+  "query": "best best paid ads ecommerce agency Australia",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "national",
+  "prompt": "meta",
+  "platform": "serp",
+  "query": "best meta ads & paid social (shopify) Australia",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "national",
+  "prompt": "google",
+  "platform": "serp",
+  "query": "best google ads & performance max Australia",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "national",
+  "prompt": "scaling",
+  "platform": "serp",
+  "query": "best 7-to-8 figure dtc scaling Australia",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "national",
+  "prompt": "creative",
+  "platform": "serp",
+  "query": "best performance creative & ugc Australia",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "national",
+  "prompt": "tiktok",
+  "platform": "serp",
+  "query": "best tiktok ads for ecommerce Australia",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ },
+ {
+  "city": "national",
+  "prompt": "cro",
+  "platform": "serp",
+  "query": "best paid ads + shopify cro & retention Australia",
+  "organic": [],
+  "localPack": [],
+  "aio": true
+ }
+]

@@ -1,0 +1,3376 @@
+{
+ "cities": {
+  "sydney": {
+   "answers": 35,
+   "lhdMentions": 9,
+   "lhdRank": 9,
+   "firmsNamed": 55,
+   "totalMentions": 238,
+   "top": [
+    {
+     "name": "Law Partners",
+     "n": 27,
+     "rec": 27,
+     "avgPos": 3
+    },
+    {
+     "name": "Garling & Co",
+     "n": 21,
+     "rec": 21,
+     "avgPos": 3.3
+    },
+    {
+     "name": "Turner Freeman",
+     "n": 19,
+     "rec": 19,
+     "avgPos": 3.9
+    },
+    {
+     "name": "Beilby Poulden Costello (BPC)",
+     "n": 16,
+     "rec": 16,
+     "avgPos": 2.4
+    },
+    {
+     "name": "Maurice Blackburn",
+     "n": 14,
+     "rec": 13,
+     "avgPos": 4.2
+    },
+    {
+     "name": "Slater and Gordon",
+     "n": 13,
+     "rec": 12,
+     "avgPos": 4.2
+    },
+    {
+     "name": "Carroll & O'Dea",
+     "n": 11,
+     "rec": 9,
+     "avgPos": 3.6
+    },
+    {
+     "name": "Stacks Goudkamp",
+     "n": 11,
+     "rec": 11,
+     "avgPos": 4.2
+    },
+    {
+     "name": "LHD Lawyers",
+     "n": 9,
+     "rec": 9,
+     "avgPos": 5.1
+    },
+    {
+     "name": "Taylor & Scott",
+     "n": 6,
+     "rec": 6,
+     "avgPos": 4.3
+    },
+    {
+     "name": "Care Compensation Lawyers",
+     "n": 6,
+     "rec": 6,
+     "avgPos": 4.8
+    },
+    {
+     "name": "Firths",
+     "n": 6,
+     "rec": 6,
+     "avgPos": 5.7
+    }
+   ],
+   "lhd": {
+    "name": "LHD Lawyers",
+    "n": 9,
+    "rec": 9,
+    "avgPos": 5.1
+   },
+   "byPlat": {
+    "chatgpt": {
+     "lhd": 4,
+     "n": 7,
+     "leader": "Law Partners",
+     "leaderN": 6
+    },
+    "aimode": {
+     "lhd": 1,
+     "n": 7,
+     "leader": "Garling & Co",
+     "leaderN": 6
+    },
+    "gemini": {
+     "lhd": 2,
+     "n": 7,
+     "leader": "Garling & Co",
+     "leaderN": 5
+    },
+    "perplexity": {
+     "lhd": 1,
+     "n": 7,
+     "leader": "Law Partners",
+     "leaderN": 6
+    },
+    "claude": {
+     "lhd": 1,
+     "n": 7,
+     "leader": "Garling & Co",
+     "leaderN": 6
+    }
+   },
+   "byPrompt": {
+    "general": {
+     "lhd": 1,
+     "n": 5,
+     "leader": "Beilby Poulden Costello (BPC)",
+     "leaderN": 4
+    },
+    "workers": {
+     "lhd": 2,
+     "n": 5,
+     "leader": "Law Partners",
+     "leaderN": 5
+    },
+    "motor": {
+     "lhd": 1,
+     "n": 5,
+     "leader": "Law Partners",
+     "leaderN": 5
+    },
+    "nwnf": {
+     "lhd": 3,
+     "n": 5,
+     "leader": "Garling & Co",
+     "leaderN": 4
+    },
+    "medneg": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Maurice Blackburn",
+     "leaderN": 5
+    },
+    "tpd": {
+     "lhd": 1,
+     "n": 5,
+     "leader": "Law Partners",
+     "leaderN": 5
+    },
+    "publiab": {
+     "lhd": 1,
+     "n": 5,
+     "leader": "Law Partners",
+     "leaderN": 5
+    }
+   },
+   "matrix": {
+    "Law Partners": {
+     "chatgpt": 6,
+     "aimode": 5,
+     "gemini": 5,
+     "perplexity": 6,
+     "claude": 5
+    },
+    "Garling & Co": {
+     "chatgpt": 3,
+     "aimode": 6,
+     "gemini": 5,
+     "perplexity": 1,
+     "claude": 6
+    },
+    "Turner Freeman": {
+     "chatgpt": 6,
+     "aimode": 1,
+     "gemini": 4,
+     "perplexity": 5,
+     "claude": 3
+    },
+    "Beilby Poulden Costello (BPC)": {
+     "chatgpt": 4,
+     "aimode": 3,
+     "gemini": 2,
+     "perplexity": 3,
+     "claude": 4
+    },
+    "Maurice Blackburn": {
+     "chatgpt": 3,
+     "aimode": 3,
+     "gemini": 2,
+     "perplexity": 2,
+     "claude": 4
+    },
+    "Slater and Gordon": {
+     "chatgpt": 3,
+     "aimode": 1,
+     "gemini": 4,
+     "perplexity": 2,
+     "claude": 3
+    },
+    "LHD Lawyers": {
+     "chatgpt": 4,
+     "aimode": 1,
+     "gemini": 2,
+     "perplexity": 1,
+     "claude": 1
+    }
+   },
+   "cited": 8,
+   "topSources": [
+    [
+     "lawpartners.com.au",
+     12
+    ],
+    [
+     "garlingandco.com.au",
+     9
+    ],
+    [
+     "doylesguide.com",
+     9
+    ],
+    [
+     "slatergordon.com.au",
+     8
+    ],
+    [
+     "lhd.com.au",
+     8
+    ],
+    [
+     "mauriceblackburn.com.au",
+     7
+    ],
+    [
+     "turnerfreeman.com.au",
+     6
+    ],
+    [
+     "bestlawyers.com",
+     5
+    ],
+    [
+     "lawzana.com",
+     5
+    ],
+    [
+     "bpclaw.com.au",
+     5
+    ],
+    [
+     "withstandlawyers.com.au",
+     5
+    ],
+    [
+     "ibtimes.com.au",
+     4
+    ]
+   ],
+   "serp": [
+    {
+     "prompt": "general",
+     "query": "personal injury lawyers sydney",
+     "lhdOrganic": 6,
+     "lhdLocal": false,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "Law Partners Injury Lawyers Sydney",
+      "Taylor & Scott Lawyers",
+      "Garling & Co Lawyers"
+     ]
+    },
+    {
+     "prompt": "medneg",
+     "query": "medical negligence lawyers sydney",
+     "lhdOrganic": 5,
+     "lhdLocal": false,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "Garling & Co Lawyers",
+      "BPC Lawyers",
+      "Taylor & Scott Lawyers"
+     ]
+    },
+    {
+     "prompt": "motor",
+     "query": "car accident lawyers sydney",
+     "lhdOrganic": null,
+     "lhdLocal": true,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "Garling & Co Lawyers",
+      "Care Compensation Lawyers Sydney",
+      "LHD Lawyers Sydney"
+     ]
+    },
+    {
+     "prompt": "nwnf",
+     "query": "no win no fee lawyers sydney",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": [
+      "Law Partners Injury Lawyers Sydney",
+      "Taylor & Scott Lawyers",
+      "Turner Freeman Lawyers Sydney"
+     ]
+    },
+    {
+     "prompt": "publiab",
+     "query": "public liability lawyers sydney",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "Garling & Co Lawyers",
+      "Law Partners Injury Lawyers Sydney",
+      "BPC Lawyers",
+      "Law Partners Injury Lawyers Sydney        My Ad Centre"
+     ]
+    },
+    {
+     "prompt": "tpd",
+     "query": "tpd claim lawyers sydney",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "TPD Claims Advice",
+      "Aussie Injury Lawyers Sydney",
+      "WKB Lawyers",
+      "Maurice Blackburn Personal Injury Lawyers Sydney        My Ad Centre"
+     ]
+    },
+    {
+     "prompt": "workers",
+     "query": "workers compensation lawyers sydney",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "Care Compensation Lawyers Sydney",
+      "Garling & Co Lawyers",
+      "Turner Freeman Lawyers Sydney"
+     ]
+    }
+   ]
+  },
+  "melbourne": {
+   "answers": 35,
+   "lhdMentions": 13,
+   "lhdRank": 5,
+   "firmsNamed": 41,
+   "totalMentions": 218,
+   "top": [
+    {
+     "name": "Maurice Blackburn",
+     "n": 30,
+     "rec": 30,
+     "avgPos": 1.8
+    },
+    {
+     "name": "Slater and Gordon",
+     "n": 22,
+     "rec": 20,
+     "avgPos": 2.8
+    },
+    {
+     "name": "Arnold Thomas & Becker",
+     "n": 16,
+     "rec": 15,
+     "avgPos": 4.4
+    },
+    {
+     "name": "Gordon Legal",
+     "n": 15,
+     "rec": 15,
+     "avgPos": 4.3
+    },
+    {
+     "name": "LHD Lawyers",
+     "n": 13,
+     "rec": 13,
+     "avgPos": 4.2
+    },
+    {
+     "name": "Law Partners",
+     "n": 11,
+     "rec": 11,
+     "avgPos": 2.5
+    },
+    {
+     "name": "Brave Legal",
+     "n": 11,
+     "rec": 11,
+     "avgPos": 3.7
+    },
+    {
+     "name": "Shine Lawyers",
+     "n": 11,
+     "rec": 10,
+     "avgPos": 4.8
+    },
+    {
+     "name": "Henry Carus + Associates",
+     "n": 10,
+     "rec": 10,
+     "avgPos": 5.4
+    },
+    {
+     "name": "Maxiom Injury Lawyers",
+     "n": 6,
+     "rec": 6,
+     "avgPos": 3.5
+    },
+    {
+     "name": "Zaparas Lawyers",
+     "n": 5,
+     "rec": 5,
+     "avgPos": 4
+    },
+    {
+     "name": "Polaris Lawyers",
+     "n": 5,
+     "rec": 5,
+     "avgPos": 5
+    }
+   ],
+   "lhd": {
+    "name": "LHD Lawyers",
+    "n": 13,
+    "rec": 13,
+    "avgPos": 4.2
+   },
+   "byPlat": {
+    "chatgpt": {
+     "lhd": 2,
+     "n": 7,
+     "leader": "Maurice Blackburn",
+     "leaderN": 6
+    },
+    "aimode": {
+     "lhd": 3,
+     "n": 7,
+     "leader": "Maurice Blackburn",
+     "leaderN": 7
+    },
+    "gemini": {
+     "lhd": 2,
+     "n": 7,
+     "leader": "Maurice Blackburn",
+     "leaderN": 4
+    },
+    "perplexity": {
+     "lhd": 5,
+     "n": 7,
+     "leader": "Maurice Blackburn",
+     "leaderN": 7
+    },
+    "claude": {
+     "lhd": 1,
+     "n": 7,
+     "leader": "Maurice Blackburn",
+     "leaderN": 6
+    }
+   },
+   "byPrompt": {
+    "general": {
+     "lhd": 1,
+     "n": 5,
+     "leader": "Maurice Blackburn",
+     "leaderN": 5
+    },
+    "workers": {
+     "lhd": 3,
+     "n": 5,
+     "leader": "Maurice Blackburn",
+     "leaderN": 4
+    },
+    "motor": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Slater and Gordon",
+     "leaderN": 5
+    },
+    "nwnf": {
+     "lhd": 2,
+     "n": 5,
+     "leader": "Maurice Blackburn",
+     "leaderN": 5
+    },
+    "medneg": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Maurice Blackburn",
+     "leaderN": 5
+    },
+    "tpd": {
+     "lhd": 5,
+     "n": 5,
+     "leader": "LHD Lawyers",
+     "leaderN": 5
+    },
+    "publiab": {
+     "lhd": 2,
+     "n": 5,
+     "leader": "Law Partners",
+     "leaderN": 5
+    }
+   },
+   "matrix": {
+    "Maurice Blackburn": {
+     "chatgpt": 6,
+     "aimode": 7,
+     "gemini": 4,
+     "perplexity": 7,
+     "claude": 6
+    },
+    "Slater and Gordon": {
+     "chatgpt": 6,
+     "aimode": 4,
+     "gemini": 4,
+     "perplexity": 3,
+     "claude": 5
+    },
+    "Arnold Thomas & Becker": {
+     "chatgpt": 3,
+     "aimode": 3,
+     "gemini": 3,
+     "perplexity": 3,
+     "claude": 4
+    },
+    "Gordon Legal": {
+     "chatgpt": 4,
+     "aimode": 2,
+     "gemini": 2,
+     "perplexity": 2,
+     "claude": 5
+    },
+    "LHD Lawyers": {
+     "chatgpt": 2,
+     "aimode": 3,
+     "gemini": 2,
+     "perplexity": 5,
+     "claude": 1
+    },
+    "Law Partners": {
+     "chatgpt": 3,
+     "aimode": 3,
+     "gemini": 2,
+     "perplexity": 2,
+     "claude": 1
+    }
+   },
+   "cited": 11,
+   "topSources": [
+    [
+     "mauriceblackburn.com.au",
+     13
+    ],
+    [
+     "lhd.com.au",
+     11
+    ],
+    [
+     "slatergordon.com.au",
+     11
+    ],
+    [
+     "lawpartners.com.au",
+     9
+    ],
+    [
+     "fittlaw.com.au",
+     6
+    ],
+    [
+     "shine.com.au",
+     6
+    ],
+    [
+     "hcalawyers.com.au",
+     6
+    ],
+    [
+     "gordonlegal.com.au",
+     6
+    ],
+    [
+     "bestlawyers.com",
+     5
+    ],
+    [
+     "doylesguide.com",
+     5
+    ],
+    [
+     "ibtimes.com.au",
+     5
+    ],
+    [
+     "lawzana.com",
+     4
+    ]
+   ],
+   "serp": [
+    {
+     "prompt": "general",
+     "query": "personal injury lawyers melbourne",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "Longton Compensation Lawyers | Melbourne",
+      "Polaris Lawyers",
+      "Arnold Dallas McPherson Injury Lawyers Melbourne"
+     ]
+    },
+    {
+     "prompt": "medneg",
+     "query": "medical negligence lawyers melbourne",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "Polaris Lawyers",
+      "Henry Carus & Associates",
+      "Brave Legal"
+     ]
+    },
+    {
+     "prompt": "motor",
+     "query": "car accident lawyers melbourne",
+     "lhdOrganic": 5,
+     "lhdLocal": true,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "Henry Carus & Associates",
+      "Polaris Lawyers",
+      "LHD Lawyers Melbourne"
+     ]
+    },
+    {
+     "prompt": "nwnf",
+     "query": "no win no fee lawyers melbourne",
+     "lhdOrganic": 4,
+     "lhdLocal": true,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": [
+      "Longton Compensation Lawyers | Melbourne",
+      "LHD Lawyers Melbourne",
+      "Shine Lawyers Melbourne"
+     ]
+    },
+    {
+     "prompt": "publiab",
+     "query": "public liability lawyers melbourne",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "Longton Compensation Lawyers | Melbourne",
+      "Henry Carus & Associates",
+      "Polaris Lawyers"
+     ]
+    },
+    {
+     "prompt": "tpd",
+     "query": "tpd claim lawyers melbourne",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "TPD Compensation Lawyers Pty Ltd",
+      "Aussie Injury Lawyers Melbourne",
+      "PK Simpson - Melbourne - TPD Claims, Superannuation Claims"
+     ]
+    },
+    {
+     "prompt": "workers",
+     "query": "workers compensation lawyers melbourne",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "Longton Compensation Lawyers | Melbourne",
+      "Henry Carus & Associates",
+      "National Compensation Lawyers"
+     ]
+    }
+   ]
+  },
+  "brisbane": {
+   "answers": 35,
+   "lhdMentions": 1,
+   "lhdRank": 46,
+   "firmsNamed": 65,
+   "totalMentions": 227,
+   "top": [
+    {
+     "name": "Maurice Blackburn",
+     "n": 23,
+     "rec": 23,
+     "avgPos": 2
+    },
+    {
+     "name": "Shine Lawyers",
+     "n": 18,
+     "rec": 18,
+     "avgPos": 4
+    },
+    {
+     "name": "Splatt Lawyers",
+     "n": 15,
+     "rec": 14,
+     "avgPos": 4.1
+    },
+    {
+     "name": "Slater and Gordon",
+     "n": 13,
+     "rec": 13,
+     "avgPos": 4
+    },
+    {
+     "name": "Turner Freeman",
+     "n": 12,
+     "rec": 12,
+     "avgPos": 2.9
+    },
+    {
+     "name": "Travis Schultz & Partners",
+     "n": 12,
+     "rec": 12,
+     "avgPos": 3
+    },
+    {
+     "name": "WT Lawyers",
+     "n": 9,
+     "rec": 9,
+     "avgPos": 4.3
+    },
+    {
+     "name": "Carter Capner Law",
+     "n": 9,
+     "rec": 9,
+     "avgPos": 5.2
+    },
+    {
+     "name": "Gouldson Legal",
+     "n": 7,
+     "rec": 7,
+     "avgPos": 5.7
+    },
+    {
+     "name": "Hall Payne",
+     "n": 6,
+     "rec": 6,
+     "avgPos": 3.2
+    },
+    {
+     "name": "Smiths Lawyers",
+     "n": 4,
+     "rec": 4,
+     "avgPos": 3
+    },
+    {
+     "name": "McInnes Wilson",
+     "n": 4,
+     "rec": 4,
+     "avgPos": 3.8
+    }
+   ],
+   "lhd": {
+    "name": "LHD Lawyers",
+    "n": 1,
+    "rec": 1,
+    "avgPos": 4
+   },
+   "byPlat": {
+    "chatgpt": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Shine Lawyers",
+     "leaderN": 5
+    },
+    "aimode": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Travis Schultz & Partners",
+     "leaderN": 6
+    },
+    "gemini": {
+     "lhd": 1,
+     "n": 7,
+     "leader": "Maurice Blackburn",
+     "leaderN": 5
+    },
+    "perplexity": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Maurice Blackburn",
+     "leaderN": 5
+    },
+    "claude": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Splatt Lawyers",
+     "leaderN": 5
+    }
+   },
+   "byPrompt": {
+    "general": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Maurice Blackburn",
+     "leaderN": 5
+    },
+    "workers": {
+     "lhd": 1,
+     "n": 5,
+     "leader": "WT Lawyers",
+     "leaderN": 4
+    },
+    "motor": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Maurice Blackburn",
+     "leaderN": 3
+    },
+    "nwnf": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Shine Lawyers",
+     "leaderN": 3
+    },
+    "medneg": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Maurice Blackburn",
+     "leaderN": 5
+    },
+    "tpd": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Berrill & Watson",
+     "leaderN": 4
+    },
+    "publiab": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Maurice Blackburn",
+     "leaderN": 4
+    }
+   },
+   "matrix": {
+    "Maurice Blackburn": {
+     "chatgpt": 4,
+     "aimode": 5,
+     "gemini": 5,
+     "perplexity": 5,
+     "claude": 4
+    },
+    "Shine Lawyers": {
+     "chatgpt": 5,
+     "aimode": 4,
+     "gemini": 4,
+     "perplexity": 1,
+     "claude": 4
+    },
+    "Splatt Lawyers": {
+     "chatgpt": 5,
+     "aimode": 1,
+     "gemini": 2,
+     "perplexity": 2,
+     "claude": 5
+    },
+    "Slater and Gordon": {
+     "chatgpt": 3,
+     "aimode": 3,
+     "gemini": 2,
+     "perplexity": 2,
+     "claude": 3
+    },
+    "Turner Freeman": {
+     "chatgpt": 0,
+     "aimode": 0,
+     "gemini": 4,
+     "perplexity": 4,
+     "claude": 4
+    },
+    "Travis Schultz & Partners": {
+     "chatgpt": 1,
+     "aimode": 6,
+     "gemini": 4,
+     "perplexity": 0,
+     "claude": 1
+    },
+    "LHD Lawyers": {
+     "chatgpt": 0,
+     "aimode": 0,
+     "gemini": 1,
+     "perplexity": 0,
+     "claude": 0
+    }
+   },
+   "cited": 1,
+   "topSources": [
+    [
+     "mauriceblackburn.com.au",
+     16
+    ],
+    [
+     "wtlaw.com.au",
+     10
+    ],
+    [
+     "turnerfreeman.com.au",
+     8
+    ],
+    [
+     "splattlawyers.com.au",
+     7
+    ],
+    [
+     "shine.com.au",
+     7
+    ],
+    [
+     "lawconnect.com",
+     6
+    ],
+    [
+     "slatergordon.com.au",
+     6
+    ],
+    [
+     "attwoodmarshall.com.au",
+     6
+    ],
+    [
+     "doylesguide.com",
+     5
+    ],
+    [
+     "bestlawfirms.com",
+     5
+    ],
+    [
+     "bestlawyers.com",
+     4
+    ],
+    [
+     "independentaustralia.net",
+     4
+    ]
+   ],
+   "serp": [
+    {
+     "prompt": "general",
+     "query": "personal injury lawyers brisbane",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "Rin Kim Law",
+      "WT Law - Car Accident Lawyers Brisbane",
+      "The Personal Injury Lawyers Brisbane"
+     ]
+    },
+    {
+     "prompt": "medneg",
+     "query": "medical negligence lawyers brisbane",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": [
+      "Rin Kim Law",
+      "Carter Capner Law",
+      "Gouldson Legal"
+     ]
+    },
+    {
+     "prompt": "motor",
+     "query": "car accident lawyers brisbane",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "Rin Kim Law",
+      "WT Law - Car Accident Lawyers Brisbane",
+      "Accident Legal"
+     ]
+    },
+    {
+     "prompt": "nwnf",
+     "query": "no win no fee lawyers brisbane",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "WT Law - Car Accident Lawyers Brisbane",
+      "Rin Kim Law",
+      "Shine Lawyers Brisbane"
+     ]
+    },
+    {
+     "prompt": "publiab",
+     "query": "public liability lawyers brisbane",
+     "lhdOrganic": 19,
+     "lhdLocal": false,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "ClaimHub Legal",
+      "Rin Kim Law",
+      "Queensland Compensation Lawyers"
+     ]
+    },
+    {
+     "prompt": "tpd",
+     "query": "tpd claim lawyers brisbane",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "workers",
+     "query": "workers compensation lawyers brisbane",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "WT Law - Car Accident Lawyers Brisbane",
+      "Queensland Compensation Lawyers",
+      "Rin Kim Law"
+     ]
+    }
+   ]
+  },
+  "perth": {
+   "answers": 35,
+   "lhdMentions": 19,
+   "lhdRank": 2,
+   "firmsNamed": 56,
+   "totalMentions": 216,
+   "top": [
+    {
+     "name": "Maurice Blackburn",
+     "n": 19,
+     "rec": 19,
+     "avgPos": 3.3
+    },
+    {
+     "name": "LHD Lawyers",
+     "n": 19,
+     "rec": 19,
+     "avgPos": 3.5
+    },
+    {
+     "name": "Foyle Legal",
+     "n": 16,
+     "rec": 16,
+     "avgPos": 2.9
+    },
+    {
+     "name": "Turner Freeman",
+     "n": 12,
+     "rec": 12,
+     "avgPos": 2.3
+    },
+    {
+     "name": "Stephen Browne Lawyers",
+     "n": 12,
+     "rec": 12,
+     "avgPos": 2.8
+    },
+    {
+     "name": "Slater and Gordon",
+     "n": 12,
+     "rec": 12,
+     "avgPos": 3.4
+    },
+    {
+     "name": "Bradford Legal",
+     "n": 9,
+     "rec": 9,
+     "avgPos": 4.9
+    },
+    {
+     "name": "Separovic Injury Lawyers",
+     "n": 7,
+     "rec": 7,
+     "avgPos": 3.7
+    },
+    {
+     "name": "Brand Solicitors",
+     "n": 6,
+     "rec": 6,
+     "avgPos": 2.2
+    },
+    {
+     "name": "Julian Johnson Lawyers",
+     "n": 6,
+     "rec": 6,
+     "avgPos": 3.2
+    },
+    {
+     "name": "Scarff Compensation Lawyers",
+     "n": 6,
+     "rec": 6,
+     "avgPos": 3.8
+    },
+    {
+     "name": "Withstand Lawyers",
+     "n": 6,
+     "rec": 6,
+     "avgPos": 5.7
+    }
+   ],
+   "lhd": {
+    "name": "LHD Lawyers",
+    "n": 19,
+    "rec": 19,
+    "avgPos": 3.5
+   },
+   "byPlat": {
+    "chatgpt": {
+     "lhd": 5,
+     "n": 7,
+     "leader": "LHD Lawyers",
+     "leaderN": 5
+    },
+    "aimode": {
+     "lhd": 3,
+     "n": 7,
+     "leader": "Maurice Blackburn",
+     "leaderN": 6
+    },
+    "gemini": {
+     "lhd": 4,
+     "n": 7,
+     "leader": "LHD Lawyers",
+     "leaderN": 4
+    },
+    "perplexity": {
+     "lhd": 3,
+     "n": 7,
+     "leader": "Maurice Blackburn",
+     "leaderN": 6
+    },
+    "claude": {
+     "lhd": 4,
+     "n": 7,
+     "leader": "Foyle Legal",
+     "leaderN": 5
+    }
+   },
+   "byPrompt": {
+    "general": {
+     "lhd": 3,
+     "n": 5,
+     "leader": "Maurice Blackburn",
+     "leaderN": 3
+    },
+    "workers": {
+     "lhd": 1,
+     "n": 5,
+     "leader": "Stephen Browne Lawyers",
+     "leaderN": 4
+    },
+    "motor": {
+     "lhd": 2,
+     "n": 5,
+     "leader": "Maurice Blackburn",
+     "leaderN": 3
+    },
+    "nwnf": {
+     "lhd": 4,
+     "n": 5,
+     "leader": "Turner Freeman",
+     "leaderN": 5
+    },
+    "medneg": {
+     "lhd": 1,
+     "n": 5,
+     "leader": "Julian Johnson Lawyers",
+     "leaderN": 5
+    },
+    "tpd": {
+     "lhd": 5,
+     "n": 5,
+     "leader": "LHD Lawyers",
+     "leaderN": 5
+    },
+    "publiab": {
+     "lhd": 3,
+     "n": 5,
+     "leader": "Slater and Gordon",
+     "leaderN": 4
+    }
+   },
+   "matrix": {
+    "Maurice Blackburn": {
+     "chatgpt": 1,
+     "aimode": 6,
+     "gemini": 3,
+     "perplexity": 6,
+     "claude": 3
+    },
+    "LHD Lawyers": {
+     "chatgpt": 5,
+     "aimode": 3,
+     "gemini": 4,
+     "perplexity": 3,
+     "claude": 4
+    },
+    "Foyle Legal": {
+     "chatgpt": 3,
+     "aimode": 2,
+     "gemini": 1,
+     "perplexity": 5,
+     "claude": 5
+    },
+    "Turner Freeman": {
+     "chatgpt": 2,
+     "aimode": 3,
+     "gemini": 2,
+     "perplexity": 3,
+     "claude": 2
+    },
+    "Stephen Browne Lawyers": {
+     "chatgpt": 3,
+     "aimode": 4,
+     "gemini": 0,
+     "perplexity": 3,
+     "claude": 2
+    },
+    "Slater and Gordon": {
+     "chatgpt": 2,
+     "aimode": 4,
+     "gemini": 3,
+     "perplexity": 2,
+     "claude": 1
+    }
+   },
+   "cited": 12,
+   "topSources": [
+    [
+     "mauriceblackburn.com.au",
+     13
+    ],
+    [
+     "foylelegal.com",
+     13
+    ],
+    [
+     "lhd.com.au",
+     12
+    ],
+    [
+     "turnerfreeman.com.au",
+     9
+    ],
+    [
+     "stephenbrowne.com.au",
+     9
+    ],
+    [
+     "lawconnect.com",
+     9
+    ],
+    [
+     "slatergordon.com.au",
+     7
+    ],
+    [
+     "doylesguide.com",
+     5
+    ],
+    [
+     "jjlaw.com.au",
+     5
+    ],
+    [
+     "bradfordlegal.com.au",
+     5
+    ],
+    [
+     "withstandlawyers.com.au",
+     5
+    ],
+    [
+     "bestlawyers.com",
+     4
+    ]
+   ],
+   "serp": [
+    {
+     "prompt": "general",
+     "query": "personal injury lawyers perth",
+     "lhdOrganic": null,
+     "lhdLocal": true,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "Stephen Browne Lawyers",
+      "LHD Lawyers Perth",
+      "Perth City Legal"
+     ]
+    },
+    {
+     "prompt": "medneg",
+     "query": "medical negligence lawyers perth",
+     "lhdOrganic": null,
+     "lhdLocal": true,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "Vertannes Georgiou",
+      "Julian Johnson Lawyers",
+      "LHD Lawyers Perth"
+     ]
+    },
+    {
+     "prompt": "motor",
+     "query": "car accident lawyers perth",
+     "lhdOrganic": 11,
+     "lhdLocal": false,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "Perth Accident Lawyers",
+      "Accident Claims Lawyers Perth",
+      "Stephen Browne Lawyers"
+     ]
+    },
+    {
+     "prompt": "nwnf",
+     "query": "no win no fee lawyers perth",
+     "lhdOrganic": 4,
+     "lhdLocal": true,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": [
+      "LHD Lawyers Perth",
+      "Turner Freeman Lawyers Perth",
+      "Accident Claims Lawyers Perth"
+     ]
+    },
+    {
+     "prompt": "publiab",
+     "query": "public liability lawyers perth",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": []
+    },
+    {
+     "prompt": "tpd",
+     "query": "tpd claim lawyers perth",
+     "lhdOrganic": 7,
+     "lhdLocal": true,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": [
+      "Aussie Injury Lawyers Perth",
+      "WKB TPD Lawyers- TPD Lawyers",
+      "LHD Lawyers Perth",
+      "Maurice Blackburn Personal Injury Lawyers Perth        My Ad Centre"
+     ]
+    },
+    {
+     "prompt": "workers",
+     "query": "workers compensation lawyers perth",
+     "lhdOrganic": null,
+     "lhdLocal": true,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "Anvil Legal Workers Compensation Lawyer",
+      "LHD Lawyers Perth",
+      "Perth City Legal"
+     ]
+    }
+   ]
+  },
+  "adelaide": {
+   "answers": 35,
+   "lhdMentions": 2,
+   "lhdRank": 22,
+   "firmsNamed": 46,
+   "totalMentions": 243,
+   "top": [
+    {
+     "name": "Tindall Gask Bentley",
+     "n": 29,
+     "rec": 29,
+     "avgPos": 2.8
+    },
+    {
+     "name": "Duncan Basheer Hannon",
+     "n": 22,
+     "rec": 22,
+     "avgPos": 2.7
+    },
+    {
+     "name": "Turner Freeman",
+     "n": 20,
+     "rec": 20,
+     "avgPos": 3.8
+    },
+    {
+     "name": "Johnston Withers",
+     "n": 19,
+     "rec": 18,
+     "avgPos": 3.5
+    },
+    {
+     "name": "MKF Lawyers",
+     "n": 15,
+     "rec": 15,
+     "avgPos": 4.3
+    },
+    {
+     "name": "Palios Meegan Nicholson",
+     "n": 15,
+     "rec": 15,
+     "avgPos": 4.3
+    },
+    {
+     "name": "Paul Alvaro Lawyers",
+     "n": 15,
+     "rec": 14,
+     "avgPos": 4.7
+    },
+    {
+     "name": "Andersons",
+     "n": 14,
+     "rec": 13,
+     "avgPos": 5.3
+    },
+    {
+     "name": "Maurice Blackburn",
+     "n": 11,
+     "rec": 10,
+     "avgPos": 4.6
+    },
+    {
+     "name": "C+F Lawyers",
+     "n": 10,
+     "rec": 10,
+     "avgPos": 4.3
+    },
+    {
+     "name": "Mahony's",
+     "n": 7,
+     "rec": 5,
+     "avgPos": 5.1
+    },
+    {
+     "name": "Shine Lawyers",
+     "n": 6,
+     "rec": 5,
+     "avgPos": 1.5
+    }
+   ],
+   "lhd": {
+    "name": "LHD Lawyers",
+    "n": 2,
+    "rec": 2,
+    "avgPos": 5.5
+   },
+   "byPlat": {
+    "chatgpt": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Duncan Basheer Hannon",
+     "leaderN": 7
+    },
+    "aimode": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Duncan Basheer Hannon",
+     "leaderN": 6
+    },
+    "gemini": {
+     "lhd": 1,
+     "n": 7,
+     "leader": "Tindall Gask Bentley",
+     "leaderN": 5
+    },
+    "perplexity": {
+     "lhd": 1,
+     "n": 7,
+     "leader": "Tindall Gask Bentley",
+     "leaderN": 7
+    },
+    "claude": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Tindall Gask Bentley",
+     "leaderN": 5
+    }
+   },
+   "byPrompt": {
+    "general": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Tindall Gask Bentley",
+     "leaderN": 5
+    },
+    "workers": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Tindall Gask Bentley",
+     "leaderN": 5
+    },
+    "motor": {
+     "lhd": 2,
+     "n": 5,
+     "leader": "Palios Meegan Nicholson",
+     "leaderN": 4
+    },
+    "nwnf": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Turner Freeman",
+     "leaderN": 4
+    },
+    "medneg": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Duncan Basheer Hannon",
+     "leaderN": 5
+    },
+    "tpd": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Tindall Gask Bentley",
+     "leaderN": 5
+    },
+    "publiab": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Johnston Withers",
+     "leaderN": 4
+    }
+   },
+   "matrix": {
+    "Tindall Gask Bentley": {
+     "chatgpt": 6,
+     "aimode": 6,
+     "gemini": 5,
+     "perplexity": 7,
+     "claude": 5
+    },
+    "Duncan Basheer Hannon": {
+     "chatgpt": 7,
+     "aimode": 6,
+     "gemini": 4,
+     "perplexity": 2,
+     "claude": 3
+    },
+    "Turner Freeman": {
+     "chatgpt": 4,
+     "aimode": 4,
+     "gemini": 4,
+     "perplexity": 4,
+     "claude": 4
+    },
+    "Johnston Withers": {
+     "chatgpt": 6,
+     "aimode": 5,
+     "gemini": 2,
+     "perplexity": 3,
+     "claude": 3
+    },
+    "MKF Lawyers": {
+     "chatgpt": 5,
+     "aimode": 3,
+     "gemini": 1,
+     "perplexity": 3,
+     "claude": 3
+    },
+    "Palios Meegan Nicholson": {
+     "chatgpt": 3,
+     "aimode": 1,
+     "gemini": 4,
+     "perplexity": 3,
+     "claude": 4
+    },
+    "LHD Lawyers": {
+     "chatgpt": 0,
+     "aimode": 0,
+     "gemini": 1,
+     "perplexity": 1,
+     "claude": 0
+    }
+   },
+   "cited": 3,
+   "topSources": [
+    [
+     "tgb.com.au",
+     12
+    ],
+    [
+     "johnstonwithers.com.au",
+     10
+    ],
+    [
+     "pmnlawyers.com.au",
+     9
+    ],
+    [
+     "doylesguide.com",
+     8
+    ],
+    [
+     "turnerfreeman.com.au",
+     8
+    ],
+    [
+     "comparepersonalinjurylawyers.com.au",
+     7
+    ],
+    [
+     "lawzana.com",
+     7
+    ],
+    [
+     "mkflawyers.com.au",
+     7
+    ],
+    [
+     "ibtimes.com.au",
+     6
+    ],
+    [
+     "paulalvaro.com.au",
+     6
+    ],
+    [
+     "mauriceblackburn.com.au",
+     5
+    ],
+    [
+     "shine.com.au",
+     5
+    ]
+   ],
+   "serp": [
+    {
+     "prompt": "general",
+     "query": "personal injury lawyers adelaide",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "MKF Personal Injury Lawyers Adelaide",
+      "PMN Personal Injury Lawyers Adelaide",
+      "DBH Lawyers"
+     ]
+    },
+    {
+     "prompt": "medneg",
+     "query": "medical negligence lawyers adelaide",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "MKF Personal Injury Lawyers Adelaide",
+      "PMN Personal Injury Lawyers Adelaide",
+      "Lindbloms Lawyers"
+     ]
+    },
+    {
+     "prompt": "motor",
+     "query": "car accident lawyers adelaide",
+     "lhdOrganic": 1,
+     "lhdLocal": false,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "DBH Lawyers",
+      "Turner Freeman Lawyers",
+      "MKF Personal Injury Lawyers Adelaide"
+     ]
+    },
+    {
+     "prompt": "nwnf",
+     "query": "no win no fee lawyers adelaide",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": [
+      "DBH Lawyers",
+      "Andersons Solicitors",
+      "Tindall Gask Bentley, Adelaide",
+      "Paul Kirk Legal        My Ad Centre"
+     ]
+    },
+    {
+     "prompt": "publiab",
+     "query": "public liability lawyers adelaide",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "PMN Personal Injury Lawyers Adelaide",
+      "Turner Freeman Lawyers",
+      "DBH Lawyers"
+     ]
+    },
+    {
+     "prompt": "tpd",
+     "query": "tpd claim lawyers adelaide",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": [
+      "WKB TPD Lawyers - TPD Claim Lawyers",
+      "DBH Lawyers",
+      "PK Simpson - Adelaide",
+      "Maurice Blackburn Personal Injury Lawyers Adelaide        My Ad Centre"
+     ]
+    },
+    {
+     "prompt": "workers",
+     "query": "workers compensation lawyers adelaide",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "Paul Kirk Legal        My Ad Centre",
+      "DBH Lawyers",
+      "PMN Personal Injury Lawyers Adelaide",
+      "Andersons Solicitors"
+     ]
+    }
+   ]
+  },
+  "canberra": {
+   "answers": 35,
+   "lhdMentions": 12,
+   "lhdRank": 5,
+   "firmsNamed": 39,
+   "totalMentions": 205,
+   "top": [
+    {
+     "name": "Slater and Gordon",
+     "n": 26,
+     "rec": 26,
+     "avgPos": 3
+    },
+    {
+     "name": "Maliganis Edwards Johnson",
+     "n": 21,
+     "rec": 21,
+     "avgPos": 2.2
+    },
+    {
+     "name": "Blumers",
+     "n": 20,
+     "rec": 20,
+     "avgPos": 2.8
+    },
+    {
+     "name": "Turner Freeman",
+     "n": 15,
+     "rec": 15,
+     "avgPos": 2.7
+    },
+    {
+     "name": "LHD Lawyers",
+     "n": 12,
+     "rec": 12,
+     "avgPos": 3.3
+    },
+    {
+     "name": "United Legal",
+     "n": 12,
+     "rec": 11,
+     "avgPos": 4.5
+    },
+    {
+     "name": "Shine Lawyers",
+     "n": 9,
+     "rec": 9,
+     "avgPos": 3.7
+    },
+    {
+     "name": "Maurice Blackburn",
+     "n": 8,
+     "rec": 7,
+     "avgPos": 2.8
+    },
+    {
+     "name": "Baker Deane & Nutt",
+     "n": 7,
+     "rec": 7,
+     "avgPos": 3.4
+    },
+    {
+     "name": "ACT Law Associates",
+     "n": 7,
+     "rec": 7,
+     "avgPos": 3.6
+    },
+    {
+     "name": "Elringtons",
+     "n": 7,
+     "rec": 7,
+     "avgPos": 4.1
+    },
+    {
+     "name": "Law Partners",
+     "n": 5,
+     "rec": 5,
+     "avgPos": 2.4
+    }
+   ],
+   "lhd": {
+    "name": "LHD Lawyers",
+    "n": 12,
+    "rec": 12,
+    "avgPos": 3.3
+   },
+   "byPlat": {
+    "chatgpt": {
+     "lhd": 1,
+     "n": 7,
+     "leader": "Maliganis Edwards Johnson",
+     "leaderN": 6
+    },
+    "aimode": {
+     "lhd": 2,
+     "n": 7,
+     "leader": "Slater and Gordon",
+     "leaderN": 7
+    },
+    "gemini": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Turner Freeman",
+     "leaderN": 5
+    },
+    "perplexity": {
+     "lhd": 6,
+     "n": 7,
+     "leader": "LHD Lawyers",
+     "leaderN": 6
+    },
+    "claude": {
+     "lhd": 3,
+     "n": 7,
+     "leader": "Blumers",
+     "leaderN": 5
+    }
+   },
+   "byPrompt": {
+    "general": {
+     "lhd": 1,
+     "n": 5,
+     "leader": "Blumers",
+     "leaderN": 4
+    },
+    "workers": {
+     "lhd": 1,
+     "n": 5,
+     "leader": "Blumers",
+     "leaderN": 5
+    },
+    "motor": {
+     "lhd": 2,
+     "n": 5,
+     "leader": "Turner Freeman",
+     "leaderN": 4
+    },
+    "nwnf": {
+     "lhd": 1,
+     "n": 5,
+     "leader": "Slater and Gordon",
+     "leaderN": 4
+    },
+    "medneg": {
+     "lhd": 1,
+     "n": 5,
+     "leader": "Slater and Gordon",
+     "leaderN": 4
+    },
+    "tpd": {
+     "lhd": 3,
+     "n": 5,
+     "leader": "Monaco Solicitors",
+     "leaderN": 4
+    },
+    "publiab": {
+     "lhd": 3,
+     "n": 5,
+     "leader": "Blumers",
+     "leaderN": 5
+    }
+   },
+   "matrix": {
+    "Slater and Gordon": {
+     "chatgpt": 6,
+     "aimode": 7,
+     "gemini": 4,
+     "perplexity": 5,
+     "claude": 4
+    },
+    "Maliganis Edwards Johnson": {
+     "chatgpt": 6,
+     "aimode": 6,
+     "gemini": 4,
+     "perplexity": 2,
+     "claude": 3
+    },
+    "Blumers": {
+     "chatgpt": 5,
+     "aimode": 3,
+     "gemini": 4,
+     "perplexity": 3,
+     "claude": 5
+    },
+    "Turner Freeman": {
+     "chatgpt": 0,
+     "aimode": 2,
+     "gemini": 5,
+     "perplexity": 4,
+     "claude": 4
+    },
+    "LHD Lawyers": {
+     "chatgpt": 1,
+     "aimode": 2,
+     "gemini": 0,
+     "perplexity": 6,
+     "claude": 3
+    },
+    "United Legal": {
+     "chatgpt": 5,
+     "aimode": 2,
+     "gemini": 1,
+     "perplexity": 1,
+     "claude": 3
+    }
+   },
+   "cited": 12,
+   "topSources": [
+    [
+     "slatergordon.com.au",
+     18
+    ],
+    [
+     "mej.com.au",
+     15
+    ],
+    [
+     "lhd.com.au",
+     12
+    ],
+    [
+     "turnerfreeman.com.au",
+     12
+    ],
+    [
+     "lawconnect.com",
+     8
+    ],
+    [
+     "region.com.au",
+     7
+    ],
+    [
+     "doylesguide.com",
+     6
+    ],
+    [
+     "canberradaily.com.au",
+     6
+    ],
+    [
+     "mauriceblackburn.com.au",
+     6
+    ],
+    [
+     "blumers.com.au",
+     6
+    ],
+    [
+     "shine.com.au",
+     6
+    ],
+    [
+     "monacosolicitors.com.au",
+     5
+    ]
+   ],
+   "serp": [
+    {
+     "prompt": "general",
+     "query": "personal injury lawyers canberra",
+     "lhdOrganic": 14,
+     "lhdLocal": false,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "ACT Law Associates",
+      "BDN Lawyers",
+      "Maliganis Edwards Johnson"
+     ]
+    },
+    {
+     "prompt": "medneg",
+     "query": "medical negligence lawyers canberra",
+     "lhdOrganic": 8,
+     "lhdLocal": false,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": [
+      "Maliganis Edwards Johnson",
+      "ACT Law Associates",
+      "Blumers Personal Injury Lawyers"
+     ]
+    },
+    {
+     "prompt": "motor",
+     "query": "car accident lawyers canberra",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "ACT Law Associates",
+      "Maliganis Edwards Johnson",
+      "Shine Lawyers Canberra",
+      "BDN Lawyers        My Ad Centre"
+     ]
+    },
+    {
+     "prompt": "nwnf",
+     "query": "no win no fee lawyers canberra",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "ACT Law Associates",
+      "BDN Lawyers",
+      "Turner Freeman Lawyers Canberra"
+     ]
+    },
+    {
+     "prompt": "publiab",
+     "query": "public liability lawyers canberra",
+     "lhdOrganic": 4,
+     "lhdLocal": false,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "Law Partners Injury Lawyers Canberra        My Ad Centre",
+      "ACT Law Associates",
+      "Maliganis Edwards Johnson",
+      "Maxwell&Co Canberra Lawyers"
+     ]
+    },
+    {
+     "prompt": "tpd",
+     "query": "tpd claim lawyers canberra",
+     "lhdOrganic": 3,
+     "lhdLocal": false,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "Maliganis Edwards Johnson",
+      "ACT Law Associates",
+      "Ken Cush & Associates"
+     ]
+    },
+    {
+     "prompt": "workers",
+     "query": "workers compensation lawyers canberra",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "BDN Lawyers        My Ad Centre",
+      "ACT Law Associates",
+      "Blumers Personal Injury Lawyers",
+      "BDN Lawyers"
+     ]
+    }
+   ]
+  },
+  "newcastle": {
+   "answers": 35,
+   "lhdMentions": 10,
+   "lhdRank": 8,
+   "firmsNamed": 46,
+   "totalMentions": 196,
+   "top": [
+    {
+     "name": "Turner Freeman",
+     "n": 22,
+     "rec": 22,
+     "avgPos": 2.5
+    },
+    {
+     "name": "Burke Mead",
+     "n": 15,
+     "rec": 15,
+     "avgPos": 2.4
+    },
+    {
+     "name": "Conrad Curry Lawyers",
+     "n": 14,
+     "rec": 14,
+     "avgPos": 3.5
+    },
+    {
+     "name": "Slater and Gordon",
+     "n": 14,
+     "rec": 14,
+     "avgPos": 3.6
+    },
+    {
+     "name": "Law Partners",
+     "n": 11,
+     "rec": 11,
+     "avgPos": 3.3
+    },
+    {
+     "name": "Whitelaw McDonald",
+     "n": 10,
+     "rec": 10,
+     "avgPos": 2
+    },
+    {
+     "name": "Bale Boshev Lawyers",
+     "n": 10,
+     "rec": 10,
+     "avgPos": 4.5
+    },
+    {
+     "name": "LHD Lawyers",
+     "n": 10,
+     "rec": 10,
+     "avgPos": 5.3
+    },
+    {
+     "name": "Shine Lawyers",
+     "n": 9,
+     "rec": 9,
+     "avgPos": 3.2
+    },
+    {
+     "name": "Gerard Malouf & Partners",
+     "n": 9,
+     "rec": 9,
+     "avgPos": 4.6
+    },
+    {
+     "name": "Stacks Goudkamp",
+     "n": 6,
+     "rec": 6,
+     "avgPos": 3.7
+    },
+    {
+     "name": "Firths",
+     "n": 5,
+     "rec": 5,
+     "avgPos": 4.4
+    }
+   ],
+   "lhd": {
+    "name": "LHD Lawyers",
+    "n": 10,
+    "rec": 10,
+    "avgPos": 5.3
+   },
+   "byPlat": {
+    "chatgpt": {
+     "lhd": 1,
+     "n": 7,
+     "leader": "Burke Mead",
+     "leaderN": 5
+    },
+    "aimode": {
+     "lhd": 1,
+     "n": 7,
+     "leader": "Turner Freeman",
+     "leaderN": 5
+    },
+    "gemini": {
+     "lhd": 4,
+     "n": 7,
+     "leader": "Turner Freeman",
+     "leaderN": 4
+    },
+    "perplexity": {
+     "lhd": 0,
+     "n": 7,
+     "leader": "Turner Freeman",
+     "leaderN": 5
+    },
+    "claude": {
+     "lhd": 4,
+     "n": 7,
+     "leader": "Turner Freeman",
+     "leaderN": 4
+    }
+   },
+   "byPrompt": {
+    "general": {
+     "lhd": 2,
+     "n": 5,
+     "leader": "Shine Lawyers",
+     "leaderN": 3
+    },
+    "workers": {
+     "lhd": 2,
+     "n": 5,
+     "leader": "Turner Freeman",
+     "leaderN": 4
+    },
+    "motor": {
+     "lhd": 1,
+     "n": 5,
+     "leader": "Turner Freeman",
+     "leaderN": 4
+    },
+    "nwnf": {
+     "lhd": 2,
+     "n": 5,
+     "leader": "Turner Freeman",
+     "leaderN": 4
+    },
+    "medneg": {
+     "lhd": 1,
+     "n": 5,
+     "leader": "Catherine Henry Lawyers",
+     "leaderN": 4
+    },
+    "tpd": {
+     "lhd": 0,
+     "n": 5,
+     "leader": "Turner Freeman",
+     "leaderN": 5
+    },
+    "publiab": {
+     "lhd": 2,
+     "n": 5,
+     "leader": "Slater and Gordon",
+     "leaderN": 4
+    }
+   },
+   "matrix": {
+    "Turner Freeman": {
+     "chatgpt": 4,
+     "aimode": 5,
+     "gemini": 4,
+     "perplexity": 5,
+     "claude": 4
+    },
+    "Burke Mead": {
+     "chatgpt": 5,
+     "aimode": 2,
+     "gemini": 3,
+     "perplexity": 2,
+     "claude": 3
+    },
+    "Conrad Curry Lawyers": {
+     "chatgpt": 1,
+     "aimode": 3,
+     "gemini": 4,
+     "perplexity": 2,
+     "claude": 4
+    },
+    "Slater and Gordon": {
+     "chatgpt": 4,
+     "aimode": 5,
+     "gemini": 0,
+     "perplexity": 2,
+     "claude": 3
+    },
+    "Law Partners": {
+     "chatgpt": 5,
+     "aimode": 1,
+     "gemini": 0,
+     "perplexity": 2,
+     "claude": 3
+    },
+    "Whitelaw McDonald": {
+     "chatgpt": 2,
+     "aimode": 0,
+     "gemini": 3,
+     "perplexity": 4,
+     "claude": 1
+    },
+    "LHD Lawyers": {
+     "chatgpt": 1,
+     "aimode": 1,
+     "gemini": 4,
+     "perplexity": 0,
+     "claude": 4
+    }
+   },
+   "cited": 9,
+   "topSources": [
+    [
+     "turnerfreeman.com.au",
+     18
+    ],
+    [
+     "conradcurrylaw.com.au",
+     12
+    ],
+    [
+     "burkemeadlawyers.com.au",
+     10
+    ],
+    [
+     "wmcdlaw.com.au",
+     10
+    ],
+    [
+     "baleboshevlawyers.com.au",
+     10
+    ],
+    [
+     "slatergordon.com.au",
+     9
+    ],
+    [
+     "lawpartners.com.au",
+     9
+    ],
+    [
+     "lhd.com.au",
+     9
+    ],
+    [
+     "gerardmaloufpartners.com.au",
+     6
+    ],
+    [
+     "shine.com.au",
+     5
+    ],
+    [
+     "firths.com.au",
+     4
+    ],
+    [
+     "mauriceblackburn.com.au",
+     4
+    ]
+   ],
+   "serp": [
+    {
+     "prompt": "general",
+     "query": "personal injury lawyers newcastle",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "Burke Mead Lawyers - Newcastle",
+      "Shine Lawyers Newcastle",
+      "Walker Law Group",
+      "Law Partners Injury Lawyers Newcastle        My Ad Centre"
+     ]
+    },
+    {
+     "prompt": "medneg",
+     "query": "medical negligence lawyers newcastle",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "Dalzell Law",
+      "Burke Mead Lawyers - Newcastle",
+      "The Law Office Of Conrad Curry"
+     ]
+    },
+    {
+     "prompt": "motor",
+     "query": "car accident lawyers newcastle",
+     "lhdOrganic": null,
+     "lhdLocal": true,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": [
+      "Burke Mead Lawyers - Newcastle",
+      "Turner Freeman Lawyers Newcastle",
+      "LHD Lawyers Newcastle"
+     ]
+    },
+    {
+     "prompt": "nwnf",
+     "query": "no win no fee lawyers newcastle",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "Shine Lawyers Newcastle",
+      "Fourtree Lawyers - Newcastle",
+      "Turner Freeman Lawyers Newcastle"
+     ]
+    },
+    {
+     "prompt": "publiab",
+     "query": "public liability lawyers newcastle",
+     "lhdOrganic": 11,
+     "lhdLocal": true,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": [
+      "Burke Mead Lawyers - Newcastle",
+      "Turner Freeman Lawyers Newcastle",
+      "LHD Lawyers Newcastle"
+     ]
+    },
+    {
+     "prompt": "tpd",
+     "query": "tpd claim lawyers newcastle",
+     "lhdOrganic": 7,
+     "lhdLocal": true,
+     "aio": true,
+     "lhdInAio": true,
+     "localPack": [
+      "Turner Freeman Lawyers Newcastle",
+      "Burke Mead Lawyers - Newcastle",
+      "LHD Lawyers Newcastle",
+      "Law Partners Injury Lawyers Newcastle        My Ad Centre"
+     ]
+    },
+    {
+     "prompt": "workers",
+     "query": "workers compensation lawyers newcastle",
+     "lhdOrganic": null,
+     "lhdLocal": false,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "Burke Mead Lawyers - Newcastle",
+      "Shine Lawyers Newcastle",
+      "Turner Freeman Lawyers Newcastle"
+     ]
+    }
+   ]
+  },
+  "hobart": {
+   "answers": 35,
+   "lhdMentions": 33,
+   "lhdRank": 1,
+   "firmsNamed": 28,
+   "totalMentions": 172,
+   "top": [
+    {
+     "name": "LHD Lawyers",
+     "n": 33,
+     "rec": 33,
+     "avgPos": 2.1
+    },
+    {
+     "name": "Blumers",
+     "n": 20,
+     "rec": 20,
+     "avgPos": 2.2
+    },
+    {
+     "name": "Hall Payne",
+     "n": 19,
+     "rec": 19,
+     "avgPos": 3.1
+    },
+    {
+     "name": "Slater and Gordon",
+     "n": 16,
+     "rec": 16,
+     "avgPos": 2.7
+    },
+    {
+     "name": "Murdoch Clarke",
+     "n": 14,
+     "rec": 14,
+     "avgPos": 2.9
+    },
+    {
+     "name": "Tasmanian Compensation Lawyers",
+     "n": 9,
+     "rec": 9,
+     "avgPos": 4.2
+    },
+    {
+     "name": "Firths",
+     "n": 8,
+     "rec": 8,
+     "avgPos": 3.3
+    },
+    {
+     "name": "Simmons Wolfhagen",
+     "n": 8,
+     "rec": 8,
+     "avgPos": 3.8
+    },
+    {
+     "name": "Jovanovic Lawyers",
+     "n": 6,
+     "rec": 6,
+     "avgPos": 4
+    },
+    {
+     "name": "Maurice Blackburn",
+     "n": 5,
+     "rec": 5,
+     "avgPos": 3.2
+    },
+    {
+     "name": "Carroll & O'Dea",
+     "n": 5,
+     "rec": 5,
+     "avgPos": 3.8
+    },
+    {
+     "name": "Monaco Solicitors",
+     "n": 4,
+     "rec": 4,
+     "avgPos": 4.3
+    }
+   ],
+   "lhd": {
+    "name": "LHD Lawyers",
+    "n": 33,
+    "rec": 33,
+    "avgPos": 2.1
+   },
+   "byPlat": {
+    "chatgpt": {
+     "lhd": 7,
+     "n": 7,
+     "leader": "LHD Lawyers",
+     "leaderN": 7
+    },
+    "aimode": {
+     "lhd": 6,
+     "n": 7,
+     "leader": "LHD Lawyers",
+     "leaderN": 6
+    },
+    "gemini": {
+     "lhd": 6,
+     "n": 7,
+     "leader": "LHD Lawyers",
+     "leaderN": 6
+    },
+    "perplexity": {
+     "lhd": 7,
+     "n": 7,
+     "leader": "LHD Lawyers",
+     "leaderN": 7
+    },
+    "claude": {
+     "lhd": 7,
+     "n": 7,
+     "leader": "LHD Lawyers",
+     "leaderN": 7
+    }
+   },
+   "byPrompt": {
+    "general": {
+     "lhd": 5,
+     "n": 5,
+     "leader": "LHD Lawyers",
+     "leaderN": 5
+    },
+    "workers": {
+     "lhd": 5,
+     "n": 5,
+     "leader": "LHD Lawyers",
+     "leaderN": 5
+    },
+    "motor": {
+     "lhd": 4,
+     "n": 5,
+     "leader": "Hall Payne",
+     "leaderN": 4
+    },
+    "nwnf": {
+     "lhd": 5,
+     "n": 5,
+     "leader": "LHD Lawyers",
+     "leaderN": 5
+    },
+    "medneg": {
+     "lhd": 4,
+     "n": 5,
+     "leader": "Blumers",
+     "leaderN": 5
+    },
+    "tpd": {
+     "lhd": 5,
+     "n": 5,
+     "leader": "LHD Lawyers",
+     "leaderN": 5
+    },
+    "publiab": {
+     "lhd": 5,
+     "n": 5,
+     "leader": "LHD Lawyers",
+     "leaderN": 5
+    }
+   },
+   "matrix": {
+    "LHD Lawyers": {
+     "chatgpt": 7,
+     "aimode": 6,
+     "gemini": 6,
+     "perplexity": 7,
+     "claude": 7
+    },
+    "Blumers": {
+     "chatgpt": 6,
+     "aimode": 3,
+     "gemini": 4,
+     "perplexity": 3,
+     "claude": 4
+    },
+    "Hall Payne": {
+     "chatgpt": 5,
+     "aimode": 2,
+     "gemini": 5,
+     "perplexity": 3,
+     "claude": 4
+    },
+    "Slater and Gordon": {
+     "chatgpt": 4,
+     "aimode": 5,
+     "gemini": 3,
+     "perplexity": 1,
+     "claude": 3
+    },
+    "Murdoch Clarke": {
+     "chatgpt": 1,
+     "aimode": 1,
+     "gemini": 4,
+     "perplexity": 4,
+     "claude": 4
+    },
+    "Tasmanian Compensation Lawyers": {
+     "chatgpt": 3,
+     "aimode": 1,
+     "gemini": 1,
+     "perplexity": 2,
+     "claude": 2
+    }
+   },
+   "cited": 23,
+   "topSources": [
+    [
+     "lhd.com.au",
+     23
+    ],
+    [
+     "slatergordon.com.au",
+     15
+    ],
+    [
+     "hallpayne.com.au",
+     10
+    ],
+    [
+     "lawconnect.com",
+     7
+    ],
+    [
+     "blumers.com.au",
+     7
+    ],
+    [
+     "mauriceblackburn.com.au",
+     7
+    ],
+    [
+     "firths.com.au",
+     7
+    ],
+    [
+     "comparepersonalinjurylawyers.com.au",
+     6
+    ],
+    [
+     "lawyer.com.au",
+     6
+    ],
+    [
+     "murdochclarke.com.au",
+     6
+    ],
+    [
+     "maps.google.com",
+     5
+    ],
+    [
+     "google.com",
+     4
+    ]
+   ],
+   "serp": [
+    {
+     "prompt": "general",
+     "query": "personal injury lawyers hobart",
+     "lhdOrganic": 1,
+     "lhdLocal": true,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "LHD Lawyers Hobart",
+      "Blumers Personal Injury Lawyers",
+      "Hall Payne Lawyers Hobart"
+     ]
+    },
+    {
+     "prompt": "medneg",
+     "query": "medical negligence lawyers hobart",
+     "lhdOrganic": 2,
+     "lhdLocal": true,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "Blumers Personal Injury Lawyers",
+      "LHD Lawyers Hobart",
+      "Carroll & O'Dea Lawyers Hobart"
+     ]
+    },
+    {
+     "prompt": "motor",
+     "query": "car accident lawyers hobart",
+     "lhdOrganic": null,
+     "lhdLocal": true,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "LHD Lawyers Hobart",
+      "Hall Payne Lawyers Hobart",
+      "Blumers Personal Injury Lawyers"
+     ]
+    },
+    {
+     "prompt": "nwnf",
+     "query": "no win no fee lawyers hobart",
+     "lhdOrganic": null,
+     "lhdLocal": true,
+     "aio": true,
+     "lhdInAio": false,
+     "localPack": [
+      "LHD Lawyers Hobart",
+      "Carroll & O'Dea Lawyers Hobart",
+      "Advocate Lawyers Hobart | Hobart Based Lawyers"
+     ]
+    },
+    {
+     "prompt": "publiab",
+     "query": "public liability lawyers hobart",
+     "lhdOrganic": null,
+     "lhdLocal": true,
+     "aio": true,
+     "lhdInAio": true,
+     "localPack": [
+      "Carroll & O'Dea Lawyers Hobart",
+      "Hall Payne Lawyers Hobart",
+      "LHD Lawyers Hobart"
+     ]
+    },
+    {
+     "prompt": "tpd",
+     "query": "tpd claim lawyers hobart",
+     "lhdOrganic": null,
+     "lhdLocal": true,
+     "aio": false,
+     "lhdInAio": false,
+     "localPack": [
+      "Hall Payne Lawyers Hobart",
+      "LHD Lawyers Hobart",
+      "Firths The Compensation Lawyers"
+     ]
+    },
+    {
+     "prompt": "workers",
+     "query": "workers compensation lawyers hobart",
+     "lhdOrganic": null,
+     "lhdLocal": true,
+     "aio": true,
+     "lhdInAio": true,
+     "localPack": [
+      "Blumers Personal Injury Lawyers",
+      "LHD Lawyers Hobart",
+      "Hall Payne Lawyers Hobart"
+     ]
+    }
+   ]
+  }
+ },
+ "national": {
+  "answers": 280,
+  "top": [
+   {
+    "name": "Slater and Gordon",
+    "n": 118,
+    "rec": 114,
+    "avgPos": 3.3
+   },
+   {
+    "name": "Maurice Blackburn",
+    "n": 114,
+    "rec": 109,
+    "avgPos": 2.9
+   },
+   {
+    "name": "Turner Freeman",
+    "n": 100,
+    "rec": 100,
+    "avgPos": 3.1
+   },
+   {
+    "name": "LHD Lawyers",
+    "n": 99,
+    "rec": 99,
+    "avgPos": 3.5
+   },
+   {
+    "name": "Shine Lawyers",
+    "n": 61,
+    "rec": 57,
+    "avgPos": 3.7
+   },
+   {
+    "name": "Law Partners",
+    "n": 54,
+    "rec": 54,
+    "avgPos": 2.9
+   },
+   {
+    "name": "Blumers",
+    "n": 42,
+    "rec": 42,
+    "avgPos": 2.5
+   },
+   {
+    "name": "Tindall Gask Bentley",
+    "n": 31,
+    "rec": 31,
+    "avgPos": 2.9
+   },
+   {
+    "name": "Hall Payne",
+    "n": 26,
+    "rec": 26,
+    "avgPos": 3
+   },
+   {
+    "name": "Firths",
+    "n": 24,
+    "rec": 24,
+    "avgPos": 4.6
+   },
+   {
+    "name": "Gerard Malouf & Partners",
+    "n": 23,
+    "rec": 23,
+    "avgPos": 5.3
+   },
+   {
+    "name": "Duncan Basheer Hannon",
+    "n": 22,
+    "rec": 22,
+    "avgPos": 2.7
+   },
+   {
+    "name": "Maliganis Edwards Johnson",
+    "n": 21,
+    "rec": 21,
+    "avgPos": 2.2
+   },
+   {
+    "name": "Garling & Co",
+    "n": 21,
+    "rec": 21,
+    "avgPos": 3.3
+   },
+   {
+    "name": "Carroll & O'Dea",
+    "n": 20,
+    "rec": 18,
+    "avgPos": 3.5
+   }
+  ],
+  "lhdMentions": 99,
+  "cited": 79,
+  "byPlat": {
+   "chatgpt": {
+    "lhd": 20,
+    "n": 56,
+    "top": [
+     {
+      "name": "Slater and Gordon",
+      "n": 29,
+      "rec": 27,
+      "avgPos": 4.1
+     },
+     {
+      "name": "LHD Lawyers",
+      "n": 20,
+      "rec": 20,
+      "avgPos": 3.1
+     },
+     {
+      "name": "Law Partners",
+      "n": 16,
+      "rec": 16,
+      "avgPos": 2.2
+     },
+     {
+      "name": "Turner Freeman",
+      "n": 16,
+      "rec": 16,
+      "avgPos": 3.9
+     },
+     {
+      "name": "Maurice Blackburn",
+      "n": 15,
+      "rec": 14,
+      "avgPos": 3.5
+     }
+    ]
+   },
+   "aimode": {
+    "lhd": 16,
+    "n": 56,
+    "top": [
+     {
+      "name": "Maurice Blackburn",
+      "n": 30,
+      "rec": 27,
+      "avgPos": 2.7
+     },
+     {
+      "name": "Slater and Gordon",
+      "n": 29,
+      "rec": 27,
+      "avgPos": 2.8
+     },
+     {
+      "name": "Shine Lawyers",
+      "n": 18,
+      "rec": 14,
+      "avgPos": 3.1
+     },
+     {
+      "name": "LHD Lawyers",
+      "n": 16,
+      "rec": 16,
+      "avgPos": 3.2
+     },
+     {
+      "name": "Turner Freeman",
+      "n": 15,
+      "rec": 15,
+      "avgPos": 3.1
+     }
+    ]
+   },
+   "gemini": {
+    "lhd": 20,
+    "n": 56,
+    "top": [
+     {
+      "name": "Turner Freeman",
+      "n": 23,
+      "rec": 23,
+      "avgPos": 2.8
+     },
+     {
+      "name": "Slater and Gordon",
+      "n": 21,
+      "rec": 21,
+      "avgPos": 3
+     },
+     {
+      "name": "LHD Lawyers",
+      "n": 20,
+      "rec": 20,
+      "avgPos": 3.5
+     },
+     {
+      "name": "Shine Lawyers",
+      "n": 17,
+      "rec": 17,
+      "avgPos": 2.5
+     },
+     {
+      "name": "Maurice Blackburn",
+      "n": 14,
+      "rec": 14,
+      "avgPos": 1.7
+     }
+    ]
+   },
+   "perplexity": {
+    "lhd": 23,
+    "n": 56,
+    "top": [
+     {
+      "name": "Maurice Blackburn",
+      "n": 31,
+      "rec": 31,
+      "avgPos": 3.1
+     },
+     {
+      "name": "Turner Freeman",
+      "n": 25,
+      "rec": 25,
+      "avgPos": 2.2
+     },
+     {
+      "name": "LHD Lawyers",
+      "n": 23,
+      "rec": 23,
+      "avgPos": 3.5
+     },
+     {
+      "name": "Slater and Gordon",
+      "n": 17,
+      "rec": 17,
+      "avgPos": 3
+     },
+     {
+      "name": "Law Partners",
+      "n": 11,
+      "rec": 11,
+      "avgPos": 4.5
+     }
+    ]
+   },
+   "claude": {
+    "lhd": 20,
+    "n": 56,
+    "top": [
+     {
+      "name": "Maurice Blackburn",
+      "n": 24,
+      "rec": 23,
+      "avgPos": 3.1
+     },
+     {
+      "name": "Slater and Gordon",
+      "n": 22,
+      "rec": 22,
+      "avgPos": 3.5
+     },
+     {
+      "name": "Turner Freeman",
+      "n": 21,
+      "rec": 21,
+      "avgPos": 3.8
+     },
+     {
+      "name": "LHD Lawyers",
+      "n": 20,
+      "rec": 20,
+      "avgPos": 4
+     },
+     {
+      "name": "Shine Lawyers",
+      "n": 11,
+      "rec": 11,
+      "avgPos": 5.9
+     }
+    ]
+   }
+  },
+  "byPrompt": {
+   "general": {
+    "lhd": 13,
+    "n": 40,
+    "top": [
+     {
+      "name": "Maurice Blackburn",
+      "n": 19,
+      "rec": 19,
+      "avgPos": 2.2
+     },
+     {
+      "name": "Turner Freeman",
+      "n": 14,
+      "rec": 14,
+      "avgPos": 3.9
+     },
+     {
+      "name": "LHD Lawyers",
+      "n": 13,
+      "rec": 13,
+      "avgPos": 3.9
+     },
+     {
+      "name": "Shine Lawyers",
+      "n": 11,
+      "rec": 11,
+      "avgPos": 3.6
+     },
+     {
+      "name": "Slater and Gordon",
+      "n": 10,
+      "rec": 10,
+      "avgPos": 3.8
+     }
+    ]
+   },
+   "workers": {
+    "lhd": 15,
+    "n": 40,
+    "top": [
+     {
+      "name": "Turner Freeman",
+      "n": 16,
+      "rec": 16,
+      "avgPos": 3.2
+     },
+     {
+      "name": "LHD Lawyers",
+      "n": 15,
+      "rec": 15,
+      "avgPos": 4.1
+     },
+     {
+      "name": "Slater and Gordon",
+      "n": 14,
+      "rec": 13,
+      "avgPos": 4.1
+     },
+     {
+      "name": "Maurice Blackburn",
+      "n": 10,
+      "rec": 10,
+      "avgPos": 3.4
+     },
+     {
+      "name": "Law Partners",
+      "n": 8,
+      "rec": 8,
+      "avgPos": 3
+     }
+    ]
+   },
+   "motor": {
+    "lhd": 12,
+    "n": 40,
+    "top": [
+     {
+      "name": "Slater and Gordon",
+      "n": 19,
+      "rec": 18,
+      "avgPos": 2.9
+     },
+     {
+      "name": "Turner Freeman",
+      "n": 16,
+      "rec": 16,
+      "avgPos": 2.9
+     },
+     {
+      "name": "Maurice Blackburn",
+      "n": 13,
+      "rec": 12,
+      "avgPos": 3
+     },
+     {
+      "name": "Law Partners",
+      "n": 13,
+      "rec": 13,
+      "avgPos": 3.1
+     },
+     {
+      "name": "LHD Lawyers",
+      "n": 12,
+      "rec": 12,
+      "avgPos": 3.5
+     }
+    ]
+   },
+   "nwnf": {
+    "lhd": 17,
+    "n": 40,
+    "top": [
+     {
+      "name": "Turner Freeman",
+      "n": 22,
+      "rec": 22,
+      "avgPos": 2
+     },
+     {
+      "name": "LHD Lawyers",
+      "n": 17,
+      "rec": 17,
+      "avgPos": 2.6
+     },
+     {
+      "name": "Slater and Gordon",
+      "n": 16,
+      "rec": 16,
+      "avgPos": 3.1
+     },
+     {
+      "name": "Shine Lawyers",
+      "n": 14,
+      "rec": 14,
+      "avgPos": 2.5
+     },
+     {
+      "name": "Maurice Blackburn",
+      "n": 8,
+      "rec": 8,
+      "avgPos": 2.8
+     }
+    ]
+   },
+   "medneg": {
+    "lhd": 7,
+    "n": 40,
+    "top": [
+     {
+      "name": "Maurice Blackburn",
+      "n": 26,
+      "rec": 26,
+      "avgPos": 3
+     },
+     {
+      "name": "Slater and Gordon",
+      "n": 21,
+      "rec": 21,
+      "avgPos": 4.1
+     },
+     {
+      "name": "Blumers",
+      "n": 10,
+      "rec": 10,
+      "avgPos": 2.2
+     },
+     {
+      "name": "Turner Freeman",
+      "n": 10,
+      "rec": 10,
+      "avgPos": 4.8
+     },
+     {
+      "name": "LHD Lawyers",
+      "n": 7,
+      "rec": 7,
+      "avgPos": 4.9
+     }
+    ]
+   },
+   "tpd": {
+    "lhd": 19,
+    "n": 40,
+    "top": [
+     {
+      "name": "Maurice Blackburn",
+      "n": 26,
+      "rec": 24,
+      "avgPos": 3
+     },
+     {
+      "name": "LHD Lawyers",
+      "n": 19,
+      "rec": 19,
+      "avgPos": 2.8
+     },
+     {
+      "name": "Berrill & Watson",
+      "n": 19,
+      "rec": 19,
+      "avgPos": 4.1
+     },
+     {
+      "name": "Turner Freeman",
+      "n": 13,
+      "rec": 13,
+      "avgPos": 2.9
+     },
+     {
+      "name": "PK Simpson",
+      "n": 12,
+      "rec": 12,
+      "avgPos": 4.3
+     }
+    ]
+   },
+   "publiab": {
+    "lhd": 16,
+    "n": 40,
+    "top": [
+     {
+      "name": "Slater and Gordon",
+      "n": 28,
+      "rec": 27,
+      "avgPos": 2.6
+     },
+     {
+      "name": "LHD Lawyers",
+      "n": 16,
+      "rec": 16,
+      "avgPos": 3.5
+     },
+     {
+      "name": "Law Partners",
+      "n": 12,
+      "rec": 12,
+      "avgPos": 2.3
+     },
+     {
+      "name": "Maurice Blackburn",
+      "n": 12,
+      "rec": 10,
+      "avgPos": 2.8
+     },
+     {
+      "name": "Shine Lawyers",
+      "n": 12,
+      "rec": 10,
+      "avgPos": 3.1
+     }
+    ]
+   }
+  }
+ }
+}
