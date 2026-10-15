@@ -158,7 +158,7 @@ function renderPinGateHtml(target = '/') {
 <body>
   <div class="container">
     <h1>Private page</h1>
-    <p class="subtitle">This page is shared privately by Uprise Digital. Enter the access code you were sent.</p>
+    <p class="subtitle">This page is shared privately by Pulp Digital. Enter the access code you were sent.</p>
     
     <form id="accessForm" autocomplete="off">
       <label for="accessCode">Access code</label>
@@ -169,7 +169,7 @@ function renderPinGateHtml(target = '/') {
       <button type="submit" class="btn-continue" id="submitBtn">Continue</button>
     </form>
 
-    <div class="footer">Uprise Digital · Confidential</div>
+    <div class="footer">Pulp Digital · Confidential</div>
   </div>
 
   <script>
@@ -305,7 +305,7 @@ function renderForbiddenHtml() {
     <p class="subtitle">This section is restricted to internal team members. Your access code does not have permission to view this page.</p>
     <a href="/" class="btn-continue">← Return to presentation</a>
     <a href="/logout" class="btn-secondary">Enter different access code</a>
-    <div class="footer">Uprise Digital · Confidential</div>
+    <div class="footer">Pulp Digital · Confidential</div>
   </div>
 </body>
 </html>`;
