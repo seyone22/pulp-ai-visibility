@@ -396,4 +396,31 @@ When presenting to commercial prospects—especially marketing, advertising, or 
 4. **Clean Presentation Copy:**  
    Keep Slides 1–30 focused on the client's commercial reality: *Who AI names today, why competitors are winning calls, what the gap costs them, and the high-level roadmap to become #1.*
 
+---
+
+## 10. Dynamic Engine Scaling & Zero-Hallucination Production Standard
+
+In production client delivery, **empirical accuracy is absolute**:
+
+### 10.1 Zero Synthetic or Hallucinated Data
+- Under no circumstances may the data pipeline simulate, hallucinate, or mock responses from AI engines that were not directly queried via authenticated APIs.
+- If API keys for specific engines (e.g., OpenAI ChatGPT Search or Perplexity Sonar) are unconfigured, **the platform must dynamically scale down its active engine set** rather than filling in synthetic answers.
+
+### 10.2 Dynamic Formulation ($N = M \times Q \times E$)
+All presentation templates, charts, and metrics must calculate dynamically:
+- $E$: Count of live authenticated engines ($E \in \{1, \dots, 5\}$).
+- $M_d$: Market denominator $= Q \times E$ (e.g. 14 for 2 engines, 21 for 3 engines, 35 for 5 engines).
+- $N$: Total sample size $= M \times Q \times E$ (e.g. 112 for 2 engines, 168 for 3 engines, 280 for 5 engines).
+- **Dynamic UI Elements:**
+  - Heatmap matrices render only active engine columns.
+  - Formula slides dynamically state `$M \times Q \times E = N$ live evaluations`.
+  - Citations and data footnotes list only the actual evaluated models.
+
+### 10.3 Keyed Access & Dual PIN Code Security
+To enforce strategic separation between client-facing presentations and internal data science dossiers:
+1. **Server-Side Gatekeeper:** The platform requires an authentication PIN before serving any HTML content.
+2. **Client PIN (`CLIENT_PIN`):** Grants access strictly to the Tier 1 Executive Presentation (`/` or `/index.html`). Blocks access to `/technical` with a 403 Forbidden gateway.
+3. **Internal PIN (`INTERNAL_PIN`):** Grants full access to both the client presentation and the internal technical dossier (`/technical` or `/technical.html`), dynamically injecting cross-deck navigation buttons.
+
+
 

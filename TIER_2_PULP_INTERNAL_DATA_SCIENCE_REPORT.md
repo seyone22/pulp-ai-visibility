@@ -12,8 +12,8 @@
 ### 1.1 Mathematical Objective
 Let $\mathcal{Q} = \{q_1, q_2, \dots, q_M\}$ represent a finite battery of localized commercial queries spanning 7 core eCommerce performance advertising domains $\mathcal{D}$ across 8 geographic markets $\mathcal{L} = \{\text{Melbourne, Sydney, Brisbane, Perth, Adelaide, Gold Coast, Canberra, National}\}$.
 
-Let $\mathcal{M} = \{m_1, m_2, \dots, m_K\}$ represent the set of generative AI answer engines:
-$$\mathcal{M} = \{\text{ChatGPT-Search, Google AI Mode, Gemini 3.8 Grounded, Perplexity Sonar, Claude Sonnet 4.5}\}$$
+Let $\mathcal{M} = \{m_1, m_2, \dots, m_K\}$ represent the set of active, live-authenticated generative AI answer engines ($K \in \{2, 3, 5\}$):
+$$\mathcal{M} \subseteq \{\text{Google AI Mode, Gemini 3.8 Grounded, Claude Sonnet 4.6, ChatGPT-Search, Perplexity Sonar}\}$$
 
 For the target commercial entity $E$ (**Pulp Digital**) operating within an Australian eCommerce agency competitive universe $\mathcal{C} = \{c_1, c_2, \dots, c_J\}$ (including *Megaphone Marketing, Sparro, Impressive, farsiight, DataSauce, Defiant Digital, King Kong, Reform Digital*), each stochastic query execution:
 $$y \sim m_k(q_i \mid \theta, \tau > 0)$$
@@ -33,14 +33,14 @@ The objective of this scientific evaluation is to:
 │  - Live Melbourne AI Overviews   │  - Real-time Google Search Grounding│
 │  - Full citations & local places │  - Search query extraction          │
 ├──────────────────────────────────┼─────────────────────────────────────┤
-│  Serper Local Places & SERP      │  Claude Sonnet 4.5 Judge            │
+│  Serper Local Places & SERP      │  Claude Sonnet 4.6 Judge / Search   │
 │  - Map Pack ranks (1-10)         │  - Named Entity Recognition (NER)   │
 │  - Review counts & star ratings  │  - Zero-shot Stance Polarity (+1/-1)│
 └──────────────────────────────────┴─────────────────────────────────────┘
 ```
 
-> [!NOTE]
-> **Instrumentation & Telemetry Disclosure:** Programmatic API queries were executed directly against Google Gemini 3.8 Grounded (`gemini-3.8-flash` with Google Search tool) and Google Local/Organic SERPs (via Serper Places/Search API). Benchmark scores for ChatGPT Search, Claude Sonnet 4.5, and Perplexity Sonar were statistically evaluated via empirical retrieval modeling conditioned on live SERP citation indexes and verified external directory graph consensus.
+> [!IMPORTANT]
+> **Production Zero-Simulation Mandate:** Under no circumstances are missing model responses simulated or hallucinated in production. If an engine's API key is unconfigured (e.g. OpenAI or Perplexity), the evaluation universe dynamically contracts to the $K$ active authenticated engines ($N = 8 \times 7 \times K$). All denominators, market benchmarks, and confidence intervals scale dynamically.
 
 ---
 
@@ -51,7 +51,8 @@ The unweighted probability of entity retrieval across the observation sample:
 $$\widehat{\text{SoMV}}(E) = \left( \frac{1}{N} \sum_{i=1}^{N} \mathbb{I}(E \in \text{Entities}(R_i)) \right) \times 100\%$$
 Where:
 - $\mathbb{I}(\cdot)$ is the Heaviside indicator function ($\mathbb{I}=1$ if entity is explicitly extracted, $0$ otherwise).
-- $N = |\mathcal{L}| \times |\mathcal{D}| \times |\mathcal{M}| = 8 \times 7 \times 5 = 280$ observation cells.
+- $N = |\mathcal{L}| \times |\mathcal{D}| \times |\mathcal{M}| = 8 \times 7 \times K$ observation cells ($N = 280$ for $K=5$; $N = 168$ for $K=3$; $N = 112$ for $K=2$).
+- In production, missing engines are strictly excluded without synthetic simulation.
 
 ### 2.2 Weighted Visibility Index ($\text{WVI}$)
 Raw presence fails to account for steep position drop-off in user consideration. We implement a modified **Discounted Cumulative Gain (DCG)** model weighted by recommendation stance polarity $S_{ik}$:

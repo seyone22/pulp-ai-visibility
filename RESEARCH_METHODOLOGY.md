@@ -236,25 +236,31 @@ SERPER_API_KEY="your-serper-api-key"
 
 ---
 
-### 4.5 Empirical Proxy Modeling Specification (For Partitioned Vendor Keys)
+### 4.5 Dynamic Active-Engine Panel Scaling (Zero-Simulation Production Mandate)
 
-In real-world agency deployments, teams may have active access to specific model APIs (e.g., Google Gemini 3.8 and Google Serper SERP) while managing rate limits, cost controls, or credential restrictions on third-party vendor platforms (e.g., OpenAI ChatGPT Search or Perplexity Sonar).
+In production client delivery, **empirical integrity is non-negotiable: simulated, proxy, or synthetic engine responses are strictly forbidden**. 
 
-To maintain statistical completeness ($N = 280$) without fabricating data or exhausting client API budgets, our methodology specifies an **Empirical Proxy Modeling Protocol**:
+If specific vendor API credentials (e.g., OpenAI ChatGPT or Perplexity Sonar) are not provisioned or active, our pipeline **dynamically adjusts the evaluation universe in production** rather than fabricating mock responses.
 
-1. **Retrieval Graph Dependency Mapping:**  
-   Every generative AI search engine relies on identifiable upstream knowledge graphs:
-   - **Google AI Overviews & Gemini:** Conditioned directly on Google Local Map 3-Pack, Google Business Profiles (GBP), and Google Search Indexation.
-   - **ChatGPT Search (GPT-4o):** Conditioned on the Bing index, official platform directories (e.g., Shopify Plus Partner Directory), and top organic aggregation hubs.
-   - **Claude (Anthropic):** Highly conditioned on authoritative peer directories (*Clutch.co*, *GoodFirms*, *Digital Agency Network*) and domain editorial consensus.
-   - **Perplexity Sonar:** Highly conditioned on real-time web scrapes, forum discussions (*Reddit*), and multi-vendor review lists.
+#### 1. Mathematical Sample Size Formulation ($N = M \times Q \times E$)
+The total empirical evaluation sample size $N$ is a dynamic function of authenticated platforms:
+$$N = M \times Q \times E$$
+- $M$: Target geographic and commercial markets ($M = 8$ for Australia: Melbourne, Sydney, Brisbane, Perth, Adelaide, Gold Coast, Canberra, National DTC).
+- $Q$: Commercial buying intent queries ($Q = 7$ per market).
+- $E$: Count of **active, live-authenticated AI answer engines** ($E \in \{1, 2, 3, 4, 5\}$).
 
-2. **Empirical Proxy Generation Rules:**
-   - Where a client entity possesses verified local Map Pack and Google organic presence, live grounded queries (Gemini 3.8) are executed directly via API to capture authentic grounding behavior.
-   - For non-Google engines where direct API keys are unconfigured, recommendation probabilities are modeled via **Bayesian Logistic Likelihood**:
-     $$P(E \in \text{Rec}_{\text{Engine}}) = \frac{1}{1 + e^{-(\beta_0 + \beta_1 X_{\text{Directory}} + \beta_2 X_{\text{SERP}} + \beta_3 X_{\text{GBP}})}}$$
-   - If an entity is verified absent from the primary gatekeeper directories ($X_{\text{Directory}} = 0$) and lacks cross-engine link equity, its probability of unprompted recommendation evaluates to $P < 0.01$ (statistically indistinguishable from zero).
-   - In all data tables, outputs derived via this method are tagged as `[PROXY_MODEL]` or `[SIMULATED_RAG]`, preserving scientific transparency.
+#### 2. Dynamic Production Panel Configurations
+| Authenticated Engine Count ($E$) | Active Live Engines | Sample Size ($N$) | Market Denominator ($M_d$) | Production Protocol |
+| :--- | :--- | :--- | :--- | :--- |
+| **Full Suite ($E = 5$)** | Gemini 3.8, Google AI Mode, Claude 4.6, ChatGPT Search, Perplexity Sonar | **$N = 280$** | **35 per market** | Full cross-engine consensus matrix |
+| **Core Trio ($E = 3$)** | Google AI Mode, Gemini 3.8, Claude 4.6 | **$N = 168$** | **21 per market** | Grounded local + general LLM evaluation |
+| **Google Duo ($E = 2$)** | Google AI Mode, Google Gemini 3.8 | **$N = 112$** | **14 per market** | Search indexation + SERP grounding audit |
+
+#### 3. Automated Pipeline Adaptation Rules
+1. **Dynamic Engine Discovery:** The reporting compiler inspects the empirical ingestion stream (`ans_full.json`). Only platforms with authenticated live API responses are registered into the active set $\mathcal{E}$.
+2. **Dynamic Denominator Rescaling:** Every slide, chart axis, heatmap grid, and formula recalculates against the live denominator $N$ and market denominator $Q \times E$. No empty ghost columns or unpopulated rows are rendered.
+3. **Transparent Grounding Citations:** Cover slides, method declarations, and slide footers dynamically cite only the verified active engines tested (e.g., *"Evaluated across 3 verified AI answer engines (Google AI Mode, Gemini 3.8, Claude Sonnet 4.6)"*).
+4. **Zero-Hallucination Guarantee:** Under no circumstances does the pipeline interpolate, simulate, or hallucinate data for unauthenticated models. If an engine was not evaluated, it is omitted entirely from the dataset and visuals.
 
 ---
 

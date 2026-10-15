@@ -107,9 +107,9 @@ The table below outlines the exact slide structure based on the standardized 30-
 ### Slide 30: Methodology & Data Collection Disclosures (`#appendix`)
 - **Headline:** `How the data was collected and verified`
 - **Methodology Callout:**
-  - **Live Grounded API Telemetry:** Real-time Google search grounding executed live via Gemini 3.8 Flash and local Google Map Pack rankings via Serper Places/Search API.
-  - **Empirical Proxy Modeling:** Third-party generative search platforms (ChatGPT Search, Claude Sonnet, Perplexity Sonar) evaluated via empirical retrieval modeling conditioned on live SERP citation indexes and verified directory consensus graphs.
-  - **Cross-Deck Navigation Bridge:** Direct link to the Tier 2 Internal Technical Data Science Dossier (`/technical.html`) for full econometric regression tables, logit odds ratios, and Wilson Score confidence intervals.
+  - **Dynamic Active-Engine Telemetry:** Evaluations are collected exclusively from live, authenticated AI answer engines ($N = M \times Q \times E$).
+  - **Zero-Simulation Production Mandate:** Missing engines are never simulated, mocked, or hallucinated. The report dynamically adjusts its universe and denominators based on the active models evaluated.
+  - **Keyed Platform Security:** Access to the presentation is secured via dedicated Client PIN (`CLIENT_PIN`). The Tier 2 Technical Dossier (`/technical`) is gated behind separate Internal PIN (`INTERNAL_PIN`) clearance.
 
 ---
 

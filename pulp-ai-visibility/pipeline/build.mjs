@@ -33,13 +33,18 @@ const CITY = {
   national: 'National DTC'
 };
 const ORDER = ['melbourne', 'sydney', 'brisbane', 'perth', 'adelaide', 'goldcoast', 'canberra', 'national'];
-const PLAT = [
-  ['chatgpt', 'ChatGPT Search'],
-  ['aimode', 'Google AI Mode'],
-  ['gemini', 'Gemini 3.8'],
-  ['perplexity', 'Perplexity Sonar'],
-  ['claude', 'Claude Sonnet 4.6']
-];
+const ALL_PLAT_META = {
+  chatgpt: 'ChatGPT Search',
+  aimode: 'Google AI Mode',
+  gemini: 'Gemini 3.8',
+  perplexity: 'Perplexity Sonar',
+  claude: 'Claude Sonnet 4.6'
+};
+
+const ansFullRaw = JSON.parse(fs.readFileSync('ans_full.json'));
+const activePlatformKeys = [...new Set(ansFullRaw.map(a => a.platform))].filter(p => p !== 'serp');
+const PLAT = activePlatformKeys.map(k => [k, ALL_PLAT_META[k] || k]);
+
 const PRAC = [
   ['general', 'Best Paid Ads Agency'],
   ['meta', 'Meta Ads (Shopify)'],
@@ -49,6 +54,11 @@ const PRAC = [
   ['tiktok', 'TikTok eCommerce Ads'],
   ['cro', 'Paid Ads + CRO / Retention']
 ];
+
+const NUM_PLATFORMS = PLAT.length;
+const ANSWERS_PER_CITY = PRAC.length * NUM_PLATFORMS;
+const TOTAL_ANSWERS = ORDER.length * ANSWERS_PER_CITY;
+const PLAT_NAMES_LABEL = PLAT.map(p => p[1]).join(', ');
 
 // ─── Derived figures ────────────────────────────────────────────────────────
 const nat = M.national;
@@ -132,16 +142,16 @@ function slide(id, cls, inner, { dark = false, noFoot = false, notes = '' } = {}
   slides.push(`<section class="slide ${cls}" id="${id}" data-title="${esc(id)}"${notes ? ` data-notes="${esc(notes)}"` : ''}>${inner}${noFoot ? '' : footer(dark)}</section>`);
 }
 const src = (t, dark) => `<p class="src${dark ? ' on-dark' : ''}">${t}</p>`;
-const SRC_ANS = 'Source: 280 empirical AI answers collected October 2026 from ChatGPT Search, Google AI Mode, Gemini 3.8, Perplexity Sonar and Claude Sonnet 4.6. An agency counts once per answer.';
+const SRC_ANS = `Source: ${TOTAL_ANSWERS} empirical AI answers collected October 2026 from ${PLAT_NAMES_LABEL}. An agency counts once per answer.`;
 
 // ─── 1. Cover ───────────────────────────────────────────────────────────────
 {
   const rows = ORDER.map(c => {
-    const all = JSON.parse(fs.readFileSync('ans_full.json')).filter(a => a.city === c);
+    const all = ansFullRaw.filter(a => a.city === c);
     const ordered = PRAC.flatMap(([p]) => PLAT.map(([pl]) => all.find(a => a.prompt === p && a.platform === pl)));
     return { c, cells: ordered.map(a => a && a.firms.some(f => f.name === TARGET)) };
   });
-  const grid = rows.map((r, ri) => `<div class="cv-row"><span class="cv-city">${CITY[r.c]}</span><span class="cv-cells">${r.cells.map((on, ci) => `<i class="${on ? 'on' : ''}" style="--d:${(ri * 35 + ci) * 6}ms"></i>`).join('')}</span><span class="cv-n">${r.cells.filter(Boolean).length}</span></div>`).join('');
+  const grid = rows.map((r, ri) => `<div class="cv-row"><span class="cv-city">${CITY[r.c]}</span><span class="cv-cells">${r.cells.map((on, ci) => `<i class="${on ? 'on' : ''}" style="--d:${(ri * ANSWERS_PER_CITY + ci) * 6}ms"></i>`).join('')}</span><span class="cv-n">${r.cells.filter(Boolean).length}</span></div>`).join('');
   
   slide('cover', 'dark cover', `
     <div class="cover-bg" aria-hidden="true"></div>
@@ -149,13 +159,13 @@ const SRC_ANS = 'Source: 280 empirical AI answers collected October 2026 from Ch
     <div class="cover-main">
       <p class="eyebrow on-dark rise" style="--d:100ms">AI Visibility & Generative Engine Optimization (GEO) · October 2026</p>
       <h1 class="display rise" style="--d:180ms">When Australian eCommerce brands ask AI for a paid ads agency, who gets named?</h1>
-      <p class="lede on-dark rise" style="--d:300ms">Pulp Digital against competing performance marketing agencies across 8 markets, 5 AI assistants, and 280 real-world commercial prompts. We start with Melbourne.</p>
+      <p class="lede on-dark rise" style="--d:300ms">Pulp Digital against competing performance marketing agencies across ${ORDER.length} markets, ${NUM_PLATFORMS} AI assistants, and ${TOTAL_ANSWERS} real-world commercial prompts. We start with Melbourne.</p>
       <p class="byline rise" style="--d:420ms">Prepared by Uprise Digital</p>
     </div>
-    <figure class="cover-grid rise" style="--d:350ms" aria-label="Grid of 280 AI answers by market; highlighted cells name Pulp Digital">
+    <figure class="cover-grid rise" style="--d:350ms" aria-label="Grid of ${TOTAL_ANSWERS} AI answers by market; highlighted cells name Pulp Digital">
       <figcaption><span class="key on"></span>Answer names Pulp Digital <span class="key"></span>Answer omits Pulp Digital</figcaption>
       ${grid}
-      <p class="cv-total"><b class="count" data-to="${nat.lhdMentions}">${nat.lhdMentions}</b> of 280 answers name Pulp Digital (${pct(nat.lhdMentions, 280)}%)</p>
+      <p class="cv-total"><b class="count" data-to="${nat.lhdMentions}">${nat.lhdMentions}</b> of ${TOTAL_ANSWERS} answers name Pulp Digital (${pct(nat.lhdMentions, TOTAL_ANSWERS)}%)</p>
     </figure>`, { dark: true, noFoot: true });
 }
 
@@ -188,7 +198,7 @@ const SRC_ANS = 'Source: 280 empirical AI answers collected October 2026 from Ch
 
 // ─── 3. Method ──────────────────────────────────────────────────────────────
 slide('method', 'white', `
-  <header class="hd"><p class="eyebrow">How we measured it</p><h2 class="h1">280 real-world commercial AI evaluations, collected October 2026</h2></header>
+  <header class="hd"><p class="eyebrow">How we measured it</p><h2 class="h1">${TOTAL_ANSWERS} real-world commercial AI evaluations, collected October 2026</h2></header>
   <div class="formula">
     <div class="f-item rise" style="--d:100ms"><span class="f-num">8</span><span class="f-lab">Australian markets & DTC segments</span></div>
     <span class="f-op">×</span>
@@ -196,7 +206,7 @@ slide('method', 'white', `
     <span class="f-op">×</span>
     <div class="f-item rise" style="--d:340ms"><span class="f-num">5</span><span class="f-lab">state-of-the-art AI engines</span></div>
     <span class="f-op">=</span>
-    <div class="f-item total rise" style="--d:460ms"><span class="f-num">280</span><span class="f-lab">AI evaluations parsed & scored</span></div>
+    <div class="f-item total rise" style="--d:460ms"><span class="f-num">${TOTAL_ANSWERS}</span><span class="f-lab">live evaluations parsed & scored</span></div>
   </div>
   <div class="cols-2 method-cols">
     <div>
@@ -231,11 +241,11 @@ slide('method', 'white', `
     <header class="hd"><p class="eyebrow">National standings</p><h2 class="h1">Megaphone, Reform, and farsiight dominate national AI recommendations</h2></header>
     <div class="cols-60">
       <div class="panel">
-        <p class="chart-title">Answers naming each agency, out of 280 <span class="muted">· Across all 8 markets & 7 intents</span></p>
-        ${hbars(rows, 280)}
+        <p class="chart-title">Answers naming each agency, out of ${TOTAL_ANSWERS} <span class="muted">· Across all 8 markets & 7 intents</span></p>
+        ${hbars(rows, TOTAL_ANSWERS)}
       </div>
       <div class="side-stats">
-        <div class="stat rise" style="--d:500ms"><span class="big pulp"><b class="count" data-to="${pct(nat.lhdMentions, 280)}">${pct(nat.lhdMentions, 280)}</b>%</span><span class="stat-cap">of answers name Pulp Digital (${nat.lhdMentions} of 280). Megaphone Marketing leads with 200 (71%).</span></div>
+        <div class="stat rise" style="--d:500ms"><span class="big pulp"><b class="count" data-to="${pct(nat.lhdMentions, 280)}">${pct(nat.lhdMentions, 280)}</b>%</span><span class="stat-cap">of answers name Pulp Digital (${nat.lhdMentions} of ${TOTAL_ANSWERS}). ${rows[0]?.name || "Leader"} leads with ${rows[0]?.n || 0} (${pct(rows[0]?.n || 0, TOTAL_ANSWERS)}%).</span></div>
         <div class="stat rise" style="--d:650ms"><span class="big">0%</span><span class="stat-cap">unprompted mentions on Claude, ChatGPT, and Perplexity for national DTC scaling queries. Only Google AI Mode Melbourne surfaced Pulp.</span></div>
         <div class="stat rise" style="--d:800ms"><span class="big">${nat.cited}</span><span class="stat-cap">answers cited pulpdigital.com.au as a primary source. AI crawls your site when prompted, but fails to surface Pulp in unprompted shortlists.</span></div>
       </div>
@@ -297,9 +307,9 @@ slide('method', 'white', `
     <p class="eyebrow on-accent rise" style="--d:0ms">01 · Melbourne, Pulp Digital's Home Market</p>
     <h2 class="display on-accent rise" style="--d:120ms">Melbourne is where the eCommerce prize is highest — and where closing the gap is fastest.</h2>
     <div class="accent-stats">
-      <div class="rise" style="--d:300ms"><span class="huge"><b class="count" data-to="${s.rate}">${s.rate}</b>%</span><span class="acap">of Melbourne answers name Pulp Digital (${s.lhdMentions} of 35)</span></div>
+      <div class="rise" style="--d:300ms"><span class="huge"><b class="count" data-to="${s.rate}">${s.rate}</b>%</span><span class="acap">of Melbourne answers name Pulp Digital (${s.lhdMentions} of ${ANSWERS_PER_CITY})</span></div>
       <div class="rise" style="--d:450ms"><span class="huge">#${s.lhdRank}</span><span class="acap">Pulp's rank among ${s.firmsNamed} eCommerce agencies named in Melbourne</span></div>
-      <div class="rise" style="--d:600ms"><span class="huge"><b class="count" data-to="${s.leaderRate}">${s.leaderRate}</b>%</span><span class="acap">for Impressive & Megaphone, the dominant Melbourne leaders (${s.leader.n} of 35)</span></div>
+      <div class="rise" style="--d:600ms"><span class="huge"><b class="count" data-to="${s.leaderRate}">${s.leaderRate}</b>%</span><span class="acap">for Impressive & Megaphone, the dominant Melbourne leaders (${s.leader.n} of ${ANSWERS_PER_CITY})</span></div>
     </div>`, { dark: true });
 }
 
@@ -309,7 +319,7 @@ slide('method', 'white', `
   slide('melbourne-board', 'light', `
     <header class="hd"><p class="eyebrow">01 · Melbourne</p><h2 class="h1">AI names Pulp Digital in ${s.lhdMentions} of ${s.answers} Melbourne answers. ${esc(short(s.leader.name))} gets ${s.leader.n}.</h2></header>
     <div class="city-grid">
-      <div class="panel"><p class="chart-title">Answers naming each agency in Melbourne, out of 35</p>${hbars(s.top.slice(0, 8).map((x, i) => ({ ...x, rank: i + 1, leader: i === 0 })), 35)}</div>
+      <div class="panel"><p class="chart-title">Answers naming each agency in Melbourne, out of ${ANSWERS_PER_CITY}</p>${hbars(s.top.slice(0, 8).map((x, i) => ({ ...x, rank: i + 1, leader: i === 0 })), ANSWERS_PER_CITY)}</div>
       <div class="city-side">
         <div class="kpis">
           <div class="kpi"><span class="big pulp">${s.rate}%</span><span class="kpi-cap">answers naming Pulp Digital</span></div>
@@ -332,14 +342,14 @@ slide('method', 'white', `
     ${rowsH.map((f, ri) => {
       const r = s.matrix[f] || { chatgpt: 0, aimode: 0, gemini: 0, perplexity: 0, claude: 0 };
       const tot = Object.values(r).reduce((a, b) => a + b, 0);
-      return `<div class="heat-row${f === TARGET ? ' is-pulp' : ''}" role="row"><span class="heat-name" role="rowheader">${esc(short(f))}</span>${PLAT.map(([p], ci) => `<span role="cell" class="cell pop" style="--d:${200 + (ri * 5 + ci) * 35}ms;background:${shade(r[p])};color:${r[p] >= 4 ? '#FFFFFF' : '#11151E'}">${r[p]}</span>`).join('')}<span class="heat-tot" role="cell">${tot}<small>/35</small></span></div>`;
+      return `<div class="heat-row${f === TARGET ? ' is-pulp' : ''}" role="row"><span class="heat-name" role="rowheader">${esc(short(f))}</span>${PLAT.map(([p], ci) => `<span role="cell" class="cell pop" style="--d:${200 + (ri * 5 + ci) * 35}ms;background:${shade(r[p])};color:${r[p] >= 4 ? '#FFFFFF' : '#11151E'}">${r[p]}</span>`).join('')}<span class="heat-tot" role="cell">${tot}<small>/${ANSWERS_PER_CITY}</small></span></div>`;
     }).join('')}
   </div>`;
 
   slide('melbourne-heat', 'white', `
     <header class="hd"><p class="eyebrow">01 · Melbourne</p><h2 class="h1">ChatGPT, Claude, and Perplexity completely overlook Pulp Digital</h2></header>
     <div class="cols-heat">
-      <div class="panel"><p class="chart-title">Melbourne answers naming each agency, by assistant (out of 7 per assistant)</p>${heat}
+      <div class="panel"><p class="chart-title">Melbourne answers naming each agency, by assistant (out of ${PRAC.length} per assistant)</p>${heat}
         <div class="heat-scale" aria-hidden="true"><span>0</span>${[0, 1, 2, 3, 4, 5, 6, 7].map(v => `<i style="background:${shade(v)}"></i>`).join('')}<span>7 of 7</span></div></div>
       <div class="side-stats">
         <div class="stat"><span class="big">6/7</span><span class="stat-cap"><b>Impressive</b> on Google AI Mode and Claude. Grounded heavily in Google Premier Partner badges and local case studies.</span></div>
@@ -358,13 +368,13 @@ slide('method', 'white', `
     <header class="hd"><p class="eyebrow">01 · Melbourne</p><h2 class="h1">Pulp Digital is omitted across 5 of 7 core commercial intents</h2></header>
     <div class="cols-60">
       <div class="panel">
-        <div class="prac-head"><span>Commercial Buying Intent</span><span>Pulp Digital (of 5 engines)</span><span>Category Leader</span></div>
-        ${pr.map((r, i) => `<div class="prac-row${r.lhd === 0 ? ' zero' : ''}" style="--i:${i}"><span class="prac-lab">${r.label}</span><span class="prac-dots">${dots(r.lhd, 5, 'big')}<b>${r.lhd}/5</b></span><span class="prac-lead">${esc(short(r.leader))} <b>${r.leaderN}/5</b></span></div>`).join('')}
+        <div class="prac-head"><span>Commercial Buying Intent</span><span>Pulp Digital (of ${NUM_PLATFORMS} engines)</span><span>Category Leader</span></div>
+        ${pr.map((r, i) => `<div class="prac-row${r.lhd === 0 ? ' zero' : ''}" style="--i:${i}"><span class="prac-lab">${r.label}</span><span class="prac-dots">${dots(r.lhd, NUM_PLATFORMS, 'big')}<b>${r.lhd}/${NUM_PLATFORMS}</b></span><span class="prac-lead">${esc(short(r.leader))} <b>${r.leaderN}/${NUM_PLATFORMS}</b></span></div>`).join('')}
       </div>
       <div class="side-stats">
-        <div class="stat"><span class="big">0/5</span><span class="stat-cap">Meta Ads for Shopify: Pulp manages millions for Shopify brands (Naked Harvest, Allkinds, Typo), yet 0 of 5 assistants recommend Pulp.</span></div>
+        <div class="stat"><span class="big">0/${NUM_PLATFORMS}</span><span class="stat-cap">Meta Ads for Shopify: Pulp manages millions for Shopify brands (Naked Harvest, Allkinds, Typo), yet 0 of ${NUM_PLATFORMS} assistants recommend Pulp.</span></div>
         <div class="stat"><span class="big">0/5</span><span class="stat-cap">TikTok & Performance Creative: Despite in-house UGC production, Defiant Digital and Megaphone take 100% of mentions.</span></div>
-        <div class="stat"><span class="big pulp">1/5</span><span class="stat-cap">7-to-8 Figure DTC Scaling: Pulp's sole breakthrough via Google AI Mode.</span></div>
+        <div class="stat"><span class="big pulp">1/${NUM_PLATFORMS}</span><span class="stat-cap">7-to-8 Figure DTC Scaling: Pulp's sole breakthrough via Google AI Mode.</span></div>
       </div>
     </div>
     ${src(SRC_ANS)}`);
@@ -387,7 +397,7 @@ slide('method', 'white', `
       <thead><tr><th style="width:24%">Agency</th><th style="width:18%">Melbourne AI Mentions</th><th style="width:24%">Industry Accreditations</th><th style="width:18%">Google Rating (Reviews)</th><th style="width:16%">Local Map Packs</th></tr></thead>
       <tbody>${T.map(([f, n, tier, rating, mp], i) => `<tr class="${f === TARGET ? 'is-pulp' : ''} rise" style="--d:${150 + i * 90}ms">
         <td><b>${esc(f)}</b></td>
-        <td><span class="cellbar"><i style="width:${n / 35 * 100}%"></i></span><b class="num">${n}</b><span class="muted">/35</span></td>
+        <td><span class="cellbar"><i style="width:${n / ANSWERS_PER_CITY * 100}%"></i></span><b class="num">${n}</b><span class="muted">/${ANSWERS_PER_CITY}</span></td>
         <td><span class="tier ${f === TARGET ? 'tier-pulp' : 'tier-leader'}">${tier}</span></td>
         <td class="num">${rating}</td>
         <td>${dots(mp, 7)} <b class="num">${mp}/7</b></td></tr>`).join('')}</tbody>
@@ -480,7 +490,7 @@ function marketSlide(c, idx) {
     <header class="hd"><p class="eyebrow">${String(idx).padStart(2, '0')} · ${CITY[c]}</p><h2 class="h1">${esc(N.title)}</h2></header>
     <div class="city3">
       <div class="panel">
-        <p class="chart-title">Answers naming each agency in ${CITY[c]}, out of 35</p>
+        <p class="chart-title">Answers naming each agency in ${CITY[c]}, out of ${ANSWERS_PER_CITY}</p>
         ${cityBars(c)}
       </div>
       <div class="city-side">
@@ -489,7 +499,7 @@ function marketSlide(c, idx) {
           <div class="kpi"><span class="big">#${m.lhdRank}</span><span class="kpi-cap">of ${m.firmsNamed} agencies named</span></div>
         </div>
         <p class="mini-title">By Assistant · of 7 Questions</p>${platStrip(c)}
-        <p class="mini-title">By Intent · of 5 Assistants</p>${pracChips(c)}
+        <p class="mini-title">By Intent · of ${NUM_PLATFORMS} Assistants</p>${pracChips(c)}
       </div>
       <div class="finds-col">${N.finds.map(([b, t], i) => `<p class="rise" style="--d:${700 + i * 140}ms"><b>${esc(b)}</b> ${esc(t)}</p>`).join('')}</div>
     </div>
@@ -595,7 +605,7 @@ function marketSlide(c, idx) {
 
   slide('gap', 'light', `
     <header class="hd"><p class="eyebrow">The Gap to Close</p><h2 class="h1">Pulp Digital trails the category leader by 50 to 75 points across all markets</h2></header>
-    <div class="legend-row"><span><i class="lg-dot pulp"></i>Pulp Digital</span><span><i class="lg-dot navy"></i>Category Leader in Market</span><span class="muted">Share of the market's 35 AI answers</span></div>
+    <div class="legend-row"><span><i class="lg-dot pulp"></i>Pulp Digital</span><span><i class="lg-dot navy"></i>Category Leader in Market</span><span class="muted">Share of the market's ${ANSWERS_PER_CITY} AI answers</span></div>
     <div class="panel">${svg}</div>
     ${src(SRC_ANS)}`);
 }
@@ -612,7 +622,7 @@ const WS = [
   ['02', 'Google Local & Market Authority', 'Pulp has only 12 Google reviews, while Megaphone has 184 and Impressive 126. Google AI Mode leans heavily on review sentiment.', 'Implement an automated client review capture program, optimize categories for eCommerce PPC & TikTok, and publish weekly case study posts.'],
   ['03', 'Intent Architecture & Solution Authority', 'pulpdigital.com.au is crawled, but case studies lack semantic figures (MER, CAC, ad spend) that LLMs require to quote as answers.', 'Re-architect client success pages with structured metrics, verifiable client outcomes, and direct-answer Q&A sections.'],
   ['04', 'Entity Authority & Knowledge Graph Alignment', 'Founder Sam Despo has massive social authority (TikTok/LinkedIn), but AI engines fail to link his personal reach and agency track record to Pulp’s brand entity.', 'Deploy structured entity architecture connecting founder credentials, verified trade profiles, and agency client proofs into AI knowledge graphs.'],
-  ['05', 'Continuous AI SERP Tracking & Drift Monitoring', 'AI models update training weights and search grounding algorithms bi-weekly. Static checks miss sudden drops.', 'Deploy monthly 280-prompt automated testing panel across all 5 engines to measure rank movement and track competitor infiltration.'],
+  ['05', 'Continuous AI SERP Tracking & Drift Monitoring', 'AI models update training weights and search grounding algorithms bi-weekly. Static checks miss sudden drops.', 'Deploy monthly ${TOTAL_ANSWERS}-prompt automated testing panel across all 5 engines to measure rank movement and track competitor infiltration.'],
 ];
 
 slide('plan', 'white', `
@@ -633,7 +643,7 @@ slide('plan', 'white', `
   slide('ws-sources', 'light', `
     <header class="hd"><p class="eyebrow">Workstream 01</p><h2 class="h1">AI copies its shortlist from rankings guides and directories</h2></header>
     <div class="cols-60">
-      <div class="panel"><p class="chart-title">Authority ecosystems cited across the 280 answers (answers citing each category)</p>
+      <div class="panel"><p class="chart-title">Authority ecosystems cited across the ${TOTAL_ANSWERS} answers (answers citing each category)</p>
         ${hbars(srcs.map(([n, v]) => ({ name: n, n: v, suffix: ' citations' })), 120, { showRank: false })}</div>
       <div class="actions">
         <h3 class="h3">What we will do</h3>
@@ -683,7 +693,7 @@ slide('plan', 'white', `
   slide('ws-pages', 'light', `
     <header class="hd"><p class="eyebrow">Workstream 03</p><h2 class="h1">${zeros} market and intent pairs where no AI engine currently names Pulp</h2></header>
     <div class="cols-heat">
-      <div class="panel"><p class="chart-title">Assistants naming Pulp Digital (of 5), by market and intent. Dashed cells are zero.</p>${grid}</div>
+      <div class="panel"><p class="chart-title">Assistants naming Pulp Digital (of ${NUM_PLATFORMS}), by market and intent. Dashed cells are zero.</p>${grid}</div>
       <div class="actions">
         <h3 class="h3">What we will do</h3>
         <ul class="ticks">
@@ -722,7 +732,7 @@ slide('ws-entity', 'white', `
     ['Google Local & Reviews', [[1, 3, 'Audit Melbourne GBP & review capture'], [4, 12, 'Scale reviews to 50+ & weekly posts']]],
     ['Solution Architecture', [[2, 6, 'Re-architect Meta & Google PMax pages'], [7, 12, 'Deploy structured case studies & client wins']]],
     ['Entity Authority', [[1, 3, 'Founder entity alignment & semantic architecture'], [4, 12, 'Digital PR & executive thought leadership']]],
-    ['Measurement & Governance', [[1, 12, 'Baseline in W1, then automated monthly 280-prompt panel audits', 'light']]],
+    ['Measurement & Governance', [[1, 12, 'Baseline in W1, then automated monthly ${TOTAL_ANSWERS}-prompt panel audits', 'light']]],
   ];
   const W = 1240, lab = 330;
   const gantt = `<div class="gantt">
@@ -776,7 +786,7 @@ slide('ws-entity', 'white', `
           <thead><tr><th>Market</th><th>Today</th><th>90 Days</th><th>6 Months</th></tr></thead>
           <tbody>${TG.map(([c, a, b, d], i) => `<tr class="rise" style="--d:${200 + i * 70}ms"><td>${c}</td><td class="num">${a}</td><td class="num">${b}</td><td class="num">${d}</td></tr>`).join('')}</tbody>
         </table>
-        <p class="note">All targets are evaluated on the exact same 280-prompt benchmark panel each month to measure clean statistical progress.</p>
+        <p class="note">All targets are evaluated on the exact same ${TOTAL_ANSWERS}-prompt benchmark panel each month to measure clean statistical progress.</p>
       </div>
     </div>`);
 }
@@ -800,7 +810,7 @@ slide('appendix', 'white', `
     <div>
       <h3 class="h3">How answers were collected</h3>
       <ul class="plain">
-        <li>7 commercial questions × 8 Australian markets, evaluated in October 2026 across 5 major AI answer engines.</li>
+        <li>7 commercial questions × 8 Australian markets, evaluated in October 2026 across ${NUM_PLATFORMS} verified AI answer engines (${PLAT_NAMES_LABEL}).</li>
         <li>Google AI Mode and Gemini evaluated from each city market; ChatGPT, Perplexity, and Claude evaluated with Australian commercial search context.</li>
         <li>Each question was asked across the multi-platform evaluation matrix to establish market standings.</li>
         <li>Google results: matching commercial searches in each city recording Google Map Packs and organic top 20.</li>
@@ -812,7 +822,7 @@ slide('appendix', 'white', `
         <li>Every performance marketing agency named in an answer was extracted in order of appearance.</li>
         <li>Aggregators, software tools (Shopify, Triple Whale, Klaviyo), and job boards were filtered out.</li>
         <li>Each mention was normalized to canonical agency entities (e.g., “Megaphone” → Megaphone Marketing).</li>
-        <li>Share of Model Voice (SoMV) is calculated as total unprompted mentions divided by total possible answers (280).</li>
+        <li>Share of Model Voice (SoMV) is calculated as total unprompted mentions divided by total possible answers (${TOTAL_ANSWERS}).</li>
       </ul>
     </div>
   </div>`);
