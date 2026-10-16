@@ -171,6 +171,61 @@ Every audit deliverable must satisfy this cross-tier mapping before client deliv
 5. **Entity Disambiguation & Review Audit Integrity:**  
    When auditing Google Business Profiles or third-party reviews, NEVER rely on unpinned text queries (e.g. `"Brand Name reviews"`), which trigger homonymous brand collisions with international namesakes. Always pin queries strictly to the unique Google Place ID, Google `CID`, and verified primary domain.
 
+### 3.4 Forensic Copywriting & Canonical Deck Architecture (Ned's Formula)
+
+> [!IMPORTANT]
+> **The Forensic Authority Standard:** Clients hire us because the deck reads like an unassailable engineering audit, not an agency sales pitch. Every slide title must be active, understated, and factual.
+
+#### 1. Banned Jargon vs. Ned's Forensic Phrasing
+| Slide Location | ❌ Banned Agency Jargon | ✅ Required Ned Forensic Phrasing |
+| :--- | :--- | :--- |
+| **Slide 2 (Shift)** | *"Homeowners no longer click 10 Google links..."* | *"More [State] buyers are asking AI which [category provider] to choose"* |
+| **Slide 4 (Standing)** | *"[Competitors] dominate AI recommendations across [State]"* | *"Across all 8 [regions], [Client] is unranked in unprompted recommendations"* |
+| **Slide 10 (Regional)** | *"The Regional Blind Spot: $18M in subsidies flowing..."* | *"[Client] trails the leading [category provider] in all 8 [regions]"* |
+| **Slide 15 (Plan Intro)**| *"The 5-Pillar GEO Roadmap to Make [Client] #1 in [State]"* | *"How [Client] gets on every shortlist"* |
+| **Slide 16 (Workstreams)**| *"Five synchronized workstreams addressing each empirical gap"* | *"Five workstreams, each answering a gap in the data"* |
+| **Slide 19 (Web Pages)** | *"Dedicated solution architecture for high-value retrofits"* | *"Make [corridor/city] pages AI can quote"* |
+| **Slide 20 (Entity)** | *"Knowledge Graph alignment: embedding licensed credentials"* | *"AI gets some facts about [Client] wrong"* |
+| **Slide 21 (Roadmap)** | *"The 90-day Generative Engine Optimization (GEO) rollout plan"* | *"The first 90 days, week by week"* |
+| **Slide 21 (Phase 3)** | *"Month 3: Regional Expansion & Domination"* | *"Month 3: scale to every corridor/city"* |
+| **Slide 22 (Targets)** | *"The Goal: Become the #1 Recommended Provider in [State]"* | *"The goal: overtake [Mid-Table Competitor] in [Home Market] within 12 months"* |
+| **Slide 24 (Close)** | *"Ready to cement [Client] as [State]'s most recommended...?"* | *"Start with [Home Market]. Measure every month."* |
+
+#### 2. The Verbatim AI Hallucination & Error Quoting Mandate (Slide 20)
+Slide 20 (`ws-entity`) must **never** feature polite or generic quotes. It must showcase **actual, embarrassing errors and omissions** that AI engines produce about the client:
+* **Invented / Conflated Entities:** Models inventing company names, confusing acquisitions, or recommending brokerages.
+* **Outdated or Contradictory Numbers:** Models quoting outdated figures or claims because old pages were indexed while the homepage was updated.
+* **Uncorroborated Primary Claims:** Models refusing to credit the client's unique moat (e.g. in-house licensed trades vs subcontractors) because structured license schema is absent.
+
+#### 3. Canonical 24-Slide Deck Anatomy
+Every client presentation must follow this exact 24-slide sequence:
+1. `cover`: Clean cover (`When [Audience] ask AI for [Service], who gets recommended?`)
+2. `shift`: The market shift (`More [State] buyers are asking AI...`)
+3. `method`: Cardinality equation ($M \times Q \times E = 280$)
+4. `national`: Statewide/national standings anchored to client rank
+5. `map`: Geographic bubble map showing coverage disparity
+6. `home-intro`: Accent slide introducing home market priority
+7. `home-board`: Home market competitor rank bars
+8. `corridor-2`: Second primary market / growth corridor
+9. `corridor-3`: Third primary market / coastal hub
+10. `regional-summary`: Cross-corridor regional summary table/cards
+11. `intents`: Intent category breakdown table
+12. `model-gap`: AI model retrieval comparison (Grounded Search vs Parametric LLM)
+13. `citations-gatekeeper`: Primary authority directories driving 70%+ of citations
+14. `review-deficit`: Google review & map pack audit table
+15. `plan-intro`: Accent slide (`How [Client] gets on every shortlist`)
+16. `plan`: 5 workstreams table (`What the data shows` vs `What we will do`)
+17. `ws-sources`: Workstream 01 (Authority directories & accreditation)
+18. `ws-maps`: Workstream 02 (Google Maps & local review velocity)
+19. `ws-pages`: Workstream 03 (City/corridor pages AI can quote)
+20. `ws-entity`: Workstream 04 (AI gets some facts about [Client] wrong)
+21. `roadmap`: 90-day Gantt chart (`The first 90 days, week by week`)
+22. `targets`: Defendable target path (`Overtake [Mid-Table Competitor] in [Home Market]`)
+23. `appendix`: 2-column methodology appendix (`Method and definitions`)
+24. `close`: 3-step action close (`Start with [Home Market]. Measure every month.`)
+
+---
+
 ## 4. Keyed Access & Security Gateway
 
 ### 4.1 Minimalist White Gatekeeper Design
