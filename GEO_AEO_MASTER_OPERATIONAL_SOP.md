@@ -42,9 +42,36 @@ $$N = M \times Q \times E$$
 | **$E = 2$** | Google AI Mode, Gemini 3.8 | **$N = 112$** | **14 per market** | Search indexation + SERP grounding audit |
 
 > [!IMPORTANT]
-> **The Zero-Simulation Mandate:** Under no circumstances are missing engines (e.g., if OpenAI or Perplexity keys are unconfigured) to be simulated, synthesized, or hallucinated. The platform dynamically scales its denominator $N$, adjusts all chart axes, and renders only columns corresponding to authenticated engines.
+> **The Zero-Simulation Mandate:** Under no circumstances are missing engines to be simulated, synthesized, or hallucinated. The platform dynamically scales its denominator $N$, adjusts all chart axes, and renders only columns corresponding to authenticated engines.
 
-### 2.2 Core Metric Formulations
+### 2.2 Unified Multi-Engine Ingestion Architecture (DataForSEO AI Suite)
+
+To achieve the full $E = 5$ ($N = 280$) multi-engine consensus matrix without maintaining individual enterprise subscriptions across OpenAI, Perplexity, Anthropic, and Google Cloud, the pipeline utilizes **DataForSEO's AI Optimization API Suite** (`/v3/ai_optimization/`).
+
+DataForSEO acts as a unified programmatic gateway that executes live prompts across commercial AI engines using a single API credential (`DATAFORSEO_AUTH`):
+
+```
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│                        DATAFORSEO UNIFIED AI GATEWAY ARCHITECTURE                      │
+├──────────────────────────┬────────────────────────────────────────┬────────────────────┤
+│ Engine Target            │ DataForSEO API Endpoint                │ Authentication     │
+├──────────────────────────┼────────────────────────────────────────┼────────────────────┤
+│ 1. ChatGPT Search / 4o   │ /v3/ai_optimization/chat_gpt/llm_responses/live │ Basic DATAFORSEO   │
+│ 2. Perplexity Sonar      │ /v3/ai_optimization/perplexity/llm_responses/live │ Basic DATAFORSEO   │
+│ 3. Google AI Mode / AIO  │ /v3/serp/google/ai_mode/live/advanced  │ Basic DATAFORSEO   │
+│ 4. Google Local 3-Pack   │ /v3/serp/google/organic/live/advanced  │ Basic DATAFORSEO   │
+│ 5. Claude Sonnet         │ /v3/ai_optimization/claude/llm_responses/live   │ Basic DATAFORSEO   │
+│ 6. Google Gemini Grounded│ Direct Google GenAI API or DataForSEO  │ GEMINI_API_KEY     │
+└──────────────────────────┴────────────────────────────────────────┴────────────────────┘
+```
+
+#### Key Capabilities of the Unified Gateway:
+1. **Zero Provider Account Sprawl:** Eliminates the operational requirement to manage individual OpenAI Plus/API, Perplexity Pro, or multi-vendor credit cards. All queries are metered pay-per-task against the agency DataForSEO balance.
+2. **Deterministic Australian Geo-Targeting:** Passing `location_name: "Melbourne,Victoria,Australia"` forces DataForSEO to execute prompts through localized Australian residential proxies, guaranteeing that ChatGPT and Perplexity return authentic Australian agency recommendations rather than US-skewed results.
+3. **Structured Citation Extraction:** Responses automatically include raw generative prose, web source URLs, domain citation metadata, and token execution latency.
+4. **Token Compression (`.ai` Suffix):** Appending `.ai` to endpoints (e.g. `/v3/ai_optimization/chat_gpt/llm_responses/live.ai`) compresses payloads by stripping null/empty structures, dramatically reducing processing memory.
+
+### 2.3 Core Metric Formulations
 
 #### 1. Share of Model Voice ($\widehat{\text{SoMV}}$)
 The unweighted probability that the target commercial entity $E$ is explicitly named in an unprompted natural language recommendation response:
@@ -94,7 +121,55 @@ For client-facing pitch decks (Tier 1):
 3. **Action Headers:** Standardize execution bullet points under clean consultative headers: `"What we will do"`.
 4. **Link Isolation:** Never embed public buttons or hyperlinks to `technical.html` on the client deck.
 
----
+### 3.2 The 1:1 Claim-to-Proof Law & Proof Verification Matrix
+
+> [!IMPORTANT]
+> **The 1:1 Claim-to-Proof Mandate:** Every single empirical claim, statistic, competitor benchmark, algorithmic diagnostic, or operational deliverable presented to prospective clients in the Tier 1 Presentation (`/`) **MUST have a direct, verifiable, attached empirical proof** in the Tier 2 Technical Dossier (`/technical`). Zero claims may exist without empirical grounding.
+
+#### Master Claim-to-Proof Verification Matrix
+
+Every audit deliverable must satisfy this cross-tier mapping before client delivery:
+
+| # | Tier 1 Client Deck Claim Category | Client Slide Example | Tier 2 Empirical Proof & Attachment Standard | Required Technical Dossier Evidence |
+| :---: | :--- | :--- | :--- | :--- |
+| **01** | **Sample Size Cardinality ($N$)** | Cover / Slide 5: *"N = 8 × 7 × E answers"* | Matrix cardinality breakdown ($M \times Q \times E$), authenticated API list, and live query execution timestamps. | `2.0 Problem Formulation`: Formal parameter table with exact $M$, $Q$, $E$, and $N$. |
+| **02** | **Share of Model Voice ($\widehat{\text{SoMV}}$)** | Slide 3 & 6: *"Client captured X% of answers"* | Exact mathematical derivation, mention indicator sum, and asymmetric Wilson Score 95% Confidence Interval bounds ($[w^-, w^+]$). | `3.0 / 5.0 Share of Model Voice`: Formula + derivation table with $p$-values and Wilson CIs. |
+| **03** | **Rank Decay Prominence ($\text{WVI}$)** | Slide 3 & 11: *"Client visibility index is 0.013 vs 0.518"* | Discounted Cumulative Gain formulation, ordinal position decay weights ($1/\log_2(r+1)$), and stance polarity coefficients ($S \in \{+1.0, +0.5, -0.5\}$). | `4.0 / 6.0 Weighted Visibility Index`: DCG decay table + competitor score benchmark. |
+| **04** | **Power-Law Leaderboard & Moats** | Slide 11: *"Megaphone & Sparro capture 60%–70% of mentions"* | Empirical frequency counts across all $N$ cells, competitor rank distributions, and Pareto concentration curves. | `8.0 National Leaderboard`: Full cohort rank, mention count, SoMV, WVI, and moat analysis. |
+| **05** | **Interstate Zero & Local Strongholds** | Slide 6 & 20: *"Client scores 0.0% in interstate capital cities"* | 8-Market Scorecard table showing $n/M_d$ counts, $p$-values, and non-overlapping regional confidence bounds. | `9.0 Geographic Scorecard`: Complete market-by-market scorecard table. |
+| **06** | **Engine Retrieval Disconnect** | Slide 14: *"Google AI Mode cites client; Claude & ChatGPT omit"* | Platform retrieval bias matrix comparing grounded RAG engines vs directory-dependent parametric LLMs. | `11.0 Engine Retrieval Bias`: Architecture comparison + citation source decomposition. |
+| **07** | **Workstream 01: Directory Citation Moat** | Slide 22 & 23: *"Verified B2B portals drive 74%–78% of citations"* | Upstream Citation Topology table detailing total source distribution across B2B Portals, Google Maps, Partner Ecosystems, and Media. | `8.0 / 15.0 Upstream Citation Ledger`: Numerical citation counts and percentage share proving 74%–78%. |
+| **08** | **Workstream 02: Review Count & Map Pack Deficit** | Slide 22 & 24: *"Client has 12/18 reviews vs Megaphone 184; Maps OR = 4.89×–5.21×"* | Google Places API review & rating audit table plus Multivariate Logit Regression parameter estimates and Odds Ratios ($e^{\beta}$). | `13.0 Regression Results & Review Audit`: Review benchmark table (Client vs Leaders) + logit $\beta$ & $OR$. |
+| **09** | **Workstream 03: Crawl Ingestion Bottleneck** | Slide 22 & 25: *"Client site was crawled, but lacks structured outcome figures"* | Live Search Grounding Telemetry Log citing exact query strings, response latency (ms), Vertex AI / SERP URLs, and extraction failure root cause. | `6.0 Empirical Grounding & Web Crawl Log`: Table of exact crawl events with queries, latencies, and root cause. |
+| **10** | **Workstream 04: Schema & Entity Graph Gaps** | Slide 22 & 26: *"Founder authority detached; client success pages lack CaseStudy schema"* | Live On-Page JSON-LD Schema Extraction snippet, missing RDF triple audit, and target production Schema.org specification. | `7.0 / 16.0 Knowledge Graph & Schema Audit`: Discovered schema code + missing triple defect table. |
+| **11** | **Workstream 05: Longitudinal Drift & Re-Audit** | Slide 22 & 27: *"Bi-weekly algorithmic drift; monthly automated testing panel"* | PostgreSQL / DuckDB DDL schema, multi-epoch cron resampling protocol, and Wilcoxon Signed-Rank hypothesis test ($p < 0.05$). | `9.0 / 21.0 Longitudinal Telemetry & DDL`: DDL tables + Wilcoxon signed-rank formula & cron protocol. |
+| **12** | **12-Month Commercial Projections** | Slide 22: *"The goal: overtake [Mid-Table Competitor] in [Home Market] within 12 months"* | 12-month econometric transition model, sequenced milestone bounds, and required covariate deltas ($\Delta X$). | `20.0 Predictive Trajectory Modeling`: Milestone table with conservative SoMV targets and covariate transition roadmap. |
+
+### 3.3 Target Setting & Strategic Restraint Law (Ned's Formula)
+
+> [!IMPORTANT]
+> **Ned Mehic's Law of Strategic Restraint:** AI visibility audits must read like forensic engineering diagnostics, NEVER agency sales hype. We do not promise blanket "#1 in the state/country" dominance from a low or zero baseline.
+
+1. **Never Promise #1 Overall:**  
+   Never frame client targets as *"Become the #1 Recommended Provider in Victoria / Australia"*. Blanket monopoly claims destroy executive credibility and invite skepticism from sophisticated buyers.
+2. **Anchor to a Specific Named Mid-Table Rival:**  
+   Always frame the 12-month milestone around knocking off a realistic, identifiable mid-table competitor in their primary home market:
+   - *LHD Template:* `"The goal: overtake Law Partners in Sydney within 12 months"`
+   - *Rayamp Solar:* `"The goal: overtake Green Line Solar in Melbourne East within 12 months"`
+3. **Sequenced, Realistic Milestones:**  
+   Trajectory projections must be step-by-step and mathematically defendable based on baseline rank:
+   - **Starting from 0% / Unranked:**  
+     - **90 Days (Month 3):** 10%–15% · Break into Top 10  
+     - **6 Months (Month 6):** 25%–35% · Contend for Top 5  
+     - **12 Months (Month 12):** 40%–50% · Overtake targeted mid-table rival  
+   - **Starting from Established Baseline (20%–30%):**  
+     - **90 Days:** 40%–45% · Solidify Top 5  
+     - **6 Months:** 55%–65% · Contend for Top 3  
+     - **12 Months:** 75%–80% · Challenge category leader
+4. **Geographic Sequencing:**  
+   Always lead with the client's home market first (e.g., Sydney for LHD, Melbourne East for Rayamp Solar). Regional and interstate expansion follows in Months 2 and 3, using the home hub as the operating template.
+5. **Entity Disambiguation & Review Audit Integrity:**  
+   When auditing Google Business Profiles or third-party reviews, NEVER rely on unpinned text queries (e.g. `"Brand Name reviews"`), which trigger homonymous brand collisions with international namesakes. Always pin queries strictly to the unique Google Place ID, Google `CID`, and verified primary domain.
 
 ## 4. Keyed Access & Security Gateway
 
@@ -150,26 +225,62 @@ Adapt the standardized prompt battery to the client's industry:
 6. `platform`: *"Leading [platform, e.g. Shopify / TikTok / B2B] performance agency in [city]"*
 7. `retention`: *"Best paid media agency offering full-funnel CRO and retention strategy"*
 
-### Step 3: Configure Environment Variables
-Confirm active API keys in `.env` (never commit `.env` to git):
+### Step 3: Configure Environment Variables (Unified DataForSEO Pipeline)
+A single DataForSEO API credential powers live querying across ChatGPT, Perplexity, Google AI Mode, and Google Local 3-Pack SERPs. Direct Gemini or Anthropic keys can be added for native SDK redundancy:
+
 ```bash
+# Primary Unified AI Engine Gateway (Powers ChatGPT, Perplexity, AI Mode, SERPs)
+DATAFORSEO_AUTH="your-login:your-password-base64"
+
+# Optional Direct Native SDK Keys (for Vertex / Claude direct calls)
 GEMINI_API_KEY="your-gemini-key"
 ANTHROPIC_API_KEY="your-anthropic-key"
-DATAFORSEO_AUTH="your-base64-auth"
-SERPER_API_KEY="your-serper-key"
+
+# Access Gateway & Session Security
 CLIENT_PIN="2026"
 INTERNAL_PIN="9418"
 SESSION_SECRET="your-secure-salt"
 ```
 
-### Step 4: Run Live Ingestion & Grounded Search
-Execute the data collection pipeline:
+### Step 4: Run Live Ingestion via DataForSEO AI Gateway
+Execute data collection across all 5 engines using the unified DataForSEO AI Optimization pipeline:
+
 ```bash
 node run_comprehensive_research.mjs
 ```
-- Ingestion checks `.env` for active engines.
-- Fires live search-grounded API calls across $M$ markets $\times$ $Q$ prompts $\times$ $E$ authenticated engines.
-- Records raw output JSONs into `pipeline/raw/`.
+
+#### Production DataForSEO AI API Integration Logic:
+```javascript
+// Example: Live ChatGPT & Perplexity Ingestion via DataForSEO
+async function queryAiModel(platform, prompt, location = 'Melbourne,Victoria,Australia') {
+  const auth = 'Basic ' + process.env.DATAFORSEO_AUTH;
+  const endpoint = platform === 'perplexity' 
+    ? 'https://api.dataforseo.com/v3/ai_optimization/perplexity/llm_responses/live'
+    : 'https://api.dataforseo.com/v3/ai_optimization/chat_gpt/llm_responses/live';
+
+  const res = await fetch(endpoint, {
+    method: 'POST',
+    headers: { 'Authorization': auth, 'Content-Type': 'application/json' },
+    body: JSON.stringify([{
+      prompt: prompt,
+      location_name: location,
+      language_name: 'English'
+    }])
+  });
+
+  const json = await res.json();
+  const task = json.tasks?.[0]?.result?.[0];
+  return {
+    raw_response: task?.items?.[0]?.description || task?.text || '',
+    sources: task?.items?.[0]?.sources || [],
+    latency_ms: task?.time_to_first_token_ms || 1200
+  };
+}
+```
+
+- Ingestion checks `.env` for `DATAFORSEO_AUTH`.
+- Fires live search-grounded API calls across $M$ markets $\times$ $Q$ prompts $\times$ $E=5$ authenticated engines (ChatGPT, Perplexity, AI Mode, Gemini, Claude).
+- Stores immutable JSON responses in `pipeline/raw/`.
 - Resolves entity aliases via canonical mapping.
 
 ### Step 5: Calculate Dynamic Metrics
@@ -246,6 +357,7 @@ Before sending any deliverable to an executive or client prospect, verify every 
 - [ ] **Zero API Keys in Git:** All secrets stored in `.env`; `.gitignore` includes `.env`, `test_*.js`, and `*.log`.
 - [ ] **Zero Hallucination:** Dataset contains only live authenticated queries; no fake/simulated proxy rows.
 - [ ] **Dynamic Denominators:** Sample size formula $N = M \times Q \times E$ matches actual ingested records.
+- [ ] **1:1 Claim-to-Proof Standard (MANDATORY):** Every factual claim in Tier 1 (reviews, citations %, crawl telemetry, schema deficits, logit odds, 12-month projections) has an attached empirical table, derivation, or extract in Tier 2 (`/technical`).
 - [ ] **Slide 23 Strategic Restraint:** No specific directory checklists on Slide 23; categorized into authority tiers.
 - [ ] **No Public Dossier Link:** Client HTML has zero anchor tags linking to `technical.html`.
 - [ ] **Clean White Gatekeeper:** Gatekeeper uses pure white minimalist UI matching agency confidential standard.
